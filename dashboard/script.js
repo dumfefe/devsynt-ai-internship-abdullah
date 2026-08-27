@@ -1,1 +1,0 @@
-console.log("Retail Sales Dashboard loaded successfully!");
