@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>From Chains to Graphs — LangChain &amp; LangGraph Learning Log</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<!-- ============ SIDE GRAPH NAV ============ -->
+<nav class="graph-nav" aria-label="Section map">
+  <div class="graph-nav__line" aria-hidden="true"></div>
+  <ul>
+    <li><a href="#chains" data-node="N1"><span class="node-dot"></span><span class="node-label">Chains</span></a></li>
+    <li><a href="#templates" data-node="N2"><span class="node-dot"></span><span class="node-label">Templates &amp; Parsers</span></a></li>
+    <li><a href="#memory-tools" data-node="N3"><span class="node-dot"></span><span class="node-label">Memory &amp; Tools</span></a></li>
+    <li><a href="#langgraph" data-node="N4"><span class="node-dot"></span><span class="node-label">LangGraph</span></a></li>
+    <li><a href="#orchestrator" data-node="N5"><span class="node-dot"></span><span class="node-label">Orchestrators</span></a></li>
+    <li><a href="#takeaway" data-node="N6"><span class="node-dot"></span><span class="node-label">Takeaway</span></a></li>
+  </ul>
+</nav>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <header class="hero" id="top">
+    <p class="eyebrow">DevSynt AI Automation Internship · Project 2, Phase 1 · Mentor: Afnan Shoukat</p>
+    <h1>A prompt is a sentence.<br>A graph is a decision.</h1>
+    <p class="hero__sub">
+      This week I stopped writing one-off prompts and started building systems that remember, choose tools,
+      and route work on their own. Here's the path from a single chain to a full orchestrator graph —
+      in my own words, the way I'd explain it to myself a week ago.
+    </p>
+
+    <div class="hero__diagram" role="img" aria-label="Diagram showing a linear chain evolving into a branching orchestrator graph">
+      <svg viewBox="0 0 920 260" xmlns="http://www.w3.org/2000/svg" class="hero-svg">
+        <defs>
+          <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--text-faint)"/>
+          </marker>
+        </defs>
+        <!-- LEFT: linear chain -->
+        <g class="hg-group">
+          <text x="30" y="34" class="hg-caption">MONDAY — a chain</text>
+          <line x1="60" y1="120" x2="180" y2="120" class="hg-edge hg-edge--chain"/>
+          <line x1="240" y1="120" x2="360" y2="120" class="hg-edge hg-edge--chain"/>
+          <circle cx="60" cy="120" r="26" class="hg-node hg-node--chain"/>
+          <text x="60" y="126" class="hg-node-text">P</text>
+          <circle cx="240" cy="120" r="26" class="hg-node hg-node--chain"/>
+          <text x="240" y="126" class="hg-node-text">LLM</text>
+          <circle cx="420" cy="120" r="26" class="hg-node hg-node--chain"/>
+          <text x="420" y="126" class="hg-node-text">Out</text>
+          <text x="60" y="176" class="hg-sub">Prompt</text>
+          <text x="240" y="176" class="hg-sub">Model</text>
+          <text x="420" y="176" class="hg-sub">Reply</text>
+        </g>
+
+        <!-- ARROW BECOMES -->
+        <g class="hg-becomes">
+          <path d="M 470 120 L 520 120" class="hg-becomes-arrow"/>
+          <text x="495" y="102" class="hg-becomes-text">becomes</text>
+        </g>
+
+        <!-- RIGHT: branching graph -->
+        <g class="hg-group">
+          <text x="580" y="34" class="hg-caption">FRIDAY — a graph</text>
+          <line x1="600" y1="120" x2="700" y2="70" class="hg-edge hg-edge--graph"/>
+          <line x1="600" y1="120" x2="700" y2="170" class="hg-edge hg-edge--graph"/>
+          <line x1="760" y1="70" x2="860" y2="70" class="hg-edge hg-edge--graph hg-edge--alt"/>
+          <line x1="760" y1="170" x2="860" y2="170" class="hg-edge hg-edge--graph hg-edge--alt"/>
+          <circle cx="600" cy="120" r="26" class="hg-node hg-node--orchestrator"/>
+          <text x="600" y="126" class="hg-node-text">Orch</text>
+          <circle cx="730" cy="70" r="22" class="hg-node hg-node--agent"/>
+          <text x="730" y="76" class="hg-node-text hg-node-text--sm">A1</text>
+          <circle cx="730" cy="170" r="22" class="hg-node hg-node--agent"/>
+          <text x="730" y="176" class="hg-node-text hg-node-text--sm">A2</text>
+          <circle cx="880" cy="70" r="18" class="hg-node hg-node--out"/>
+          <circle cx="880" cy="170" r="18" class="hg-node hg-node--out"/>
+          <text x="600" y="176" class="hg-sub">Router</text>
+        </g>
+      </svg>
+      <p class="hero__diagram-caption">The whole week in one picture — a fixed chain on Monday became a routing graph by Friday. Colors are consistent everywhere below; see the key.</p>
+    </div>
+  </header>
+
+  <div class="legend" aria-label="Diagram color key">
+    <span class="legend__title">Diagram key</span>
+    <span class="legend__item"><span class="legend__swatch legend__swatch--teal"></span>Fixed step / always runs</span>
+    <span class="legend__item"><span class="legend__swatch legend__swatch--amber"></span>Decision / conditional edge</span>
+    <span class="legend__item"><span class="legend__swatch legend__swatch--violet"></span>Shared state</span>
+    <span class="legend__item"><span class="legend__dash"></span>Data flowing (animated)</span>
+  </div>
+
+  <div class="content">
+
+    <!-- ============ N1 — CHAINS ============ -->
+    <section class="card" id="chains">
+      <div class="card__head">
+        <span class="node-id">N1</span>
+        <h2>What LangChain is, and what a chain actually does</h2>
+      </div>
+      <p>
+        Calling an LLM API directly is a one-shot transaction: you type out the entire prompt by hand every single
+        time, fire it off, and get back a blob of unstructured text with no memory of what happened before it.
+        LangChain doesn't replace the API call — it wraps it in reusable pieces so I'm not rebuilding the same
+        plumbing for every project. The three pieces that matter most are the <strong>LLM wrapper</strong> (a
+        consistent interface so I can swap Gemini for Groq without rewriting my logic), the
+        <strong>prompt template</strong> (a prompt with blanks I fill in later), and the <strong>chain</strong>
+        itself — a fixed pipeline of prompt template → model → output, wired together as one repeatable
+        unit instead of three separate steps I have to babysit. A parser gets added onto that pipeline only when
+        I need the output in a specific structure, like the JSON example in the next section.
+      </p>
+      <p>
+        The piece that actually connects them is <strong>LCEL</strong> — LangChain Expression Language — which
+        uses the <code>|</code> operator the same way a Unix pipe works: the output of whatever is on the left
+        becomes the input to whatever is on the right. So a chain is really just a sentence written in pipes.
+      </p>
+
+      <div class="compare">
+        <div class="compare__panel compare__panel--raw">
+          <p class="compare__label">Raw API call</p>
+          <pre class="code"><span class="c-comment"># every time, from scratch</span>
+prompt = f<span class="c-str">"Write a tagline for {name}"</span>
+response = client.chat(prompt)
+<span class="c-comment"># response is just a plain string</span>
+print(response)</pre>
+        </div>
+        <div class="compare__panel compare__panel--chain">
+          <p class="compare__label">A chain (LCEL)</p>
+          <pre class="code"><span class="c-comment"># built once, reused forever</span>
+template = PromptTemplate.from_template(
+    <span class="c-str">"Write a tagline for {name}"</span>
+)
+chain = template | llm | StrOutputParser()
+chain.invoke({<span class="c-str">"name"</span>: name})</pre>
+        </div>
+      </div>
+      <p class="note">
+        The difference isn't that the chain is smarter — it's that the chain is a <em>unit</em>. I can reuse it,
+        swap out the model, or drop in a different parser without touching the rest of my code.
+      </p>
+    </section>
+
+    <!-- ============ N2 — TEMPLATES & PARSERS ============ -->
+    <section class="card" id="templates">
+      <div class="card__head">
+        <span class="node-id">N2</span>
+        <h2>Prompt templates &amp; output parsers</h2>
+      </div>
+      <p>
+        A <strong>prompt template</strong> solves a boring but real problem: I don't want to retype the same
+        instructions every time I just need to change one word. I write the prompt once with a placeholder like
+        <code>{product_name}</code>, and every future call just fills that blank in.
+      </p>
+      <p>
+        An <strong>output parser</strong> solves a completely different problem. By default, an LLM's reply is
+        free-flowing text meant for a human to read — which is exactly what makes it painful for code to use
+        reliably. If I ask for "a name and a price" in plain English, I might get a full sentence back, or a
+        bullet list, or something with extra commentary attached. An output parser tells the model to reply in a
+        fixed structure — usually JSON matching a schema I define with a Pydantic model — so my code can just
+        read <code>result["price"]</code> instead of trying to regex a sentence apart.
+      </p>
+
+      <div class="io-example">
+        <div class="io-example__side">
+          <p class="compare__label">Plain prompt</p>
+          <p class="io-bubble io-bubble--muted">"The wireless mouse is called Glide, and it costs $24.99."</p>
+          <p class="io-note">Correct, readable — and completely unpredictable in shape.</p>
+        </div>
+        <div class="io-example__arrow">→</div>
+        <div class="io-example__side">
+          <p class="compare__label">With JsonOutputParser</p>
+          <pre class="code io-json">{
+  <span class="c-key">"name"</span>: <span class="c-str">"Glide"</span>,
+  <span class="c-key">"price"</span>: <span class="c-num">24.99</span>
+}</pre>
+          <p class="io-note">Same answer, but now <code>result["name"]</code> just works.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ N3 — MEMORY & TOOLS ============ -->
+    <section class="card" id="memory-tools">
+      <div class="card__head">
+        <span class="node-id">N3</span>
+        <h2>Memory &amp; tool-calling</h2>
+      </div>
+      <p>
+        By default, an LLM is stateless — every call is a stranger meeting you for the first time. It has no idea
+        what you asked five minutes ago unless you tell it. <strong>Memory</strong> is nothing mysterious: it just
+        means keeping a running log of the conversation and feeding that whole log back in with every new
+        message, so the model can act like it "remembers" what came before.
+      </p>
+      <p>
+        <strong>Tool-calling</strong> is a different kind of upgrade. Instead of the LLM guessing an answer purely
+        from what it already knows, I give it access to real functions — a calculator, a web search, a database
+        lookup — and let the model itself decide <em>when</em> a tool is needed and <em>what</em> to pass into it.
+        The model doesn't run the function; it just outputs a structured request, my code executes the actual
+        tool, and the result gets fed back to the model so it can finish answering with real data instead of a
+        guess.
+      </p>
+
+      <div class="flow-diagram" role="img" aria-label="Diagram of a message flowing through chat history, the model, an optional tool call, and back">
+        <svg viewBox="0 0 900 140" xmlns="http://www.w3.org/2000/svg">
+          <line x1="70" y1="70" x2="200" y2="70" class="hg-edge hg-edge--chain"/>
+          <line x1="260" y1="70" x2="390" y2="70" class="hg-edge hg-edge--chain"/>
+          <path d="M 420 90 C 420 130, 340 130, 340 90" class="hg-edge hg-edge--amber"/>
+          <line x1="450" y1="70" x2="580" y2="70" class="hg-edge hg-edge--chain"/>
+          <circle cx="70" cy="70" r="24" class="hg-node hg-node--chain"/>
+          <text x="70" y="76" class="hg-node-text hg-node-text--sm">You</text>
+          <circle cx="230" cy="70" r="24" class="hg-node hg-node--violet"/>
+          <text x="230" y="76" class="hg-node-text hg-node-text--sm">Hist.</text>
+          <circle cx="420" cy="70" r="26" class="hg-node hg-node--orchestrator"/>
+          <text x="420" y="76" class="hg-node-text hg-node-text--sm">LLM</text>
+          <circle cx="380" cy="118" r="20" class="hg-node hg-node--amber"/>
+          <text x="380" y="123" class="hg-node-text hg-node-text--sm">Tool</text>
+          <circle cx="610" cy="70" r="24" class="hg-node hg-node--out"/>
+          <text x="610" y="76" class="hg-node-text hg-node-text--sm">Reply</text>
+        </svg>
+      </div>
+      <p class="note">The loop back to "Tool" only fires when the model actually decides it needs one — otherwise it skips straight to a reply.</p>
+    </section>
+
+    <!-- ============ N4 — LANGGRAPH ============ -->
+    <section class="card" id="langgraph">
+      <div class="card__head">
+        <span class="node-id">N4</span>
+        <h2>What LangGraph is — and why a chain isn't enough</h2>
+      </div>
+      <p>
+        A chain is a straight line: step one always leads to step two, which always leads to step three, in that
+        exact order, every time. That's fine until the task itself needs a decision — "if the order exists, check
+        stock; if it doesn't, ask for the order number again." A chain can't do that on its own, because a chain
+        doesn't look at its own output and change direction. An <strong>agent</strong> can: it looks at the
+        current situation and decides what happens next, including skipping steps, repeating one, or picking
+        between two different paths entirely.
+      </p>
+      <p>
+        LangGraph is what lets me actually build that decision-making system, by describing it as a graph instead
+        of a straight pipe. Four ideas carry the whole framework:
+      </p>
+
+      <ul class="concept-list">
+        <li><span class="concept-tag">Node</span>One step in the graph — usually a function or an LLM call that does a specific job.</li>
+        <li><span class="concept-tag">Edge</span>A fixed connection saying "after this node, always go here next."</li>
+        <li><span class="concept-tag concept-tag--amber">Conditional edge</span>A branching connection — "after this node, go to A or B depending on the result."</li>
+        <li><span class="concept-tag concept-tag--violet">State</span>The shared data object that travels through the graph and gets updated as each node runs, so every node can see what happened before it.</li>
+      </ul>
+
+      <div class="compare compare--diagram">
+        <div class="compare__panel">
+          <p class="compare__label">Chain — fixed sequence</p>
+          <svg viewBox="0 0 300 110" xmlns="http://www.w3.org/2000/svg" class="mini-svg" role="img" aria-label="A chain runs step one, step two, step three in the same order every time">
+            <line x1="40" y1="55" x2="110" y2="55" class="hg-edge hg-edge--chain"/>
+            <line x1="150" y1="55" x2="220" y2="55" class="hg-edge hg-edge--chain"/>
+            <rect x="10" y="35" width="60" height="40" rx="8" class="hg-rect"/>
+            <text x="40" y="59" class="hg-node-text hg-node-text--sm">Step 1</text>
+            <rect x="120" y="35" width="60" height="40" rx="8" class="hg-rect"/>
+            <text x="150" y="59" class="hg-node-text hg-node-text--sm">Step 2</text>
+            <rect x="230" y="35" width="60" height="40" rx="8" class="hg-rect"/>
+            <text x="260" y="59" class="hg-node-text hg-node-text--sm">Step 3</text>
+          </svg>
+          <p class="io-note">Same order, every single run. No branching, no looking back.</p>
+        </div>
+        <div class="compare__panel compare__panel--chain">
+          <p class="compare__label">Agent — adaptive path</p>
+          <svg viewBox="0 0 300 150" xmlns="http://www.w3.org/2000/svg" class="mini-svg" role="img" aria-label="An agent checks a result and branches to different steps, or loops back, depending on what happened">
+            <defs>
+              <marker id="loopArrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--amber)"/>
+              </marker>
+            </defs>
+            <line x1="35" y1="70" x2="90" y2="70" class="hg-edge hg-edge--chain"/>
+            <path d="M 130 55 C 155 35, 175 35, 195 40" class="hg-edge hg-edge--amber"/>
+            <path d="M 130 85 C 155 105, 175 105, 195 100" class="hg-edge hg-edge--amber"/>
+            <path d="M 200 55 C 190 15, 150 10, 122 48" class="hg-edge hg-edge--amber" marker-end="url(#loopArrow)"/>
+            <circle cx="20" cy="70" r="18" class="hg-node hg-node--chain"/>
+            <text x="20" y="75" class="hg-node-text hg-node-text--xs">In</text>
+            <polygon points="110,45 132,70 110,95 88,70" class="hg-rect"/>
+            <text x="110" y="74" class="hg-node-text hg-node-text--xs">?</text>
+            <rect x="200" y="20" width="70" height="34" rx="8" class="hg-rect hg-rect--out"/>
+            <text x="235" y="41" class="hg-node-text hg-node-text--xs">Path A</text>
+            <rect x="200" y="86" width="70" height="34" rx="8" class="hg-rect hg-rect--out"/>
+            <text x="235" y="107" class="hg-node-text hg-node-text--xs">Path B</text>
+            <text x="150" y="18" class="hg-sub">retry loop</text>
+          </svg>
+          <p class="io-note">Looks at its own result, then picks a path — or loops back and tries again.</p>
+        </div>
+      </div>
+
+      <div class="flow-diagram flow-diagram--branch" role="img" aria-label="Diagram of check order status branching into in stock or out of stock">
+        <svg viewBox="0 0 700 220" xmlns="http://www.w3.org/2000/svg">
+          <line x1="120" y1="50" x2="120" y2="110" class="hg-edge hg-edge--chain"/>
+          <path d="M 120 140 C 120 170, 60 170, 60 190" class="hg-edge hg-edge--amber"/>
+          <path d="M 120 140 C 120 170, 180 170, 180 190" class="hg-edge hg-edge--amber"/>
+          <rect x="40" y="20" width="160" height="40" rx="10" class="hg-rect"/>
+          <text x="120" y="45" class="hg-node-text hg-node-text--sm">Check order</text>
+          <circle cx="120" cy="125" r="16" class="hg-node hg-node--amber"/>
+          <text x="120" y="130" class="hg-node-text hg-node-text--xs">?</text>
+          <rect x="0" y="190" width="120" height="30" rx="8" class="hg-rect hg-rect--out"/>
+          <text x="60" y="210" class="hg-node-text hg-node-text--xs">In stock</text>
+          <rect x="140" y="190" width="140" height="30" rx="8" class="hg-rect hg-rect--out"/>
+          <text x="210" y="210" class="hg-node-text hg-node-text--xs">Out of stock</text>
+        </svg>
+        <p class="io-note">My own sketch for the "try it yourself" exercise — a status check with a conditional edge deciding the branch.</p>
+      </div>
+
+      <p>
+        Put simply: <strong>a chain always does the same steps in the same order; a graph can look at what just
+        happened and choose its own next step.</strong> That single difference is why the orchestrator pattern
+        below needs LangGraph and can't be built as a plain LangChain chain.
+      </p>
+    </section>
+
+    <!-- ============ N5 — ORCHESTRATOR ============ -->
+    <section class="card" id="orchestrator">
+      <div class="card__head">
+        <span class="node-id">N5</span>
+        <h2>Orchestrator agents</h2>
+      </div>
+      <p>
+        An orchestrator agent is closer to a manager than a worker. It receives a task, figures out what actually
+        needs to happen, and routes it to whichever specialized agent is built for that job — it usually doesn't
+        do the hands-on work itself. A manager doesn't clean the data or write the report personally; they decide
+        <em>who</em> should, based on what the task needs. In a LangGraph implementation, the orchestrator can act
+        as a routing node that evaluates the incoming task and chooses which specialized agent node should handle
+        it next.
+      </p>
+      <p>
+        This is exactly why this week mattered before the coding starts. Our upcoming mini-project is built
+        around an orchestrator agent that receives raw data and decides which specialized agent should handle it
+        — and that pattern only works with shared <strong>state</strong> flowing between agents and a router that
+        can make a real decision, which is precisely what a plain chain can't do but a LangGraph graph can.
+      </p>
+
+      <div class="flow-diagram" role="img" aria-label="Diagram of an orchestrator routing a task to two specialist agents">
+        <svg viewBox="0 0 760 180" xmlns="http://www.w3.org/2000/svg">
+          <line x1="60" y1="90" x2="180" y2="90" class="hg-edge hg-edge--chain"/>
+          <line x1="240" y1="90" x2="340" y2="40" class="hg-edge hg-edge--amber"/>
+          <line x1="240" y1="90" x2="340" y2="140" class="hg-edge hg-edge--amber"/>
+          <line x1="400" y1="40" x2="500" y2="40" class="hg-edge hg-edge--violet"/>
+          <line x1="400" y1="140" x2="500" y2="140" class="hg-edge hg-edge--violet"/>
+          <line x1="560" y1="40" x2="660" y2="90" class="hg-edge hg-edge--chain"/>
+          <line x1="560" y1="140" x2="660" y2="90" class="hg-edge hg-edge--chain"/>
+          <circle cx="60" cy="90" r="24" class="hg-node hg-node--chain"/>
+          <text x="60" y="96" class="hg-node-text hg-node-text--sm">Task</text>
+          <circle cx="210" cy="90" r="26" class="hg-node hg-node--orchestrator"/>
+          <text x="210" y="96" class="hg-node-text hg-node-text--sm">Orch</text>
+          <circle cx="370" cy="40" r="22" class="hg-node hg-node--agent"/>
+          <text x="370" y="46" class="hg-node-text hg-node-text--sm">Data</text>
+          <circle cx="370" cy="140" r="22" class="hg-node hg-node--agent"/>
+          <text x="370" y="146" class="hg-node-text hg-node-text--sm">Report</text>
+          <circle cx="530" cy="40" r="16" class="hg-node hg-node--violet"/>
+          <text x="530" y="45" class="hg-node-text hg-node-text--xs">state</text>
+          <circle cx="530" cy="140" r="16" class="hg-node hg-node--violet"/>
+          <text x="530" y="145" class="hg-node-text hg-node-text--xs">state</text>
+          <circle cx="680" cy="90" r="22" class="hg-node hg-node--out"/>
+          <text x="680" y="96" class="hg-node-text hg-node-text--sm">Done</text>
+        </svg>
+        <p class="io-note">The orchestrator never touches the data itself — it only ever decides which agent does.</p>
+      </div>
+    </section>
+
+    <!-- ============ N6 — TAKEAWAY ============ -->
+    <section class="card card--takeaway" id="takeaway">
+      <div class="card__head">
+        <span class="node-id">N6</span>
+        <h2>What this week actually changed for me</h2>
+      </div>
+      <p>
+        Going in, I thought LangChain and LangGraph were basically the same thing with two different names. By
+        the end of the week the real split was obvious: LangChain gives me reusable pieces for talking to a
+        model — templates, parsers, memory, tools — while LangGraph gives me a way to let those pieces make
+        decisions instead of just running in a fixed order. A chain is something I build once and run the same
+        way every time; a graph is something that can look at its own state and choose a different path. Once
+        that clicked, the orchestrator pattern stopped feeling abstract — it's just a node whose only job is
+        routing, sitting on top of the exact building blocks from earlier in the week.
+      </p>
+
+      <div class="flow-diagram flow-diagram--capstone" role="img" aria-label="The full week as one pipeline: prompt template into the model into an output parser into shared state into a router into two specialist agents into a final output">
+        <svg viewBox="0 0 1000 210" xmlns="http://www.w3.org/2000/svg">
+          <text x="10" y="20" class="hg-caption">THE WHOLE WEEK, END TO END</text>
+
+          <line x1="70" y1="110" x2="150" y2="110" class="hg-edge hg-edge--chain"/>
+          <line x1="220" y1="110" x2="290" y2="110" class="hg-edge hg-edge--chain"/>
+          <line x1="360" y1="110" x2="430" y2="110" class="hg-edge hg-edge--chain"/>
+          <line x1="500" y1="110" x2="560" y2="110" class="hg-edge hg-edge--amber"/>
+          <line x1="610" y1="110" x2="670" y2="60" class="hg-edge hg-edge--amber"/>
+          <line x1="610" y1="110" x2="670" y2="160" class="hg-edge hg-edge--amber"/>
+          <line x1="740" y1="60" x2="860" y2="100" class="hg-edge hg-edge--chain"/>
+          <line x1="740" y1="160" x2="860" y2="120" class="hg-edge hg-edge--chain"/>
+
+          <rect x="10" y="90" width="60" height="40" rx="8" class="hg-rect"/>
+          <text x="40" y="114" class="hg-node-text hg-node-text--xs">Template</text>
+          <text x="40" y="150" class="hg-sub">N1 · N2</text>
+
+          <circle cx="185" cy="110" r="24" class="hg-node hg-node--chain"/>
+          <text x="185" y="116" class="hg-node-text hg-node-text--sm">LLM</text>
+
+          <rect x="290" y="90" width="70" height="40" rx="8" class="hg-rect"/>
+          <text x="325" y="114" class="hg-node-text hg-node-text--xs">Parser</text>
+          <text x="325" y="150" class="hg-sub">N2</text>
+
+          <circle cx="465" cy="110" r="24" class="hg-node hg-node--violet"/>
+          <text x="465" y="116" class="hg-node-text hg-node-text--sm">State</text>
+          <text x="465" y="150" class="hg-sub">N3 · N4</text>
+
+          <circle cx="585" cy="110" r="26" class="hg-node hg-node--orchestrator"/>
+          <text x="585" y="116" class="hg-node-text hg-node-text--sm">Router</text>
+          <text x="585" y="150" class="hg-sub">N5</text>
+
+          <circle cx="700" cy="55" r="22" class="hg-node hg-node--agent"/>
+          <text x="700" y="61" class="hg-node-text hg-node-text--sm">Agent A</text>
+          <circle cx="700" cy="160" r="22" class="hg-node hg-node--agent"/>
+          <text x="700" y="166" class="hg-node-text hg-node-text--sm">Agent B</text>
+
+          <circle cx="890" cy="110" r="24" class="hg-node hg-node--out"/>
+          <text x="890" y="116" class="hg-node-text hg-node-text--sm">Result</text>
+        </svg>
+        <p class="io-note">Every node here is something from this week's log: a template and a chain (N1–N2), memory as shared state (N3), LangGraph's decision point (N4), and the orchestrator routing to specialist agents (N5).</p>
+      </div>
+
+      <p>
+        Slowing down this week instead of jumping straight into code was the right call for me. Understanding the
+        difference between fixed chains and decision-making graphs made the upcoming hands-on project feel much
+        more manageable.
+      </p>
+    </section>
+
+    <footer class="page-footer">
+      <p>Project 2 — Phase 1 · DevSynt AI Automation Internship · Built by Abdullah Haroon</p>
+    </footer>
+
+  </div>
+</main>
+
+<script>
+  // Highlight the active node in the side graph as the user scrolls
+  const navLinks = document.querySelectorAll('.graph-nav a');
+  const sections = Array.from(navLinks).map(a => document.querySelector(a.getAttribute('href')));
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      const idx = sections.indexOf(entry.target);
+      if (idx === -1) return;
+      if (entry.isIntersecting) {
+        navLinks.forEach(l => l.classList.remove('is-active'));
+        navLinks[idx].classList.add('is-active');
+      }
+    });
+  }, { rootMargin: '-40% 0px -50% 0px', threshold: 0 });
+
+  sections.forEach(s => { if (s) observer.observe(s); });
+
+  // Reveal-on-scroll for cards, respecting reduced motion
+  const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (!prefersReduced) {
+    const cards = document.querySelectorAll('.card');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    cards.forEach(c => revealObserver.observe(c));
+  } else {
+    document.querySelectorAll('.card').forEach(c => c.classList.add('is-visible'));
+  }
+</script>
+
+</body>
+</html>
