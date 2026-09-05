@@ -1,0 +1,801 @@
+Order_ID,Order_Date,Customer_ID,Product_Category,Payment_Method,Order_Status,Shipping_Region,Order_Value,Shipping_Cost,Quantity
+ECOM-1000,2023-01-01 00:00:00.000000,1017,Electronics,PayPal,Delivered,Europe,174.53,19.33,3
+ECOM-1001,2023-01-01 21:55:38.673341,1154,Apparel,Cash on Delivery,Delivered,Latin America,117.28,5.11,3
+ECOM-1002,2023-01-02 19:51:17.346683,1130,Beauty,Bank Transfer,Shipped,North America,52.28,23.27,4
+ECOM-1003,2023-01-03 17:46:56.020025,1087,Toys,PayPal,Shipped,Asia Pacific,131.37,13.05,2
+ECOM-1004,2023-01-04 15:42:34.693366,1086,Sports,Credit Card,Delivered,Latin America,232.6,7.98,4
+ECOM-1005,2023-01-05 13:38:13.366708,1171,Sports,Bank Transfer,Delivered,Latin America,276.29,7.55,3
+ECOM-1006,2023-01-06 11:33:52.040050,1017,Beauty,Credit Card,Delivered,Europe,95.93,8.1,2
+ECOM-1007,2023-01-07 09:29:30.713391,1139,Electronics,Cash on Delivery,Delivered,Middle East,418.78,10.43,2
+ECOM-1008,2023-01-08 07:25:09.386733,1040,Home & Kitchen,Credit Card,Delivered,North America,222.49,18.5,1
+ECOM-1009,2023-01-09 05:20:48.060075,1018,Toys,Credit Card,Delivered,North America,66.1,23.84,2
+ECOM-1010,2023-01-10 03:16:26.733416,1105,Electronics,Bank Transfer,Shipped,Europe,55.93,17.39,3
+ECOM-1011,2023-01-11 01:12:05.406758,1195,Toys,Credit Card,Shipped,Latin America,111.76,14.58,1
+ECOM-1012,2023-01-11 23:07:44.080100,1147,Sports,Cash on Delivery,Delivered,Middle East,95.78,12.32,1
+ECOM-1013,2023-01-12 21:03:22.753441,1152,Apparel,Cash on Delivery,Delivered,Asia Pacific,161.02,21.05,4
+ECOM-1014,2023-01-13 18:59:01.426783,1143,Sports,Credit Card,Delivered,Europe,123.16,21.54,3
+ECOM-1015,2023-01-14 16:54:40.100125,1157,Toys,Credit Card,Delivered,North America,100.99,8.74,1
+ECOM-1016,2023-01-15 14:50:18.773466,1102,Electronics,Bank Transfer,Delivered,Europe,38.93,23.93,4
+ECOM-1017,2023-01-16 12:45:57.446808,1025,Electronics,Cash on Delivery,Delivered,North America,177.61,11.09,4
+ECOM-1018,2023-01-17 10:41:36.120150,1167,Beauty,Credit Card,Delivered,North America,36.35,20.4,1
+ECOM-1019,2023-01-18 08:37:14.793491,1090,Toys,Bank Transfer,Delivered,Middle East,222.9,24.24,2
+ECOM-1020,2023-01-19 06:32:53.466833,1100,Electronics,PayPal,Delivered,North America,25.89,18.18,2
+ECOM-1021,2023-01-20 04:28:32.140175,1074,Beauty,Credit Card,Delivered,North America,34.68,5.72,4
+ECOM-1022,2023-01-21 02:24:10.813516,1036,Electronics,Bank Transfer,Cancelled,Asia Pacific,65.89,15.48,1
+ECOM-1023,2023-01-22 00:19:49.486858,1185,Beauty,Credit Card,Delivered,Europe,90.37,4.73,5
+ECOM-1024,2023-01-22 22:15:28.160200,1156,Beauty,Cash on Delivery,Delivered,Asia Pacific,78.61,20.15,2
+ECOM-1025,2023-01-23 20:11:06.833541,1128,Electronics,Bank Transfer,Cancelled,North America,90.11,8.47,1
+ECOM-1026,2023-01-24 18:06:45.506883,1080,Sports,Cash on Delivery,Delivered,Europe,141.87,17.99,5
+ECOM-1027,2023-01-25 16:02:24.180225,1164,Toys,Cash on Delivery,Delivered,Asia Pacific,66.95,22.93,1
+ECOM-1028,2023-01-26 13:58:02.853566,1109,Toys,PayPal,Returned,Middle East,142.66,6.16,1
+ECOM-1029,2023-01-27 11:53:41.526908,1088,Electronics,Credit Card,Delivered,Asia Pacific,16.47,11.04,5
+ECOM-1030,2023-01-28 09:49:20.200250,1090,Apparel,Cash on Delivery,Delivered,Asia Pacific,65.22,16.88,3
+ECOM-1031,2023-01-29 07:44:58.873591,1045,Apparel,Bank Transfer,Delivered,Asia Pacific,33.32,11.65,3
+ECOM-1032,2023-01-30 05:40:37.546933,1018,Home & Kitchen,Credit Card,Delivered,Europe,221.44,6.02,4
+ECOM-1033,2023-01-31 03:36:16.220275,1110,Electronics,Bank Transfer,Delivered,Europe,73.16,2.67,4
+ECOM-1034,2023-02-01 01:31:54.893617,1177,Toys,PayPal,Delivered,Asia Pacific,171.22,11.35,4
+ECOM-1035,2023-02-01 23:27:33.566958,1012,Sports,Cash on Delivery,Delivered,North America,28.61,16.93,1
+ECOM-1036,2023-02-02 21:23:12.240300,1171,Sports,Credit Card,Delivered,Middle East,273.73,15.2,3
+ECOM-1037,2023-02-03 19:18:50.913642,1165,Apparel,Cash on Delivery,Delivered,Middle East,127.57,5.59,2
+ECOM-1038,2023-02-04 17:14:29.586983,1055,Electronics,Credit Card,Delivered,Europe,350.95,12.37,5
+ECOM-1039,2023-02-05 15:10:08.260325,1126,Toys,PayPal,Delivered,Europe,118.77,10.5,3
+ECOM-1040,2023-02-06 13:05:46.933667,1033,Apparel,Cash on Delivery,Cancelled,Europe,39.3,8.31,1
+ECOM-1041,2023-02-07 11:01:25.607008,1151,Beauty,Credit Card,Delivered,Middle East,59.65,18.77,5
+ECOM-1042,2023-02-08 08:57:04.280350,1140,Toys,PayPal,Delivered,Middle East,103.04,9.12,2
+ECOM-1043,2023-02-09 06:52:42.953692,1070,Electronics,Cash on Delivery,Delivered,North America,61.28,14.42,2
+ECOM-1044,2023-02-10 04:48:21.627033,1013,Electronics,Credit Card,Delivered,Asia Pacific,209.03,23.23,5
+ECOM-1045,2023-02-11 02:44:00.300375,1194,Electronics,PayPal,Delivered,North America,125.23,14.4,4
+ECOM-1046,2023-02-12 00:39:38.973717,1089,Electronics,PayPal,Delivered,Asia Pacific,61.83,16.19,5
+ECOM-1047,2023-02-12 22:35:17.647058,1178,Electronics,Cash on Delivery,Delivered,Europe,190.84,3.68,4
+ECOM-1048,2023-02-13 20:30:56.320400,1135,Sports,Bank Transfer,Cancelled,Europe,94.43,6.1,5
+ECOM-1049,2023-02-14 18:26:34.993742,1155,Beauty,Bank Transfer,Cancelled,Asia Pacific,185.84,4.32,1
+ECOM-1050,2023-02-15 16:22:13.667083,1151,Toys,Credit Card,Delivered,Europe,84.82,19.59,3
+ECOM-1051,2023-02-16 14:17:52.340425,1038,Sports,Credit Card,Delivered,Europe,164.32,21.23,2
+ECOM-1052,2023-02-17 12:13:31.013767,1072,Toys,Credit Card,Delivered,Middle East,92.29,6.29,2
+ECOM-1053,2023-02-18 10:09:09.687108,1093,Apparel,Cash on Delivery,Delivered,Latin America,209.07,7.04,2
+ECOM-1054,2023-02-19 08:04:48.360450,1099,Apparel,Credit Card,Delivered,North America,29.15,9.43,2
+ECOM-1055,2023-02-20 06:00:27.033792,1008,Toys,Credit Card,Cancelled,Europe,49.21,15.59,3
+ECOM-1056,2023-02-21 03:56:05.707133,1109,Apparel,Bank Transfer,Shipped,Latin America,108.99,16.3,5
+ECOM-1057,2023-02-22 01:51:44.380475,1030,Electronics,Bank Transfer,Shipped,Asia Pacific,75.41,17.8,4
+ECOM-1058,2023-02-22 23:47:23.053817,1148,Sports,Bank Transfer,Delivered,Europe,90.45,22.82,2
+ECOM-1059,2023-02-23 21:43:01.727158,1136,Sports,PayPal,Returned,Asia Pacific,175.51,8.79,3
+ECOM-1060,2023-02-24 19:38:40.400500,1184,Toys,Cash on Delivery,Delivered,North America,89.21,17.15,3
+ECOM-1061,2023-02-25 17:34:19.073842,1148,Toys,Cash on Delivery,Delivered,North America,145.73,14.87,2
+ECOM-1062,2023-02-26 15:29:57.747183,1073,Electronics,Credit Card,Delivered,Middle East,64.9,9.03,3
+ECOM-1063,2023-02-27 13:25:36.420525,1193,Sports,Cash on Delivery,Returned,Asia Pacific,24.06,22.87,4
+ECOM-1064,2023-02-28 11:21:15.093867,1082,Toys,Cash on Delivery,Delivered,Middle East,185.17,4.2,2
+ECOM-1065,2023-03-01 09:16:53.767209,1065,Sports,PayPal,Shipped,Europe,309.1,18.38,3
+ECOM-1066,2023-03-02 07:12:32.440550,1181,Sports,Bank Transfer,Delivered,Latin America,136.7,18.74,4
+ECOM-1067,2023-03-03 05:08:11.113892,1074,Toys,Cash on Delivery,Returned,Asia Pacific,112.78,23.05,3
+ECOM-1068,2023-03-04 03:03:49.787234,1015,Home & Kitchen,Cash on Delivery,Delivered,Middle East,128.04,13.93,2
+ECOM-1069,2023-03-05 00:59:28.460575,1093,Electronics,Cash on Delivery,Delivered,North America,252.38,9.4,3
+ECOM-1070,2023-03-05 22:55:07.133917,1159,Home & Kitchen,Bank Transfer,Returned,North America,137.69,21.04,4
+ECOM-1071,2023-03-06 20:50:45.807259,1037,Apparel,Cash on Delivery,Delivered,Middle East,190.44,19.73,2
+ECOM-1072,2023-03-07 18:46:24.480600,1092,Electronics,PayPal,Delivered,Latin America,185.54,13.51,3
+ECOM-1073,2023-03-08 16:42:03.153942,1025,Electronics,Bank Transfer,Delivered,Latin America,219.31,19.66,4
+ECOM-1074,2023-03-09 14:37:41.827284,1137,Sports,Cash on Delivery,Delivered,Europe,111.25,8.16,2
+ECOM-1075,2023-03-10 12:33:20.500625,1095,Beauty,Bank Transfer,Delivered,North America,84.06,15.56,2
+ECOM-1076,2023-03-11 10:28:59.173967,1066,Beauty,Credit Card,Delivered,Latin America,165.4,21.9,5
+ECOM-1077,2023-03-12 08:24:37.847309,1045,Sports,PayPal,Delivered,Middle East,210.43,9.31,2
+ECOM-1078,2023-03-13 06:20:16.520650,1112,Beauty,Bank Transfer,Cancelled,Europe,233.57,13.12,3
+ECOM-1079,2023-03-14 04:15:55.193992,1133,Beauty,Cash on Delivery,Delivered,Middle East,270.15,23.87,1
+ECOM-1080,2023-03-15 02:11:33.867334,1188,Electronics,Bank Transfer,Delivered,Latin America,199.57,20.36,5
+ECOM-1081,2023-03-16 00:07:12.540675,1087,Toys,Credit Card,Delivered,Europe,81.01,22.4,3
+ECOM-1082,2023-03-16 22:02:51.214017,1032,Home & Kitchen,Credit Card,Delivered,Middle East,136.6,10.86,4
+ECOM-1083,2023-03-17 19:58:29.887359,1166,Electronics,Bank Transfer,Delivered,Middle East,129.32,24.92,4
+ECOM-1084,2023-03-18 17:54:08.560700,1125,Sports,PayPal,Cancelled,Asia Pacific,120.81,5.51,2
+ECOM-1085,2023-03-19 15:49:47.234042,1140,Sports,Cash on Delivery,Returned,Middle East,165.6,13.93,2
+ECOM-1086,2023-03-20 13:45:25.907384,1019,Electronics,PayPal,Delivered,Europe,104.87,13.02,4
+ECOM-1087,2023-03-21 11:41:04.580725,1062,Apparel,PayPal,Delivered,Latin America,104.96,20.36,5
+ECOM-1088,2023-03-22 09:36:43.254067,1153,Electronics,Bank Transfer,Delivered,Latin America,319.79,22.9,1
+ECOM-1089,2023-03-23 07:32:21.927409,1166,Apparel,Credit Card,Delivered,Latin America,114.93,18.82,5
+ECOM-1090,2023-03-24 05:28:00.600750,1087,Electronics,Bank Transfer,Delivered,Middle East,218.4,16.42,5
+ECOM-1091,2023-03-25 03:23:39.274092,1160,Sports,Bank Transfer,Delivered,North America,225.7,11.83,1
+ECOM-1092,2023-03-26 01:19:17.947434,1168,Beauty,Cash on Delivery,Delivered,Europe,138.89,13.74,1
+ECOM-1093,2023-03-26 23:14:56.620775,1077,Toys,PayPal,Delivered,Asia Pacific,107.6,13.71,4
+ECOM-1094,2023-03-27 21:10:35.294117,1179,Sports,Credit Card,Delivered,Latin America,66.75,2.47,5
+ECOM-1095,2023-03-28 19:06:13.967459,1057,Beauty,Cash on Delivery,Delivered,Asia Pacific,35.92,13.57,2
+ECOM-1096,2023-03-29 17:01:52.640801,1047,Beauty,PayPal,Delivered,Asia Pacific,172.62,21.69,4
+ECOM-1097,2023-03-30 14:57:31.314142,1136,Electronics,Credit Card,Delivered,North America,152.52,18.31,5
+ECOM-1098,2023-03-31 12:53:09.987484,1127,Electronics,PayPal,Shipped,Middle East,187.67,20.3,2
+ECOM-1099,2023-04-01 10:48:48.660826,1027,Beauty,Bank Transfer,Delivered,Europe,87.65,10.98,2
+ECOM-1100,2023-04-02 08:44:27.334167,1166,Electronics,PayPal,Delivered,North America,338.15,14.17,5
+ECOM-1101,2023-04-03 06:40:06.007509,1039,Electronics,Credit Card,Delivered,Latin America,160.6,2.77,2
+ECOM-1102,2023-04-04 04:35:44.680851,1160,Apparel,Cash on Delivery,Shipped,North America,112.22,10.81,3
+ECOM-1103,2023-04-05 02:31:23.354192,1001,Toys,Credit Card,Delivered,North America,22.74,12.91,3
+ECOM-1104,2023-04-06 00:27:02.027534,1159,Home & Kitchen,Bank Transfer,Shipped,North America,94.18,7.87,3
+ECOM-1105,2023-04-06 22:22:40.700876,1157,Sports,Bank Transfer,Cancelled,Asia Pacific,192.87,2.72,2
+ECOM-1106,2023-04-07 20:18:19.374217,1156,Home & Kitchen,Bank Transfer,Delivered,North America,266.19,17.88,4
+ECOM-1107,2023-04-08 18:13:58.047559,1132,Apparel,Bank Transfer,Delivered,Latin America,123.42,12.01,4
+ECOM-1108,2023-04-09 16:09:36.720901,1094,Home & Kitchen,Credit Card,Delivered,Asia Pacific,290.95,11.56,2
+ECOM-1109,2023-04-10 14:05:15.394242,1141,Electronics,Credit Card,Returned,Europe,63.26,7.75,3
+ECOM-1110,2023-04-11 12:00:54.067584,1055,Sports,PayPal,Delivered,North America,155.28,14.37,1
+ECOM-1111,2023-04-12 09:56:32.740926,1156,Apparel,PayPal,Cancelled,Asia Pacific,157.9,12.07,2
+ECOM-1112,2023-04-13 07:52:11.414267,1111,Home & Kitchen,Bank Transfer,Delivered,North America,173.44,12.9,5
+ECOM-1113,2023-04-14 05:47:50.087609,1091,Toys,Cash on Delivery,Delivered,Latin America,133.95,15.36,3
+ECOM-1114,2023-04-15 03:43:28.760951,1101,Beauty,Cash on Delivery,Delivered,Europe,150.25,2.15,4
+ECOM-1115,2023-04-16 01:39:07.434292,1113,Home & Kitchen,Bank Transfer,Delivered,Asia Pacific,62.2,22.88,5
+ECOM-1116,2023-04-16 23:34:46.107634,1007,Beauty,Cash on Delivery,Delivered,North America,251.73,3.64,4
+ECOM-1117,2023-04-17 21:30:24.780976,1027,Sports,PayPal,Delivered,North America,206.11,12.37,4
+ECOM-1118,2023-04-18 19:26:03.454317,1049,Apparel,PayPal,Shipped,Europe,146.74,6.77,4
+ECOM-1119,2023-04-19 17:21:42.127659,1022,Beauty,Cash on Delivery,Cancelled,North America,208.9,14.05,3
+ECOM-1120,2023-04-20 15:17:20.801001,1087,Toys,Credit Card,Delivered,Middle East,256.32,8.45,4
+ECOM-1121,2023-04-21 13:12:59.474342,1133,Beauty,Cash on Delivery,Delivered,Latin America,171.96,21.78,2
+ECOM-1122,2023-04-22 11:08:38.147684,1130,Home & Kitchen,Cash on Delivery,Delivered,Latin America,358.79,11.12,5
+ECOM-1123,2023-04-23 09:04:16.821026,1094,Electronics,Cash on Delivery,Shipped,Europe,180.39,16.69,1
+ECOM-1124,2023-04-24 06:59:55.494367,1171,Apparel,Cash on Delivery,Delivered,Middle East,69.13,7.72,5
+ECOM-1125,2023-04-25 04:55:34.167709,1113,Toys,Bank Transfer,Cancelled,Asia Pacific,142.34,2.45,5
+ECOM-1126,2023-04-26 02:51:12.841051,1015,Beauty,Bank Transfer,Delivered,North America,213.61,11.3,1
+ECOM-1127,2023-04-27 00:46:51.514392,1152,Apparel,Cash on Delivery,Delivered,North America,256.46,14.34,4
+ECOM-1128,2023-04-27 22:42:30.187734,1114,Home & Kitchen,PayPal,Delivered,Asia Pacific,135.68,12.57,5
+ECOM-1129,2023-04-28 20:38:08.861076,1126,Beauty,Credit Card,Delivered,Asia Pacific,65.39,24.13,3
+ECOM-1130,2023-04-29 18:33:47.534418,1113,Beauty,Bank Transfer,Shipped,North America,106.13,18.26,2
+ECOM-1131,2023-04-30 16:29:26.207759,1110,Sports,Bank Transfer,Delivered,Latin America,46.36,24.9,5
+ECOM-1132,2023-05-01 14:25:04.881101,1018,Apparel,Cash on Delivery,Delivered,Middle East,191.28,8.79,3
+ECOM-1133,2023-05-02 12:20:43.554443,1111,Beauty,Bank Transfer,Returned,Asia Pacific,93.42,20.15,1
+ECOM-1134,2023-05-03 10:16:22.227784,1158,Home & Kitchen,Bank Transfer,Returned,Latin America,76.7,14.78,2
+ECOM-1135,2023-05-04 08:12:00.901126,1060,Toys,Bank Transfer,Cancelled,Latin America,202.17,16.07,4
+ECOM-1136,2023-05-05 06:07:39.574468,1120,Electronics,Cash on Delivery,Delivered,Latin America,287.64,24.67,3
+ECOM-1137,2023-05-06 04:03:18.247809,1006,Electronics,Credit Card,Delivered,Europe,76.48,17.04,2
+ECOM-1138,2023-05-07 01:58:56.921151,1069,Home & Kitchen,Credit Card,Cancelled,Latin America,136.22,22.67,4
+ECOM-1139,2023-05-07 23:54:35.594493,1087,Beauty,Credit Card,Delivered,Asia Pacific,108.96,18.69,1
+ECOM-1140,2023-05-08 21:50:14.267834,1196,Sports,PayPal,Delivered,Middle East,263.21,4.93,2
+ECOM-1141,2023-05-09 19:45:52.941176,1042,Home & Kitchen,Cash on Delivery,Shipped,Latin America,116.91,18.09,3
+ECOM-1142,2023-05-10 17:41:31.614518,1055,Toys,PayPal,Delivered,North America,61.14,13.14,1
+ECOM-1143,2023-05-11 15:37:10.287859,1081,Home & Kitchen,Credit Card,Delivered,Asia Pacific,120.39,23.13,2
+ECOM-1144,2023-05-12 13:32:48.961201,1198,Electronics,Credit Card,Returned,North America,232.39,20.56,5
+ECOM-1145,2023-05-13 11:28:27.634543,1170,Electronics,Bank Transfer,Delivered,Europe,104.95,4.4,5
+ECOM-1146,2023-05-14 09:24:06.307884,1006,Toys,Bank Transfer,Delivered,Asia Pacific,81.93,5.08,5
+ECOM-1147,2023-05-15 07:19:44.981226,1046,Electronics,PayPal,Delivered,Latin America,113.66,3.6,2
+ECOM-1148,2023-05-16 05:15:23.654568,1164,Toys,Bank Transfer,Delivered,Latin America,62.53,13.34,1
+ECOM-1149,2023-05-17 03:11:02.327909,1011,Apparel,Cash on Delivery,Delivered,Europe,108.87,3.86,5
+ECOM-1150,2023-05-18 01:06:41.001251,1171,Electronics,Bank Transfer,Shipped,Europe,86.07,18.64,2
+ECOM-1151,2023-05-18 23:02:19.674593,1056,Apparel,Bank Transfer,Shipped,Asia Pacific,395.68,14.7,4
+ECOM-1152,2023-05-19 20:57:58.347934,1183,Beauty,Cash on Delivery,Delivered,Latin America,27.59,21.23,1
+ECOM-1153,2023-05-20 18:53:37.021276,1058,Home & Kitchen,PayPal,Delivered,Latin America,68.92,8.44,4
+ECOM-1154,2023-05-21 16:49:15.694618,1086,Sports,Cash on Delivery,Cancelled,Europe,81.89,13.94,3
+ECOM-1155,2023-05-22 14:44:54.367959,1132,Beauty,PayPal,Delivered,North America,62.83,4.7,5
+ECOM-1156,2023-05-23 12:40:33.041301,1025,Home & Kitchen,PayPal,Delivered,Middle East,156.18,22.35,1
+ECOM-1157,2023-05-24 10:36:11.714643,1111,Beauty,Cash on Delivery,Delivered,Europe,75.56,6.03,3
+ECOM-1158,2023-05-25 08:31:50.387984,1101,Toys,Cash on Delivery,Delivered,North America,42.65,4.35,5
+ECOM-1159,2023-05-26 06:27:29.061326,1156,Home & Kitchen,Cash on Delivery,Delivered,North America,128.94,6.72,2
+ECOM-1160,2023-05-27 04:23:07.734668,1199,Electronics,PayPal,Delivered,Asia Pacific,101.14,20.54,4
+ECOM-1161,2023-05-28 02:18:46.408010,1132,Home & Kitchen,PayPal,Delivered,Europe,77.98,4.43,1
+ECOM-1162,2023-05-29 00:14:25.081351,1081,Toys,Credit Card,Delivered,Asia Pacific,259.48,16.13,4
+ECOM-1163,2023-05-29 22:10:03.754693,1081,Apparel,Cash on Delivery,Delivered,Europe,159.3,19.16,2
+ECOM-1164,2023-05-30 20:05:42.428035,1083,Toys,Cash on Delivery,Delivered,Middle East,148.91,19.27,3
+ECOM-1165,2023-05-31 18:01:21.101376,1162,Beauty,Bank Transfer,Delivered,Middle East,161.39,6.37,5
+ECOM-1166,2023-06-01 15:56:59.774718,1064,Beauty,Cash on Delivery,Delivered,Asia Pacific,156.55,3.42,4
+ECOM-1167,2023-06-02 13:52:38.448060,1033,Apparel,PayPal,Delivered,North America,104.44,12.32,3
+ECOM-1168,2023-06-03 11:48:17.121401,1066,Toys,Credit Card,Delivered,Asia Pacific,76.1,6.66,1
+ECOM-1169,2023-06-04 09:43:55.794743,1004,Electronics,Credit Card,Delivered,Middle East,130.68,18.08,2
+ECOM-1170,2023-06-05 07:39:34.468085,1021,Apparel,PayPal,Delivered,Europe,103.23,10.2,5
+ECOM-1171,2023-06-06 05:35:13.141426,1018,Home & Kitchen,PayPal,Returned,Europe,27.26,12.34,2
+ECOM-1172,2023-06-07 03:30:51.814768,1154,Home & Kitchen,PayPal,Delivered,Asia Pacific,59.02,4.61,4
+ECOM-1173,2023-06-08 01:26:30.488110,1144,Home & Kitchen,PayPal,Shipped,Europe,95.08,15.05,3
+ECOM-1174,2023-06-08 23:22:09.161451,1139,Electronics,Bank Transfer,Returned,Asia Pacific,204.68,6.27,2
+ECOM-1175,2023-06-09 21:17:47.834793,1092,Apparel,Credit Card,Delivered,Europe,131.02,17.62,4
+ECOM-1176,2023-06-10 19:13:26.508135,1143,Electronics,PayPal,Delivered,Europe,67.15,3.64,2
+ECOM-1177,2023-06-11 17:09:05.181476,1032,Beauty,Credit Card,Cancelled,Middle East,55.43,24.45,2
+ECOM-1178,2023-06-12 15:04:43.854818,1180,Home & Kitchen,PayPal,Delivered,Asia Pacific,229.97,17.74,3
+ECOM-1179,2023-06-13 13:00:22.528160,1100,Beauty,Cash on Delivery,Delivered,Asia Pacific,107.51,6.18,4
+ECOM-1180,2023-06-14 10:56:01.201501,1187,Beauty,Credit Card,Delivered,Middle East,8.63,2.32,5
+ECOM-1181,2023-06-15 08:51:39.874843,1030,Sports,PayPal,Delivered,Europe,111.86,9.69,4
+ECOM-1182,2023-06-16 06:47:18.548185,1099,Beauty,Credit Card,Delivered,North America,179.77,5.51,4
+ECOM-1183,2023-06-17 04:42:57.221526,1139,Beauty,Bank Transfer,Returned,Latin America,54.2,7.02,4
+ECOM-1184,2023-06-18 02:38:35.894868,1099,Beauty,Cash on Delivery,Returned,North America,125.03,22.07,2
+ECOM-1185,2023-06-19 00:34:14.568210,1089,Beauty,Credit Card,Delivered,Asia Pacific,132.3,15.87,2
+ECOM-1186,2023-06-19 22:29:53.241551,1033,Beauty,Credit Card,Shipped,Europe,56.58,6.06,3
+ECOM-1187,2023-06-20 20:25:31.914893,1076,Apparel,Credit Card,Delivered,Europe,241.94,14.8,4
+ECOM-1188,2023-06-21 18:21:10.588235,1047,Apparel,PayPal,Cancelled,North America,133.69,7.88,4
+ECOM-1189,2023-06-22 16:16:49.261576,1060,Sports,Bank Transfer,Delivered,Latin America,94.77,24.45,1
+ECOM-1190,2023-06-23 14:12:27.934918,1136,Home & Kitchen,Cash on Delivery,Returned,Asia Pacific,107.97,2.75,4
+ECOM-1191,2023-06-24 12:08:06.608260,1126,Beauty,Bank Transfer,Shipped,Europe,49.0,18.84,2
+ECOM-1192,2023-06-25 10:03:45.281602,1121,Apparel,PayPal,Delivered,Middle East,47.5,19.78,5
+ECOM-1193,2023-06-26 07:59:23.954943,1072,Home & Kitchen,PayPal,Delivered,North America,89.13,3.54,4
+ECOM-1194,2023-06-27 05:55:02.628285,1191,Beauty,PayPal,Shipped,Asia Pacific,92.77,5.95,5
+ECOM-1195,2023-06-28 03:50:41.301627,1017,Beauty,Credit Card,Delivered,Asia Pacific,103.54,10.84,4
+ECOM-1196,2023-06-29 01:46:19.974968,1068,Beauty,Bank Transfer,Delivered,Asia Pacific,254.12,21.97,3
+ECOM-1197,2023-06-29 23:41:58.648310,1023,Home & Kitchen,Credit Card,Cancelled,North America,174.15,14.35,1
+ECOM-1198,2023-06-30 21:37:37.321652,1067,Toys,PayPal,Delivered,Latin America,31.08,17.07,2
+ECOM-1199,2023-07-01 19:33:15.994993,1192,Beauty,Cash on Delivery,Delivered,Europe,227.03,20.01,5
+ECOM-1200,2023-07-02 17:28:54.668335,1073,Sports,Credit Card,Delivered,Middle East,88.68,21.05,2
+ECOM-1201,2023-07-03 15:24:33.341677,1181,Sports,PayPal,Delivered,Middle East,183.96,12.95,1
+ECOM-1202,2023-07-04 13:20:12.015018,1099,Beauty,PayPal,Returned,Europe,93.34,13.7,2
+ECOM-1203,2023-07-05 11:15:50.688360,1139,Toys,PayPal,Delivered,North America,128.56,18.51,3
+ECOM-1204,2023-07-06 09:11:29.361702,1091,Electronics,Credit Card,Delivered,Europe,51.76,8.06,4
+ECOM-1205,2023-07-07 07:07:08.035043,1053,Toys,Credit Card,Delivered,Latin America,146.05,21.65,5
+ECOM-1206,2023-07-08 05:02:46.708385,1152,Toys,Credit Card,Returned,Latin America,196.16,2.48,5
+ECOM-1207,2023-07-09 02:58:25.381727,1193,Beauty,PayPal,Delivered,Latin America,36.08,6.5,3
+ECOM-1208,2023-07-10 00:54:04.055068,1052,Sports,Credit Card,Cancelled,Europe,197.91,20.4,3
+ECOM-1209,2023-07-10 22:49:42.728410,1155,Beauty,Bank Transfer,Shipped,Middle East,75.88,9.83,5
+ECOM-1210,2023-07-11 20:45:21.401752,1052,Apparel,Credit Card,Shipped,North America,300.36,5.45,1
+ECOM-1211,2023-07-12 18:41:00.075093,1143,Sports,Cash on Delivery,Returned,Middle East,185.93,6.3,3
+ECOM-1212,2023-07-13 16:36:38.748435,1157,Apparel,Cash on Delivery,Shipped,Asia Pacific,167.56,14.21,3
+ECOM-1213,2023-07-14 14:32:17.421777,1089,Apparel,PayPal,Returned,Middle East,108.36,21.46,4
+ECOM-1214,2023-07-15 12:27:56.095118,1147,Beauty,Bank Transfer,Delivered,Middle East,436.41,3.62,5
+ECOM-1215,2023-07-16 10:23:34.768460,1054,Toys,Credit Card,Shipped,Latin America,89.04,2.7,4
+ECOM-1216,2023-07-17 08:19:13.441802,1015,Home & Kitchen,Credit Card,Delivered,Asia Pacific,59.99,12.7,4
+ECOM-1217,2023-07-18 06:14:52.115143,1019,Home & Kitchen,PayPal,Delivered,Europe,77.68,23.99,4
+ECOM-1218,2023-07-19 04:10:30.788485,1089,Electronics,Credit Card,Cancelled,Asia Pacific,216.61,8.42,3
+ECOM-1219,2023-07-20 02:06:09.461827,1180,Electronics,PayPal,Returned,North America,127.08,24.06,2
+ECOM-1220,2023-07-21 00:01:48.135168,1025,Electronics,PayPal,Shipped,North America,115.9,22.42,2
+ECOM-1221,2023-07-21 21:57:26.808510,1091,Electronics,Bank Transfer,Delivered,Asia Pacific,89.91,8.51,4
+ECOM-1222,2023-07-22 19:53:05.481852,1140,Toys,PayPal,Delivered,Latin America,112.2,20.79,4
+ECOM-1223,2023-07-23 17:48:44.155193,1040,Toys,Bank Transfer,Delivered,Asia Pacific,85.92,17.77,2
+ECOM-1224,2023-07-24 15:44:22.828535,1144,Sports,Bank Transfer,Delivered,Middle East,176.81,13.77,5
+ECOM-1225,2023-07-25 13:40:01.501877,1061,Electronics,Bank Transfer,Delivered,North America,102.05,11.73,5
+ECOM-1226,2023-07-26 11:35:40.175219,1161,Electronics,Credit Card,Delivered,Asia Pacific,78.65,20.76,4
+ECOM-1227,2023-07-27 09:31:18.848560,1115,Apparel,Bank Transfer,Delivered,Middle East,206.3,20.24,2
+ECOM-1228,2023-07-28 07:26:57.521902,1109,Beauty,Cash on Delivery,Shipped,Europe,61.34,19.41,5
+ECOM-1229,2023-07-29 05:22:36.195244,1035,Home & Kitchen,Bank Transfer,Delivered,North America,128.17,24.96,2
+ECOM-1230,2023-07-30 03:18:14.868585,1092,Home & Kitchen,PayPal,Returned,North America,27.1,13.01,3
+ECOM-1231,2023-07-31 01:13:53.541927,1171,Apparel,Bank Transfer,Delivered,Latin America,44.63,20.56,5
+ECOM-1232,2023-07-31 23:09:32.215269,1003,Sports,Cash on Delivery,Delivered,Middle East,95.16,21.84,3
+ECOM-1233,2023-08-01 21:05:10.888610,1151,Apparel,Credit Card,Delivered,Europe,84.89,6.87,2
+ECOM-1234,2023-08-02 19:00:49.561952,1098,Electronics,PayPal,Delivered,Europe,84.81,2.97,1
+ECOM-1235,2023-08-03 16:56:28.235294,1143,Sports,Credit Card,Returned,North America,186.92,11.31,2
+ECOM-1236,2023-08-04 14:52:06.908635,1132,Toys,Bank Transfer,Delivered,Latin America,193.24,21.7,4
+ECOM-1237,2023-08-05 12:47:45.581977,1086,Electronics,PayPal,Delivered,North America,143.33,8.65,4
+ECOM-1238,2023-08-06 10:43:24.255319,1061,Home & Kitchen,Credit Card,Returned,Middle East,59.05,18.1,2
+ECOM-1239,2023-08-07 08:39:02.928660,1125,Sports,Cash on Delivery,Returned,Europe,111.66,2.17,1
+ECOM-1240,2023-08-08 06:34:41.602002,1028,Sports,PayPal,Delivered,Europe,324.25,10.17,4
+ECOM-1241,2023-08-09 04:30:20.275344,1116,Toys,Credit Card,Delivered,Europe,412.39,16.16,1
+ECOM-1242,2023-08-10 02:25:58.948685,1018,Home & Kitchen,Bank Transfer,Delivered,Latin America,207.45,4.98,1
+ECOM-1243,2023-08-11 00:21:37.622027,1129,Home & Kitchen,Bank Transfer,Delivered,North America,60.7,22.62,3
+ECOM-1244,2023-08-11 22:17:16.295369,1125,Sports,Cash on Delivery,Delivered,Europe,112.27,5.59,3
+ECOM-1245,2023-08-12 20:12:54.968710,1016,Electronics,Cash on Delivery,Delivered,Europe,137.76,22.93,2
+ECOM-1246,2023-08-13 18:08:33.642052,1151,Apparel,PayPal,Cancelled,Europe,125.63,6.98,2
+ECOM-1247,2023-08-14 16:04:12.315394,1083,Beauty,Cash on Delivery,Delivered,North America,219.91,24.87,2
+ECOM-1248,2023-08-15 13:59:50.988735,1157,Sports,Cash on Delivery,Delivered,Latin America,182.21,15.91,2
+ECOM-1249,2023-08-16 11:55:29.662077,1008,Electronics,Credit Card,Delivered,Europe,58.41,3.94,1
+ECOM-1250,2023-08-17 09:51:08.335419,1035,Beauty,Credit Card,Shipped,Asia Pacific,79.92,3.5,1
+ECOM-1251,2023-08-18 07:46:47.008760,1098,Home & Kitchen,PayPal,Delivered,Europe,206.96,3.72,2
+ECOM-1252,2023-08-19 05:42:25.682102,1037,Beauty,PayPal,Cancelled,Latin America,258.85,15.57,1
+ECOM-1253,2023-08-20 03:38:04.355444,1065,Toys,Credit Card,Returned,Europe,138.79,20.62,2
+ECOM-1254,2023-08-21 01:33:43.028785,1132,Electronics,Credit Card,Delivered,Europe,276.98,11.27,3
+ECOM-1255,2023-08-21 23:29:21.702127,1028,Toys,Bank Transfer,Delivered,Europe,129.51,12.23,1
+ECOM-1256,2023-08-22 21:25:00.375469,1135,Home & Kitchen,PayPal,Delivered,Europe,65.77,15.55,4
+ECOM-1257,2023-08-23 19:20:39.048811,1020,Sports,Cash on Delivery,Delivered,North America,172.77,14.26,4
+ECOM-1258,2023-08-24 17:16:17.722152,1035,Home & Kitchen,Cash on Delivery,Returned,Middle East,514.47,17.83,3
+ECOM-1259,2023-08-25 15:11:56.395494,1117,Apparel,Cash on Delivery,Delivered,North America,49.29,12.85,4
+ECOM-1260,2023-08-26 13:07:35.068836,1158,Sports,Cash on Delivery,Shipped,Europe,271.11,18.42,5
+ECOM-1261,2023-08-27 11:03:13.742177,1034,Sports,PayPal,Delivered,Europe,167.15,24.94,1
+ECOM-1262,2023-08-28 08:58:52.415519,1059,Electronics,Bank Transfer,Delivered,Europe,76.78,10.06,1
+ECOM-1263,2023-08-29 06:54:31.088861,1185,Sports,PayPal,Delivered,Middle East,27.67,2.28,2
+ECOM-1264,2023-08-30 04:50:09.762202,1197,Sports,Bank Transfer,Delivered,Asia Pacific,19.13,4.89,4
+ECOM-1265,2023-08-31 02:45:48.435544,1116,Home & Kitchen,PayPal,Delivered,Latin America,84.69,14.73,5
+ECOM-1266,2023-09-01 00:41:27.108886,1089,Toys,Credit Card,Delivered,Europe,151.55,9.92,5
+ECOM-1267,2023-09-01 22:37:05.782227,1069,Beauty,Bank Transfer,Delivered,Latin America,198.39,23.62,3
+ECOM-1268,2023-09-02 20:32:44.455569,1122,Home & Kitchen,Credit Card,Shipped,North America,224.87,16.43,3
+ECOM-1269,2023-09-03 18:28:23.128911,1118,Electronics,Bank Transfer,Delivered,Asia Pacific,143.71,13.97,3
+ECOM-1270,2023-09-04 16:24:01.802252,1058,Sports,Credit Card,Returned,Middle East,130.71,20.35,1
+ECOM-1271,2023-09-05 14:19:40.475594,1004,Apparel,Credit Card,Delivered,Asia Pacific,97.19,7.95,3
+ECOM-1272,2023-09-06 12:15:19.148936,1030,Sports,Cash on Delivery,Delivered,Latin America,153.73,20.85,3
+ECOM-1273,2023-09-07 10:10:57.822277,1191,Beauty,Bank Transfer,Delivered,Europe,77.57,2.07,2
+ECOM-1274,2023-09-08 08:06:36.495619,1083,Home & Kitchen,PayPal,Delivered,North America,51.22,16.25,4
+ECOM-1275,2023-09-09 06:02:15.168961,1096,Electronics,Credit Card,Delivered,Middle East,125.87,23.5,5
+ECOM-1276,2023-09-10 03:57:53.842302,1093,Sports,Credit Card,Delivered,North America,189.76,20.12,2
+ECOM-1277,2023-09-11 01:53:32.515644,1156,Electronics,Bank Transfer,Returned,Middle East,43.48,21.63,5
+ECOM-1278,2023-09-11 23:49:11.188986,1012,Home & Kitchen,Cash on Delivery,Delivered,Middle East,84.7,11.13,1
+ECOM-1279,2023-09-12 21:44:49.862327,1016,Toys,Credit Card,Delivered,Latin America,123.05,20.96,5
+ECOM-1280,2023-09-13 19:40:28.535669,1055,Toys,PayPal,Delivered,Asia Pacific,121.48,14.67,4
+ECOM-1281,2023-09-14 17:36:07.209011,1097,Toys,PayPal,Delivered,Latin America,164.57,16.23,2
+ECOM-1282,2023-09-15 15:31:45.882352,1134,Toys,Credit Card,Delivered,North America,319.07,3.36,4
+ECOM-1283,2023-09-16 13:27:24.555694,1098,Beauty,Bank Transfer,Delivered,Asia Pacific,19.29,6.64,2
+ECOM-1284,2023-09-17 11:23:03.229036,1088,Apparel,Cash on Delivery,Delivered,North America,327.13,14.67,4
+ECOM-1285,2023-09-18 09:18:41.902377,1187,Toys,Credit Card,Delivered,Middle East,311.1,3.35,1
+ECOM-1286,2023-09-19 07:14:20.575719,1032,Sports,Cash on Delivery,Returned,Middle East,200.28,19.05,2
+ECOM-1287,2023-09-20 05:09:59.249061,1114,Toys,PayPal,Delivered,Latin America,137.25,21.32,2
+ECOM-1288,2023-09-21 03:05:37.922403,1108,Beauty,Credit Card,Cancelled,Middle East,78.6,23.17,1
+ECOM-1289,2023-09-22 01:01:16.595744,1094,Electronics,PayPal,Delivered,Europe,198.88,4.34,2
+ECOM-1290,2023-09-22 22:56:55.269086,1161,Beauty,Credit Card,Delivered,North America,141.51,23.61,4
+ECOM-1291,2023-09-23 20:52:33.942428,1053,Home & Kitchen,Credit Card,Shipped,Latin America,98.53,3.56,4
+ECOM-1292,2023-09-24 18:48:12.615769,1190,Toys,Bank Transfer,Delivered,Asia Pacific,195.92,12.9,3
+ECOM-1293,2023-09-25 16:43:51.289111,1066,Home & Kitchen,Cash on Delivery,Shipped,North America,215.57,21.33,1
+ECOM-1294,2023-09-26 14:39:29.962453,1109,Apparel,Credit Card,Delivered,Latin America,257.72,3.62,2
+ECOM-1295,2023-09-27 12:35:08.635794,1104,Electronics,Bank Transfer,Delivered,Latin America,72.86,2.42,5
+ECOM-1296,2023-09-28 10:30:47.309136,1169,Toys,Cash on Delivery,Cancelled,Asia Pacific,239.05,2.57,2
+ECOM-1297,2023-09-29 08:26:25.982478,1087,Sports,Bank Transfer,Delivered,Middle East,99.7,13.76,1
+ECOM-1298,2023-09-30 06:22:04.655819,1056,Electronics,Cash on Delivery,Delivered,North America,137.48,20.67,3
+ECOM-1299,2023-10-01 04:17:43.329161,1004,Home & Kitchen,PayPal,Delivered,North America,153.8,4.93,1
+ECOM-1300,2023-10-02 02:13:22.002503,1072,Home & Kitchen,Cash on Delivery,Delivered,Europe,228.06,4.87,2
+ECOM-1301,2023-10-03 00:09:00.675844,1165,Home & Kitchen,Cash on Delivery,Returned,Middle East,184.46,15.08,5
+ECOM-1302,2023-10-03 22:04:39.349186,1001,Toys,Cash on Delivery,Delivered,North America,97.47,7.39,2
+ECOM-1303,2023-10-04 20:00:18.022528,1179,Electronics,Credit Card,Delivered,North America,21.71,18.79,4
+ECOM-1304,2023-10-05 17:55:56.695869,1108,Apparel,PayPal,Shipped,Middle East,163.42,23.84,3
+ECOM-1305,2023-10-06 15:51:35.369211,1028,Apparel,Credit Card,Delivered,Middle East,134.06,19.62,2
+ECOM-1306,2023-10-07 13:47:14.042553,1060,Apparel,PayPal,Shipped,Middle East,48.81,22.18,4
+ECOM-1307,2023-10-08 11:42:52.715894,1110,Toys,Credit Card,Delivered,Middle East,143.79,13.95,3
+ECOM-1308,2023-10-09 09:38:31.389236,1063,Toys,Credit Card,Delivered,Latin America,122.09,21.14,2
+ECOM-1309,2023-10-10 07:34:10.062578,1021,Electronics,Bank Transfer,Shipped,Middle East,256.28,6.21,2
+ECOM-1310,2023-10-11 05:29:48.735919,1133,Beauty,Credit Card,Delivered,Asia Pacific,339.73,3.57,5
+ECOM-1311,2023-10-12 03:25:27.409261,1134,Apparel,Bank Transfer,Delivered,Latin America,212.51,17.09,1
+ECOM-1312,2023-10-13 01:21:06.082603,1023,Apparel,Credit Card,Delivered,Europe,117.75,3.19,5
+ECOM-1313,2023-10-13 23:16:44.755944,1056,Apparel,Bank Transfer,Shipped,North America,128.97,22.53,3
+ECOM-1314,2023-10-14 21:12:23.429286,1048,Apparel,PayPal,Cancelled,Middle East,71.1,17.91,5
+ECOM-1315,2023-10-15 19:08:02.102628,1131,Home & Kitchen,Cash on Delivery,Delivered,Europe,80.52,23.9,2
+ECOM-1316,2023-10-16 17:03:40.775969,1146,Toys,PayPal,Delivered,Latin America,113.53,9.22,3
+ECOM-1317,2023-10-17 14:59:19.449311,1145,Beauty,PayPal,Returned,Asia Pacific,106.19,13.18,4
+ECOM-1318,2023-10-18 12:54:58.122653,1187,Sports,PayPal,Delivered,Latin America,46.74,19.06,2
+ECOM-1319,2023-10-19 10:50:36.795994,1153,Home & Kitchen,Cash on Delivery,Delivered,North America,257.8,7.58,2
+ECOM-1320,2023-10-20 08:46:15.469336,1064,Electronics,PayPal,Delivered,Middle East,278.35,14.46,3
+ECOM-1321,2023-10-21 06:41:54.142678,1021,Electronics,Cash on Delivery,Delivered,Asia Pacific,253.11,17.17,4
+ECOM-1322,2023-10-22 04:37:32.816020,1122,Apparel,Bank Transfer,Cancelled,Asia Pacific,283.71,24.51,2
+ECOM-1323,2023-10-23 02:33:11.489361,1183,Apparel,PayPal,Shipped,Europe,395.28,19.13,4
+ECOM-1324,2023-10-24 00:28:50.162703,1195,Toys,PayPal,Shipped,Latin America,72.03,4.72,4
+ECOM-1325,2023-10-24 22:24:28.836045,1046,Toys,Credit Card,Delivered,Europe,385.73,12.93,1
+ECOM-1326,2023-10-25 20:20:07.509386,1047,Toys,PayPal,Delivered,Latin America,97.08,15.54,5
+ECOM-1327,2023-10-26 18:15:46.182728,1007,Beauty,Credit Card,Delivered,Asia Pacific,177.96,5.37,1
+ECOM-1328,2023-10-27 16:11:24.856070,1028,Beauty,Credit Card,Delivered,North America,38.41,11.94,4
+ECOM-1329,2023-10-28 14:07:03.529411,1110,Beauty,Bank Transfer,Delivered,Latin America,89.12,8.53,3
+ECOM-1330,2023-10-29 12:02:42.202753,1109,Home & Kitchen,Credit Card,Delivered,North America,216.0,4.73,4
+ECOM-1331,2023-10-30 09:58:20.876095,1074,Sports,PayPal,Delivered,Europe,182.97,13.78,4
+ECOM-1332,2023-10-31 07:53:59.549436,1061,Sports,Bank Transfer,Delivered,Latin America,95.87,5.81,4
+ECOM-1333,2023-11-01 05:49:38.222778,1165,Sports,Bank Transfer,Shipped,Latin America,128.93,15.58,4
+ECOM-1334,2023-11-02 03:45:16.896120,1092,Beauty,Credit Card,Delivered,Latin America,82.99,5.9,5
+ECOM-1335,2023-11-03 01:40:55.569461,1161,Electronics,Credit Card,Delivered,Asia Pacific,215.66,18.64,4
+ECOM-1336,2023-11-03 23:36:34.242803,1192,Sports,PayPal,Shipped,Middle East,267.58,6.49,5
+ECOM-1337,2023-11-04 21:32:12.916145,1063,Home & Kitchen,Cash on Delivery,Shipped,Europe,72.25,22.61,3
+ECOM-1338,2023-11-05 19:27:51.589486,1040,Sports,Bank Transfer,Shipped,Middle East,120.98,2.6,2
+ECOM-1339,2023-11-06 17:23:30.262828,1190,Beauty,Credit Card,Delivered,Asia Pacific,45.3,14.01,2
+ECOM-1340,2023-11-07 15:19:08.936170,1126,Toys,Credit Card,Shipped,North America,141.2,9.36,4
+ECOM-1341,2023-11-08 13:14:47.609511,1058,Home & Kitchen,PayPal,Delivered,Asia Pacific,167.12,7.18,3
+ECOM-1342,2023-11-09 11:10:26.282853,1124,Toys,Bank Transfer,Delivered,Asia Pacific,148.2,12.85,1
+ECOM-1343,2023-11-10 09:06:04.956195,1103,Toys,Credit Card,Delivered,Europe,159.45,21.37,2
+ECOM-1344,2023-11-11 07:01:43.629536,1181,Apparel,PayPal,Delivered,Europe,113.09,23.05,5
+ECOM-1345,2023-11-12 04:57:22.302878,1051,Home & Kitchen,Credit Card,Delivered,Asia Pacific,114.79,8.97,4
+ECOM-1346,2023-11-13 02:53:00.976220,1198,Beauty,Credit Card,Delivered,North America,111.46,5.55,4
+ECOM-1347,2023-11-14 00:48:39.649561,1187,Sports,Bank Transfer,Shipped,North America,87.34,18.56,1
+ECOM-1348,2023-11-14 22:44:18.322903,1036,Sports,Credit Card,Delivered,Middle East,94.59,15.39,1
+ECOM-1349,2023-11-15 20:39:56.996245,1032,Toys,PayPal,Delivered,Europe,162.67,6.62,2
+ECOM-1350,2023-11-16 18:35:35.669586,1106,Home & Kitchen,Bank Transfer,Delivered,Middle East,257.95,19.49,5
+ECOM-1351,2023-11-17 16:31:14.342928,1008,Beauty,Cash on Delivery,Delivered,Asia Pacific,63.61,13.94,3
+ECOM-1352,2023-11-18 14:26:53.016270,1059,Home & Kitchen,Credit Card,Delivered,Asia Pacific,114.52,17.03,4
+ECOM-1353,2023-11-19 12:22:31.689612,1087,Toys,PayPal,Delivered,Asia Pacific,54.28,10.26,3
+ECOM-1354,2023-11-20 10:18:10.362953,1193,Apparel,Bank Transfer,Delivered,Asia Pacific,88.4,12.1,3
+ECOM-1355,2023-11-21 08:13:49.036295,1198,Beauty,PayPal,Shipped,Latin America,98.26,6.15,4
+ECOM-1356,2023-11-22 06:09:27.709637,1030,Electronics,Cash on Delivery,Returned,Latin America,135.24,19.4,5
+ECOM-1357,2023-11-23 04:05:06.382978,1178,Toys,Cash on Delivery,Delivered,Europe,132.97,5.61,3
+ECOM-1358,2023-11-24 02:00:45.056320,1018,Home & Kitchen,Cash on Delivery,Delivered,Middle East,120.3,19.9,3
+ECOM-1359,2023-11-24 23:56:23.729662,1149,Home & Kitchen,Credit Card,Cancelled,Latin America,154.91,20.35,5
+ECOM-1360,2023-11-25 21:52:02.403003,1169,Beauty,Bank Transfer,Returned,North America,67.98,19.17,2
+ECOM-1361,2023-11-26 19:47:41.076345,1178,Home & Kitchen,Bank Transfer,Delivered,Middle East,135.92,2.45,5
+ECOM-1362,2023-11-27 17:43:19.749687,1044,Toys,Credit Card,Cancelled,Asia Pacific,186.01,8.28,3
+ECOM-1363,2023-11-28 15:38:58.423028,1178,Beauty,Bank Transfer,Cancelled,Latin America,67.39,12.77,5
+ECOM-1364,2023-11-29 13:34:37.096370,1023,Beauty,Bank Transfer,Shipped,Asia Pacific,32.62,15.7,3
+ECOM-1365,2023-11-30 11:30:15.769712,1103,Electronics,Cash on Delivery,Delivered,Latin America,214.66,23.14,4
+ECOM-1366,2023-12-01 09:25:54.443053,1093,Electronics,PayPal,Delivered,North America,55.57,10.64,2
+ECOM-1367,2023-12-02 07:21:33.116395,1063,Home & Kitchen,PayPal,Delivered,North America,85.56,22.13,4
+ECOM-1368,2023-12-03 05:17:11.789737,1004,Toys,Bank Transfer,Delivered,Latin America,182.94,5.76,2
+ECOM-1369,2023-12-04 03:12:50.463078,1154,Toys,Credit Card,Delivered,Asia Pacific,65.01,10.54,4
+ECOM-1370,2023-12-05 01:08:29.136420,1067,Beauty,Bank Transfer,Delivered,Asia Pacific,206.26,3.2,4
+ECOM-1371,2023-12-05 23:04:07.809762,1132,Beauty,Bank Transfer,Delivered,North America,77.46,19.08,3
+ECOM-1372,2023-12-06 20:59:46.483103,1082,Home & Kitchen,Cash on Delivery,Delivered,Europe,71.11,5.47,3
+ECOM-1373,2023-12-07 18:55:25.156445,1074,Apparel,PayPal,Shipped,Latin America,54.48,7.91,2
+ECOM-1374,2023-12-08 16:51:03.829787,1177,Electronics,Cash on Delivery,Delivered,Europe,77.93,19.83,4
+ECOM-1375,2023-12-09 14:46:42.503128,1018,Home & Kitchen,Credit Card,Delivered,Asia Pacific,168.91,14.3,3
+ECOM-1376,2023-12-10 12:42:21.176470,1147,Apparel,Bank Transfer,Shipped,Europe,85.57,2.32,3
+ECOM-1377,2023-12-11 10:37:59.849812,1149,Apparel,PayPal,Shipped,Europe,215.16,2.05,1
+ECOM-1378,2023-12-12 08:33:38.523153,1075,Apparel,Credit Card,Returned,North America,123.31,13.75,1
+ECOM-1379,2023-12-13 06:29:17.196495,1052,Electronics,Bank Transfer,Cancelled,Latin America,129.95,9.01,1
+ECOM-1380,2023-12-14 04:24:55.869837,1001,Beauty,Cash on Delivery,Cancelled,Latin America,69.62,6.15,5
+ECOM-1381,2023-12-15 02:20:34.543178,1187,Toys,Cash on Delivery,Delivered,North America,233.31,16.11,5
+ECOM-1382,2023-12-16 00:16:13.216520,1189,Sports,Credit Card,Delivered,Europe,186.88,7.25,1
+ECOM-1383,2023-12-16 22:11:51.889862,1048,Home & Kitchen,Bank Transfer,Delivered,Asia Pacific,183.87,15.62,1
+ECOM-1384,2023-12-17 20:07:30.563204,1006,Home & Kitchen,Cash on Delivery,Delivered,Europe,109.09,10.72,4
+ECOM-1385,2023-12-18 18:03:09.236545,1024,Apparel,Bank Transfer,Returned,Middle East,49.64,6.3,3
+ECOM-1386,2023-12-19 15:58:47.909887,1013,Electronics,Bank Transfer,Delivered,Europe,134.16,5.18,2
+ECOM-1387,2023-12-20 13:54:26.583229,1166,Beauty,Credit Card,Delivered,North America,164.77,7.45,4
+ECOM-1388,2023-12-21 11:50:05.256570,1178,Beauty,Credit Card,Delivered,Europe,165.73,2.69,2
+ECOM-1389,2023-12-22 09:45:43.929912,1030,Electronics,Bank Transfer,Delivered,Asia Pacific,152.97,9.09,1
+ECOM-1390,2023-12-23 07:41:22.603254,1149,Home & Kitchen,Cash on Delivery,Delivered,North America,149.27,22.74,2
+ECOM-1391,2023-12-24 05:37:01.276595,1035,Apparel,PayPal,Delivered,Latin America,77.21,21.12,5
+ECOM-1392,2023-12-25 03:32:39.949937,1073,Apparel,PayPal,Returned,North America,79.76,10.56,4
+ECOM-1393,2023-12-26 01:28:18.623279,1119,Sports,Cash on Delivery,Delivered,North America,54.86,15.24,1
+ECOM-1394,2023-12-26 23:23:57.296620,1143,Beauty,Bank Transfer,Shipped,Asia Pacific,216.58,15.05,3
+ECOM-1395,2023-12-27 21:19:35.969962,1174,Beauty,Credit Card,Delivered,Asia Pacific,331.1,21.06,5
+ECOM-1396,2023-12-28 19:15:14.643304,1008,Sports,Cash on Delivery,Delivered,Europe,509.1,7.43,5
+ECOM-1397,2023-12-29 17:10:53.316645,1039,Toys,Bank Transfer,Delivered,Europe,139.75,8.82,4
+ECOM-1398,2023-12-30 15:06:31.989987,1056,Sports,PayPal,Shipped,North America,149.49,8.94,1
+ECOM-1399,2023-12-31 13:02:10.663329,1062,Beauty,PayPal,Delivered,Middle East,111.82,2.94,2
+ECOM-1400,2024-01-01 10:57:49.336670,1199,Toys,Bank Transfer,Cancelled,Europe,138.45,9.24,2
+ECOM-1401,2024-01-02 08:53:28.010012,1155,Home & Kitchen,Credit Card,Delivered,North America,64.83,22.19,1
+ECOM-1402,2024-01-03 06:49:06.683354,1064,Toys,PayPal,Delivered,Europe,110.42,22.98,1
+ECOM-1403,2024-01-04 04:44:45.356695,1194,Sports,PayPal,Shipped,Latin America,71.51,4.52,2
+ECOM-1404,2024-01-05 02:40:24.030037,1099,Beauty,Bank Transfer,Delivered,Europe,101.66,12.54,3
+ECOM-1405,2024-01-06 00:36:02.703379,1100,Toys,Credit Card,Delivered,Latin America,75.66,10.77,2
+ECOM-1406,2024-01-06 22:31:41.376720,1086,Beauty,PayPal,Returned,Europe,164.82,13.26,3
+ECOM-1407,2024-01-07 20:27:20.050062,1028,Sports,Credit Card,Delivered,North America,176.9,14.76,2
+ECOM-1408,2024-01-08 18:22:58.723404,1186,Apparel,Bank Transfer,Delivered,Europe,146.8,2.47,1
+ECOM-1409,2024-01-09 16:18:37.396745,1002,Toys,Cash on Delivery,Delivered,Europe,79.98,21.37,5
+ECOM-1410,2024-01-10 14:14:16.070087,1034,Beauty,PayPal,Delivered,North America,52.14,24.39,3
+ECOM-1411,2024-01-11 12:09:54.743429,1045,Sports,PayPal,Shipped,Asia Pacific,178.05,17.03,2
+ECOM-1412,2024-01-12 10:05:33.416770,1055,Home & Kitchen,Credit Card,Shipped,Europe,122.91,17.19,5
+ECOM-1413,2024-01-13 08:01:12.090112,1026,Toys,Bank Transfer,Delivered,Middle East,31.53,14.14,5
+ECOM-1414,2024-01-14 05:56:50.763454,1003,Electronics,Cash on Delivery,Shipped,Asia Pacific,133.49,9.69,5
+ECOM-1415,2024-01-15 03:52:29.436795,1135,Electronics,PayPal,Delivered,Asia Pacific,150.15,5.43,1
+ECOM-1416,2024-01-16 01:48:08.110137,1193,Beauty,PayPal,Delivered,Asia Pacific,40.15,15.43,4
+ECOM-1417,2024-01-16 23:43:46.783479,1024,Sports,Cash on Delivery,Delivered,North America,166.48,3.03,5
+ECOM-1418,2024-01-17 21:39:25.456821,1059,Sports,Cash on Delivery,Returned,Middle East,44.93,20.96,5
+ECOM-1419,2024-01-18 19:35:04.130162,1101,Home & Kitchen,PayPal,Delivered,North America,74.31,11.68,2
+ECOM-1420,2024-01-19 17:30:42.803504,1185,Beauty,PayPal,Delivered,Middle East,45.16,11.54,5
+ECOM-1421,2024-01-20 15:26:21.476846,1138,Beauty,Cash on Delivery,Delivered,Latin America,69.17,9.52,3
+ECOM-1422,2024-01-21 13:22:00.150187,1153,Toys,Cash on Delivery,Shipped,Middle East,52.47,24.3,3
+ECOM-1423,2024-01-22 11:17:38.823529,1116,Beauty,Cash on Delivery,Delivered,Asia Pacific,215.81,6.02,3
+ECOM-1424,2024-01-23 09:13:17.496871,1083,Home & Kitchen,Credit Card,Delivered,Europe,105.46,5.48,4
+ECOM-1425,2024-01-24 07:08:56.170212,1039,Toys,PayPal,Shipped,Latin America,91.81,5.81,1
+ECOM-1426,2024-01-25 05:04:34.843554,1172,Electronics,Cash on Delivery,Delivered,Europe,227.41,17.15,3
+ECOM-1427,2024-01-26 03:00:13.516896,1160,Toys,Bank Transfer,Delivered,Asia Pacific,220.84,24.81,5
+ECOM-1428,2024-01-27 00:55:52.190237,1005,Electronics,Cash on Delivery,Delivered,Middle East,96.53,7.42,3
+ECOM-1429,2024-01-27 22:51:30.863579,1143,Apparel,PayPal,Delivered,Latin America,145.12,22.83,2
+ECOM-1430,2024-01-28 20:47:09.536921,1016,Sports,Cash on Delivery,Delivered,Latin America,84.05,8.41,1
+ECOM-1431,2024-01-29 18:42:48.210262,1147,Sports,Credit Card,Cancelled,North America,115.54,16.9,3
+ECOM-1432,2024-01-30 16:38:26.883604,1165,Toys,Credit Card,Delivered,Latin America,59.33,2.93,4
+ECOM-1433,2024-01-31 14:34:05.556946,1026,Sports,Cash on Delivery,Delivered,North America,157.63,13.4,3
+ECOM-1434,2024-02-01 12:29:44.230287,1086,Beauty,Bank Transfer,Returned,Asia Pacific,232.49,17.06,5
+ECOM-1435,2024-02-02 10:25:22.903629,1024,Home & Kitchen,Bank Transfer,Delivered,Latin America,209.7,14.34,4
+ECOM-1436,2024-02-03 08:21:01.576971,1113,Electronics,Cash on Delivery,Delivered,Middle East,126.38,7.47,3
+ECOM-1437,2024-02-04 06:16:40.250312,1185,Electronics,Credit Card,Cancelled,Latin America,29.1,21.06,1
+ECOM-1438,2024-02-05 04:12:18.923654,1016,Apparel,Bank Transfer,Delivered,Europe,81.54,24.31,3
+ECOM-1439,2024-02-06 02:07:57.596996,1079,Electronics,PayPal,Shipped,Europe,115.45,12.56,1
+ECOM-1440,2024-02-07 00:03:36.270337,1194,Beauty,PayPal,Shipped,Europe,47.66,16.63,4
+ECOM-1441,2024-02-07 21:59:14.943679,1060,Sports,Bank Transfer,Delivered,Europe,41.77,20.18,1
+ECOM-1442,2024-02-08 19:54:53.617021,1026,Toys,Cash on Delivery,Delivered,Middle East,268.66,7.55,5
+ECOM-1443,2024-02-09 17:50:32.290362,1097,Home & Kitchen,Cash on Delivery,Delivered,Asia Pacific,195.93,21.88,2
+ECOM-1444,2024-02-10 15:46:10.963704,1101,Toys,PayPal,Delivered,Middle East,164.74,8.44,3
+ECOM-1445,2024-02-11 13:41:49.637046,1132,Toys,Bank Transfer,Delivered,Asia Pacific,183.13,19.84,1
+ECOM-1446,2024-02-12 11:37:28.310387,1062,Toys,PayPal,Delivered,Europe,53.71,4.58,2
+ECOM-1447,2024-02-13 09:33:06.983729,1191,Home & Kitchen,Cash on Delivery,Shipped,North America,67.61,8.63,5
+ECOM-1448,2024-02-14 07:28:45.657071,1104,Apparel,Bank Transfer,Cancelled,Asia Pacific,140.0,14.27,2
+ECOM-1449,2024-02-15 05:24:24.330413,1057,Toys,Cash on Delivery,Shipped,Latin America,146.5,14.07,3
+ECOM-1450,2024-02-16 03:20:03.003754,1192,Apparel,Credit Card,Delivered,Latin America,45.63,21.56,5
+ECOM-1451,2024-02-17 01:15:41.677096,1184,Home & Kitchen,PayPal,Delivered,Europe,134.18,24.91,4
+ECOM-1452,2024-02-17 23:11:20.350438,1099,Electronics,PayPal,Delivered,Asia Pacific,116.74,4.47,1
+ECOM-1453,2024-02-18 21:06:59.023779,1004,Sports,Bank Transfer,Delivered,Middle East,205.92,8.24,2
+ECOM-1454,2024-02-19 19:02:37.697121,1119,Beauty,Cash on Delivery,Returned,Middle East,146.93,10.22,2
+ECOM-1455,2024-02-20 16:58:16.370463,1111,Electronics,PayPal,Delivered,North America,285.92,13.02,2
+ECOM-1456,2024-02-21 14:53:55.043804,1029,Apparel,Cash on Delivery,Delivered,Asia Pacific,96.87,13.36,2
+ECOM-1457,2024-02-22 12:49:33.717146,1126,Beauty,Cash on Delivery,Shipped,North America,56.3,21.69,3
+ECOM-1458,2024-02-23 10:45:12.390488,1168,Beauty,PayPal,Delivered,North America,281.7,19.72,2
+ECOM-1459,2024-02-24 08:40:51.063829,1021,Sports,PayPal,Delivered,Middle East,151.44,2.43,2
+ECOM-1460,2024-02-25 06:36:29.737171,1144,Apparel,Bank Transfer,Delivered,North America,117.16,12.47,3
+ECOM-1461,2024-02-26 04:32:08.410513,1028,Toys,Cash on Delivery,Delivered,Europe,69.34,16.22,2
+ECOM-1462,2024-02-27 02:27:47.083854,1149,Home & Kitchen,Credit Card,Shipped,Asia Pacific,97.59,12.59,2
+ECOM-1463,2024-02-28 00:23:25.757196,1083,Sports,Cash on Delivery,Delivered,Middle East,94.36,5.0,3
+ECOM-1464,2024-02-28 22:19:04.430538,1001,Apparel,Cash on Delivery,Cancelled,Asia Pacific,54.56,11.14,5
+ECOM-1465,2024-02-29 20:14:43.103879,1193,Electronics,Cash on Delivery,Cancelled,North America,22.14,11.47,3
+ECOM-1466,2024-03-01 18:10:21.777221,1033,Electronics,Cash on Delivery,Shipped,Middle East,92.96,6.32,3
+ECOM-1467,2024-03-02 16:06:00.450563,1119,Home & Kitchen,Bank Transfer,Delivered,Latin America,185.81,19.4,5
+ECOM-1468,2024-03-03 14:01:39.123904,1036,Toys,PayPal,Delivered,Latin America,243.65,9.39,4
+ECOM-1469,2024-03-04 11:57:17.797246,1186,Electronics,PayPal,Cancelled,Middle East,210.48,15.55,2
+ECOM-1470,2024-03-05 09:52:56.470588,1147,Home & Kitchen,Credit Card,Delivered,Asia Pacific,217.41,13.86,2
+ECOM-1471,2024-03-06 07:48:35.143929,1160,Electronics,Cash on Delivery,Delivered,Latin America,59.18,22.18,3
+ECOM-1472,2024-03-07 05:44:13.817271,1086,Toys,PayPal,Shipped,Asia Pacific,141.56,4.81,3
+ECOM-1473,2024-03-08 03:39:52.490613,1093,Sports,PayPal,Delivered,North America,165.48,4.63,1
+ECOM-1474,2024-03-09 01:35:31.163954,1126,Sports,Cash on Delivery,Shipped,Latin America,171.6,8.91,1
+ECOM-1475,2024-03-09 23:31:09.837296,1156,Sports,PayPal,Returned,Europe,115.58,11.92,2
+ECOM-1476,2024-03-10 21:26:48.510638,1169,Beauty,PayPal,Shipped,Latin America,131.48,8.87,5
+ECOM-1477,2024-03-11 19:22:27.183979,1003,Sports,PayPal,Delivered,Europe,206.96,19.55,4
+ECOM-1478,2024-03-12 17:18:05.857321,1132,Electronics,PayPal,Cancelled,Latin America,162.05,7.64,5
+ECOM-1479,2024-03-13 15:13:44.530663,1021,Toys,Credit Card,Delivered,Asia Pacific,179.53,3.95,1
+ECOM-1480,2024-03-14 13:09:23.204005,1057,Sports,Bank Transfer,Shipped,Asia Pacific,90.25,11.52,3
+ECOM-1481,2024-03-15 11:05:01.877346,1165,Sports,Credit Card,Shipped,Europe,174.16,19.79,3
+ECOM-1482,2024-03-16 09:00:40.550688,1050,Home & Kitchen,PayPal,Shipped,Latin America,130.45,21.56,3
+ECOM-1483,2024-03-17 06:56:19.224030,1159,Sports,Cash on Delivery,Delivered,North America,195.26,18.87,3
+ECOM-1484,2024-03-18 04:51:57.897371,1092,Home & Kitchen,Credit Card,Delivered,Asia Pacific,77.19,14.83,2
+ECOM-1485,2024-03-19 02:47:36.570713,1046,Electronics,Cash on Delivery,Delivered,Europe,186.33,18.66,1
+ECOM-1486,2024-03-20 00:43:15.244055,1066,Toys,Cash on Delivery,Delivered,Asia Pacific,98.43,17.67,5
+ECOM-1487,2024-03-20 22:38:53.917396,1106,Apparel,Cash on Delivery,Delivered,Europe,186.81,7.39,5
+ECOM-1488,2024-03-21 20:34:32.590738,1153,Electronics,PayPal,Delivered,Middle East,142.1,14.67,1
+ECOM-1489,2024-03-22 18:30:11.264080,1121,Beauty,Credit Card,Delivered,Europe,124.78,19.72,3
+ECOM-1490,2024-03-23 16:25:49.937421,1186,Apparel,Bank Transfer,Shipped,North America,101.81,9.29,3
+ECOM-1491,2024-03-24 14:21:28.610763,1173,Toys,PayPal,Cancelled,North America,117.47,17.04,4
+ECOM-1492,2024-03-25 12:17:07.284105,1150,Home & Kitchen,Bank Transfer,Delivered,Middle East,93.1,13.07,5
+ECOM-1493,2024-03-26 10:12:45.957446,1120,Electronics,Credit Card,Shipped,Europe,100.49,13.57,3
+ECOM-1494,2024-03-27 08:08:24.630788,1057,Toys,Credit Card,Delivered,Europe,159.55,4.07,4
+ECOM-1495,2024-03-28 06:04:03.304130,1082,Beauty,Bank Transfer,Delivered,Middle East,35.72,17.32,5
+ECOM-1496,2024-03-29 03:59:41.977471,1023,Apparel,Bank Transfer,Delivered,Europe,185.36,21.91,5
+ECOM-1497,2024-03-30 01:55:20.650813,1074,Sports,Bank Transfer,Shipped,Europe,187.14,5.25,2
+ECOM-1498,2024-03-30 23:50:59.324155,1185,Beauty,Bank Transfer,Returned,Europe,103.72,10.42,5
+ECOM-1499,2024-03-31 21:46:37.997496,1085,Electronics,Credit Card,Shipped,Europe,133.53,3.12,3
+ECOM-1500,2024-04-01 19:42:16.670838,1022,Sports,Bank Transfer,Cancelled,Middle East,64.44,2.68,1
+ECOM-1501,2024-04-02 17:37:55.344180,1130,Home & Kitchen,Cash on Delivery,Returned,Asia Pacific,153.61,24.76,4
+ECOM-1502,2024-04-03 15:33:34.017521,1192,Sports,Credit Card,Delivered,Latin America,70.0,13.35,5
+ECOM-1503,2024-04-04 13:29:12.690863,1173,Toys,Credit Card,Delivered,Middle East,10.8,10.18,2
+ECOM-1504,2024-04-05 11:24:51.364205,1054,Beauty,Bank Transfer,Delivered,North America,238.43,8.32,3
+ECOM-1505,2024-04-06 09:20:30.037546,1090,Sports,PayPal,Returned,Europe,59.59,24.54,2
+ECOM-1506,2024-04-07 07:16:08.710888,1106,Apparel,Bank Transfer,Delivered,Europe,115.94,7.8,1
+ECOM-1507,2024-04-08 05:11:47.384230,1049,Apparel,Credit Card,Delivered,Asia Pacific,136.54,18.69,5
+ECOM-1508,2024-04-09 03:07:26.057571,1053,Home & Kitchen,PayPal,Cancelled,Europe,159.35,8.53,1
+ECOM-1509,2024-04-10 01:03:04.730913,1047,Toys,PayPal,Delivered,Latin America,122.22,3.62,3
+ECOM-1510,2024-04-10 22:58:43.404255,1198,Beauty,PayPal,Shipped,Europe,143.68,17.72,1
+ECOM-1511,2024-04-11 20:54:22.077596,1149,Home & Kitchen,Cash on Delivery,Delivered,Asia Pacific,102.21,2.04,4
+ECOM-1512,2024-04-12 18:50:00.750938,1168,Sports,Bank Transfer,Returned,North America,40.89,17.54,5
+ECOM-1513,2024-04-13 16:45:39.424280,1163,Toys,Bank Transfer,Cancelled,Latin America,119.39,7.76,4
+ECOM-1514,2024-04-14 14:41:18.097622,1191,Toys,Cash on Delivery,Delivered,Latin America,172.06,19.16,4
+ECOM-1515,2024-04-15 12:36:56.770963,1021,Apparel,Credit Card,Shipped,Middle East,62.14,19.7,5
+ECOM-1516,2024-04-16 10:32:35.444305,1176,Sports,Bank Transfer,Delivered,Europe,137.37,18.65,5
+ECOM-1517,2024-04-17 08:28:14.117647,1013,Beauty,Cash on Delivery,Delivered,North America,317.72,2.56,5
+ECOM-1518,2024-04-18 06:23:52.790988,1095,Home & Kitchen,Cash on Delivery,Delivered,Middle East,114.68,18.19,2
+ECOM-1519,2024-04-19 04:19:31.464330,1118,Home & Kitchen,Cash on Delivery,Shipped,Asia Pacific,118.29,24.77,3
+ECOM-1520,2024-04-20 02:15:10.137672,1071,Electronics,Bank Transfer,Delivered,Latin America,38.36,7.58,5
+ECOM-1521,2024-04-21 00:10:48.811013,1029,Apparel,Bank Transfer,Delivered,Middle East,57.13,8.31,2
+ECOM-1522,2024-04-21 22:06:27.484355,1038,Beauty,Cash on Delivery,Shipped,Asia Pacific,70.51,20.71,4
+ECOM-1523,2024-04-22 20:02:06.157697,1164,Toys,Cash on Delivery,Delivered,Latin America,168.21,5.69,1
+ECOM-1524,2024-04-23 17:57:44.831038,1063,Toys,Cash on Delivery,Delivered,Latin America,65.08,17.19,5
+ECOM-1525,2024-04-24 15:53:23.504380,1062,Apparel,PayPal,Delivered,Asia Pacific,28.69,19.37,4
+ECOM-1526,2024-04-25 13:49:02.177722,1184,Sports,PayPal,Delivered,North America,151.77,2.85,4
+ECOM-1527,2024-04-26 11:44:40.851063,1028,Electronics,Cash on Delivery,Cancelled,North America,74.86,14.74,5
+ECOM-1528,2024-04-27 09:40:19.524405,1183,Sports,Credit Card,Delivered,Asia Pacific,39.53,15.25,2
+ECOM-1529,2024-04-28 07:35:58.197747,1184,Home & Kitchen,PayPal,Delivered,Asia Pacific,180.07,8.98,3
+ECOM-1530,2024-04-29 05:31:36.871088,1119,Home & Kitchen,Cash on Delivery,Returned,North America,95.02,22.16,5
+ECOM-1531,2024-04-30 03:27:15.544430,1033,Sports,Bank Transfer,Delivered,North America,160.03,5.74,1
+ECOM-1532,2024-05-01 01:22:54.217772,1031,Home & Kitchen,Cash on Delivery,Shipped,Middle East,38.48,10.38,5
+ECOM-1533,2024-05-01 23:18:32.891113,1056,Sports,PayPal,Delivered,Middle East,20.17,21.52,2
+ECOM-1534,2024-05-02 21:14:11.564455,1115,Beauty,PayPal,Cancelled,North America,129.76,6.38,3
+ECOM-1535,2024-05-03 19:09:50.237797,1030,Toys,Cash on Delivery,Shipped,Asia Pacific,55.7,20.89,3
+ECOM-1536,2024-05-04 17:05:28.911138,1091,Beauty,Cash on Delivery,Cancelled,North America,128.66,3.82,4
+ECOM-1537,2024-05-05 15:01:07.584480,1023,Apparel,Credit Card,Delivered,Middle East,130.32,13.25,5
+ECOM-1538,2024-05-06 12:56:46.257822,1108,Sports,Cash on Delivery,Delivered,Latin America,120.59,3.73,2
+ECOM-1539,2024-05-07 10:52:24.931163,1004,Home & Kitchen,PayPal,Shipped,Latin America,216.43,17.59,1
+ECOM-1540,2024-05-08 08:48:03.604505,1141,Beauty,Cash on Delivery,Delivered,Asia Pacific,468.39,20.18,3
+ECOM-1541,2024-05-09 06:43:42.277847,1011,Electronics,Bank Transfer,Delivered,Middle East,150.22,21.55,4
+ECOM-1542,2024-05-10 04:39:20.951188,1038,Electronics,Bank Transfer,Delivered,Latin America,317.55,24.57,4
+ECOM-1543,2024-05-11 02:34:59.624530,1034,Beauty,Cash on Delivery,Returned,Middle East,96.65,17.46,4
+ECOM-1544,2024-05-12 00:30:38.297872,1166,Apparel,PayPal,Shipped,Asia Pacific,48.41,19.69,2
+ECOM-1545,2024-05-12 22:26:16.971214,1010,Toys,PayPal,Delivered,Middle East,78.22,13.63,5
+ECOM-1546,2024-05-13 20:21:55.644555,1085,Toys,Credit Card,Shipped,Asia Pacific,100.31,22.99,1
+ECOM-1547,2024-05-14 18:17:34.317897,1118,Sports,Bank Transfer,Delivered,Latin America,332.56,16.81,1
+ECOM-1548,2024-05-15 16:13:12.991239,1103,Sports,Bank Transfer,Delivered,Asia Pacific,124.76,22.32,1
+ECOM-1549,2024-05-16 14:08:51.664580,1136,Beauty,Bank Transfer,Delivered,Latin America,221.0,7.42,5
+ECOM-1550,2024-05-17 12:04:30.337922,1160,Electronics,PayPal,Delivered,North America,91.62,13.42,1
+ECOM-1551,2024-05-18 10:00:09.011264,1078,Home & Kitchen,PayPal,Delivered,North America,84.63,18.79,4
+ECOM-1552,2024-05-19 07:55:47.684605,1165,Home & Kitchen,Bank Transfer,Cancelled,North America,37.27,6.66,5
+ECOM-1553,2024-05-20 05:51:26.357947,1063,Toys,Cash on Delivery,Shipped,Asia Pacific,326.59,6.86,4
+ECOM-1554,2024-05-21 03:47:05.031289,1196,Apparel,Cash on Delivery,Delivered,Middle East,262.66,24.49,5
+ECOM-1555,2024-05-22 01:42:43.704630,1100,Home & Kitchen,PayPal,Delivered,Europe,138.22,12.0,1
+ECOM-1556,2024-05-22 23:38:22.377972,1147,Home & Kitchen,PayPal,Delivered,North America,104.03,6.18,3
+ECOM-1557,2024-05-23 21:34:01.051314,1175,Electronics,Cash on Delivery,Returned,Latin America,127.64,9.62,3
+ECOM-1558,2024-05-24 19:29:39.724655,1158,Electronics,Bank Transfer,Cancelled,Middle East,46.98,11.14,4
+ECOM-1559,2024-05-25 17:25:18.397997,1170,Home & Kitchen,PayPal,Cancelled,Middle East,159.86,16.33,4
+ECOM-1560,2024-05-26 15:20:57.071339,1107,Electronics,Bank Transfer,Delivered,Asia Pacific,250.55,23.23,3
+ECOM-1561,2024-05-27 13:16:35.744680,1008,Electronics,Credit Card,Delivered,Asia Pacific,257.65,24.69,2
+ECOM-1562,2024-05-28 11:12:14.418022,1098,Home & Kitchen,PayPal,Delivered,North America,38.5,16.99,1
+ECOM-1563,2024-05-29 09:07:53.091364,1036,Apparel,Bank Transfer,Delivered,North America,219.85,18.1,3
+ECOM-1564,2024-05-30 07:03:31.764705,1177,Beauty,Bank Transfer,Delivered,Latin America,47.22,9.4,2
+ECOM-1565,2024-05-31 04:59:10.438047,1047,Electronics,Bank Transfer,Delivered,Europe,21.49,21.71,3
+ECOM-1566,2024-06-01 02:54:49.111389,1045,Apparel,PayPal,Returned,Middle East,224.55,7.01,4
+ECOM-1567,2024-06-02 00:50:27.784730,1049,Home & Kitchen,Bank Transfer,Delivered,Middle East,86.94,4.45,3
+ECOM-1568,2024-06-02 22:46:06.458072,1128,Toys,Bank Transfer,Delivered,Europe,206.83,24.38,3
+ECOM-1569,2024-06-03 20:41:45.131414,1114,Beauty,Bank Transfer,Shipped,Europe,196.4,21.88,1
+ECOM-1570,2024-06-04 18:37:23.804755,1189,Toys,Credit Card,Delivered,Middle East,182.32,8.98,4
+ECOM-1571,2024-06-05 16:33:02.478097,1083,Home & Kitchen,Cash on Delivery,Shipped,North America,126.7,17.53,3
+ECOM-1572,2024-06-06 14:28:41.151439,1056,Home & Kitchen,Bank Transfer,Delivered,Asia Pacific,51.14,12.74,1
+ECOM-1573,2024-06-07 12:24:19.824780,1009,Home & Kitchen,Bank Transfer,Cancelled,Latin America,100.45,9.43,2
+ECOM-1574,2024-06-08 10:19:58.498122,1001,Toys,Credit Card,Delivered,Middle East,260.07,8.6,4
+ECOM-1575,2024-06-09 08:15:37.171464,1074,Toys,Bank Transfer,Delivered,Middle East,209.88,5.13,5
+ECOM-1576,2024-06-10 06:11:15.844806,1185,Toys,Credit Card,Shipped,North America,103.78,14.63,3
+ECOM-1577,2024-06-11 04:06:54.518147,1104,Sports,PayPal,Delivered,North America,102.98,12.27,5
+ECOM-1578,2024-06-12 02:02:33.191489,1178,Beauty,Cash on Delivery,Delivered,Europe,173.05,13.78,1
+ECOM-1579,2024-06-12 23:58:11.864831,1020,Beauty,PayPal,Delivered,Europe,132.27,6.95,2
+ECOM-1580,2024-06-13 21:53:50.538172,1018,Toys,Cash on Delivery,Delivered,North America,107.17,23.59,5
+ECOM-1581,2024-06-14 19:49:29.211514,1166,Apparel,Credit Card,Shipped,Latin America,164.75,16.69,1
+ECOM-1582,2024-06-15 17:45:07.884856,1021,Home & Kitchen,Cash on Delivery,Delivered,North America,161.58,22.69,4
+ECOM-1583,2024-06-16 15:40:46.558197,1010,Toys,Cash on Delivery,Delivered,Middle East,79.65,4.51,2
+ECOM-1584,2024-06-17 13:36:25.231539,1080,Home & Kitchen,Cash on Delivery,Delivered,Asia Pacific,148.17,16.33,2
+ECOM-1585,2024-06-18 11:32:03.904881,1184,Apparel,PayPal,Shipped,Middle East,155.89,21.54,3
+ECOM-1586,2024-06-19 09:27:42.578222,1137,Beauty,PayPal,Delivered,Europe,120.93,9.61,2
+ECOM-1587,2024-06-20 07:23:21.251564,1019,Apparel,PayPal,Delivered,Europe,74.09,6.49,5
+ECOM-1588,2024-06-21 05:18:59.924906,1167,Toys,PayPal,Cancelled,Middle East,98.48,8.1,5
+ECOM-1589,2024-06-22 03:14:38.598247,1168,Toys,Cash on Delivery,Delivered,Europe,64.27,8.28,3
+ECOM-1590,2024-06-23 01:10:17.271589,1160,Apparel,PayPal,Shipped,Middle East,150.55,12.29,3
+ECOM-1591,2024-06-23 23:05:55.944931,1180,Beauty,PayPal,Delivered,North America,38.67,9.5,1
+ECOM-1592,2024-06-24 21:01:34.618272,1047,Toys,PayPal,Delivered,North America,275.17,8.24,2
+ECOM-1593,2024-06-25 18:57:13.291614,1195,Sports,Credit Card,Delivered,Middle East,243.95,16.92,1
+ECOM-1594,2024-06-26 16:52:51.964956,1064,Apparel,Cash on Delivery,Cancelled,Middle East,158.07,3.22,5
+ECOM-1595,2024-06-27 14:48:30.638297,1160,Beauty,Bank Transfer,Delivered,North America,202.92,9.83,2
+ECOM-1596,2024-06-28 12:44:09.311639,1115,Beauty,PayPal,Delivered,Latin America,195.25,17.86,2
+ECOM-1597,2024-06-29 10:39:47.984981,1155,Beauty,Bank Transfer,Delivered,North America,133.49,6.04,5
+ECOM-1598,2024-06-30 08:35:26.658322,1125,Electronics,Cash on Delivery,Delivered,Latin America,109.03,7.08,4
+ECOM-1599,2024-07-01 06:31:05.331664,1128,Apparel,Credit Card,Delivered,Middle East,101.47,6.62,4
+ECOM-1600,2024-07-02 04:26:44.005006,1123,Toys,PayPal,Delivered,Latin America,280.87,2.02,1
+ECOM-1601,2024-07-03 02:22:22.678347,1155,Apparel,Credit Card,Delivered,Latin America,72.32,12.9,3
+ECOM-1602,2024-07-04 00:18:01.351689,1147,Apparel,Credit Card,Delivered,Europe,73.28,2.9,3
+ECOM-1603,2024-07-04 22:13:40.025031,1026,Apparel,PayPal,Delivered,Middle East,213.13,8.28,2
+ECOM-1604,2024-07-05 20:09:18.698372,1165,Apparel,PayPal,Delivered,Europe,201.81,24.88,4
+ECOM-1605,2024-07-06 18:04:57.371714,1107,Electronics,Bank Transfer,Delivered,Asia Pacific,105.12,23.12,5
+ECOM-1606,2024-07-07 16:00:36.045056,1064,Home & Kitchen,Credit Card,Delivered,Europe,167.98,6.95,2
+ECOM-1607,2024-07-08 13:56:14.718397,1102,Toys,Bank Transfer,Delivered,Asia Pacific,180.85,9.13,2
+ECOM-1608,2024-07-09 11:51:53.391739,1193,Electronics,Credit Card,Delivered,Latin America,49.34,12.67,2
+ECOM-1609,2024-07-10 09:47:32.065081,1171,Apparel,Credit Card,Delivered,Asia Pacific,252.81,21.42,5
+ECOM-1610,2024-07-11 07:43:10.738423,1166,Electronics,Cash on Delivery,Delivered,North America,180.81,20.46,1
+ECOM-1611,2024-07-12 05:38:49.411764,1092,Beauty,Bank Transfer,Delivered,Europe,159.78,4.9,5
+ECOM-1612,2024-07-13 03:34:28.085106,1156,Apparel,Cash on Delivery,Shipped,Middle East,181.62,4.86,4
+ECOM-1613,2024-07-14 01:30:06.758448,1077,Sports,Credit Card,Delivered,Asia Pacific,148.72,11.58,3
+ECOM-1614,2024-07-14 23:25:45.431789,1137,Beauty,Credit Card,Shipped,Asia Pacific,116.72,22.01,3
+ECOM-1615,2024-07-15 21:21:24.105131,1127,Sports,PayPal,Delivered,Asia Pacific,27.59,22.29,5
+ECOM-1616,2024-07-16 19:17:02.778473,1049,Beauty,PayPal,Shipped,Europe,134.2,4.47,4
+ECOM-1617,2024-07-17 17:12:41.451814,1053,Home & Kitchen,Bank Transfer,Delivered,Asia Pacific,46.1,15.21,2
+ECOM-1618,2024-07-18 15:08:20.125156,1012,Toys,PayPal,Delivered,Middle East,343.15,5.58,1
+ECOM-1619,2024-07-19 13:03:58.798498,1027,Home & Kitchen,Credit Card,Delivered,Latin America,115.53,17.78,4
+ECOM-1620,2024-07-20 10:59:37.471839,1086,Toys,Bank Transfer,Cancelled,Middle East,339.87,23.08,1
+ECOM-1621,2024-07-21 08:55:16.145181,1095,Toys,Credit Card,Delivered,Latin America,135.56,12.46,1
+ECOM-1622,2024-07-22 06:50:54.818523,1033,Beauty,Credit Card,Delivered,Latin America,84.12,3.91,5
+ECOM-1623,2024-07-23 04:46:33.491864,1083,Sports,PayPal,Delivered,North America,248.73,15.32,3
+ECOM-1624,2024-07-24 02:42:12.165206,1120,Apparel,PayPal,Shipped,Europe,156.04,11.4,4
+ECOM-1625,2024-07-25 00:37:50.838548,1046,Sports,Cash on Delivery,Delivered,Europe,412.19,20.65,2
+ECOM-1626,2024-07-25 22:33:29.511889,1067,Sports,Bank Transfer,Delivered,North America,82.73,9.83,1
+ECOM-1627,2024-07-26 20:29:08.185231,1073,Toys,Bank Transfer,Delivered,North America,254.6,22.12,1
+ECOM-1628,2024-07-27 18:24:46.858573,1101,Apparel,PayPal,Cancelled,Middle East,262.21,8.3,2
+ECOM-1629,2024-07-28 16:20:25.531914,1073,Sports,Bank Transfer,Delivered,Europe,189.52,5.62,1
+ECOM-1630,2024-07-29 14:16:04.205256,1147,Home & Kitchen,Cash on Delivery,Delivered,North America,263.44,9.05,3
+ECOM-1631,2024-07-30 12:11:42.878598,1065,Apparel,Credit Card,Returned,Europe,117.16,2.8,2
+ECOM-1632,2024-07-31 10:07:21.551939,1086,Apparel,Bank Transfer,Delivered,Europe,72.08,8.47,3
+ECOM-1633,2024-08-01 08:03:00.225281,1075,Beauty,Credit Card,Delivered,North America,89.06,17.18,3
+ECOM-1634,2024-08-02 05:58:38.898623,1036,Apparel,Cash on Delivery,Delivered,North America,130.03,5.27,2
+ECOM-1635,2024-08-03 03:54:17.571964,1137,Electronics,Bank Transfer,Delivered,Middle East,195.12,4.56,3
+ECOM-1636,2024-08-04 01:49:56.245306,1047,Home & Kitchen,Credit Card,Delivered,Latin America,75.49,5.04,1
+ECOM-1637,2024-08-04 23:45:34.918648,1059,Beauty,PayPal,Delivered,Asia Pacific,101.53,3.78,2
+ECOM-1638,2024-08-05 21:41:13.591989,1158,Apparel,PayPal,Shipped,Middle East,79.54,22.12,5
+ECOM-1639,2024-08-06 19:36:52.265331,1189,Toys,Bank Transfer,Shipped,Latin America,215.1,23.71,5
+ECOM-1640,2024-08-07 17:32:30.938673,1134,Sports,Credit Card,Delivered,Latin America,338.37,3.07,3
+ECOM-1641,2024-08-08 15:28:09.612015,1183,Beauty,Cash on Delivery,Delivered,North America,64.0,19.48,5
+ECOM-1642,2024-08-09 13:23:48.285356,1170,Toys,PayPal,Delivered,Latin America,172.58,18.95,3
+ECOM-1643,2024-08-10 11:19:26.958698,1096,Home & Kitchen,Credit Card,Returned,North America,230.48,24.93,1
+ECOM-1644,2024-08-11 09:15:05.632040,1154,Electronics,Cash on Delivery,Delivered,North America,110.89,10.0,5
+ECOM-1645,2024-08-12 07:10:44.305381,1065,Electronics,Bank Transfer,Delivered,Asia Pacific,47.95,8.57,3
+ECOM-1646,2024-08-13 05:06:22.978723,1092,Toys,Cash on Delivery,Delivered,Middle East,247.43,12.42,4
+ECOM-1647,2024-08-14 03:02:01.652065,1107,Toys,Credit Card,Delivered,North America,45.77,21.7,4
+ECOM-1648,2024-08-15 00:57:40.325406,1192,Sports,Credit Card,Delivered,Europe,288.62,18.76,2
+ECOM-1649,2024-08-15 22:53:18.998748,1169,Electronics,PayPal,Shipped,Europe,78.44,12.85,4
+ECOM-1650,2024-08-16 20:48:57.672090,1097,Apparel,Cash on Delivery,Delivered,Europe,40.89,7.62,3
+ECOM-1651,2024-08-17 18:44:36.345431,1130,Electronics,Cash on Delivery,Cancelled,Latin America,93.37,18.72,2
+ECOM-1652,2024-08-18 16:40:15.018773,1040,Electronics,Credit Card,Delivered,Europe,123.84,21.65,2
+ECOM-1653,2024-08-19 14:35:53.692115,1160,Apparel,Cash on Delivery,Shipped,Europe,139.87,11.2,4
+ECOM-1654,2024-08-20 12:31:32.365456,1110,Beauty,PayPal,Shipped,North America,180.98,17.38,2
+ECOM-1655,2024-08-21 10:27:11.038798,1106,Electronics,Cash on Delivery,Returned,North America,147.43,11.2,1
+ECOM-1656,2024-08-22 08:22:49.712140,1153,Toys,Bank Transfer,Delivered,North America,322.96,13.01,5
+ECOM-1657,2024-08-23 06:18:28.385481,1126,Home & Kitchen,Cash on Delivery,Delivered,Asia Pacific,120.32,14.07,2
+ECOM-1658,2024-08-24 04:14:07.058823,1014,Apparel,Credit Card,Delivered,Asia Pacific,152.07,19.84,4
+ECOM-1659,2024-08-25 02:09:45.732165,1057,Beauty,Bank Transfer,Delivered,Asia Pacific,144.65,24.48,4
+ECOM-1660,2024-08-26 00:05:24.405506,1035,Sports,Credit Card,Delivered,Latin America,37.25,12.22,5
+ECOM-1661,2024-08-26 22:01:03.078848,1146,Apparel,Bank Transfer,Returned,Asia Pacific,55.93,9.87,4
+ECOM-1662,2024-08-27 19:56:41.752190,1007,Electronics,Credit Card,Returned,North America,130.34,10.59,4
+ECOM-1663,2024-08-28 17:52:20.425531,1040,Electronics,Cash on Delivery,Delivered,Europe,163.01,5.08,5
+ECOM-1664,2024-08-29 15:47:59.098873,1119,Toys,Credit Card,Delivered,Europe,26.64,8.83,5
+ECOM-1665,2024-08-30 13:43:37.772215,1138,Electronics,Credit Card,Cancelled,Latin America,331.29,3.99,1
+ECOM-1666,2024-08-31 11:39:16.445556,1100,Beauty,Cash on Delivery,Returned,Europe,170.72,11.84,4
+ECOM-1667,2024-09-01 09:34:55.118898,1172,Home & Kitchen,Cash on Delivery,Delivered,North America,125.95,5.85,1
+ECOM-1668,2024-09-02 07:30:33.792240,1183,Sports,Credit Card,Delivered,Middle East,166.18,9.97,5
+ECOM-1669,2024-09-03 05:26:12.465581,1026,Electronics,Bank Transfer,Shipped,Asia Pacific,89.98,20.25,1
+ECOM-1670,2024-09-04 03:21:51.138923,1190,Toys,PayPal,Delivered,North America,140.77,7.66,2
+ECOM-1671,2024-09-05 01:17:29.812265,1122,Sports,PayPal,Delivered,Middle East,154.23,16.07,1
+ECOM-1672,2024-09-05 23:13:08.485607,1127,Home & Kitchen,PayPal,Returned,Europe,249.07,22.73,4
+ECOM-1673,2024-09-06 21:08:47.158948,1019,Apparel,PayPal,Returned,Latin America,113.82,15.04,1
+ECOM-1674,2024-09-07 19:04:25.832290,1124,Toys,Credit Card,Cancelled,Latin America,46.7,6.46,1
+ECOM-1675,2024-09-08 17:00:04.505632,1145,Apparel,PayPal,Shipped,Europe,70.82,9.93,3
+ECOM-1676,2024-09-09 14:55:43.178973,1116,Home & Kitchen,Credit Card,Delivered,Asia Pacific,108.23,15.58,5
+ECOM-1677,2024-09-10 12:51:21.852315,1016,Home & Kitchen,Credit Card,Delivered,Asia Pacific,50.54,13.65,3
+ECOM-1678,2024-09-11 10:47:00.525657,1104,Apparel,PayPal,Delivered,Middle East,65.69,5.42,3
+ECOM-1679,2024-09-12 08:42:39.198998,1187,Home & Kitchen,Cash on Delivery,Delivered,North America,71.26,12.28,4
+ECOM-1680,2024-09-13 06:38:17.872340,1144,Electronics,Bank Transfer,Delivered,Europe,103.74,14.49,3
+ECOM-1681,2024-09-14 04:33:56.545682,1027,Electronics,PayPal,Delivered,North America,169.43,8.15,2
+ECOM-1682,2024-09-15 02:29:35.219023,1191,Apparel,PayPal,Delivered,Middle East,100.69,16.09,3
+ECOM-1683,2024-09-16 00:25:13.892365,1191,Electronics,Bank Transfer,Shipped,North America,176.1,3.61,1
+ECOM-1684,2024-09-16 22:20:52.565707,1033,Home & Kitchen,Cash on Delivery,Delivered,Asia Pacific,126.02,9.74,2
+ECOM-1685,2024-09-17 20:16:31.239048,1160,Toys,Bank Transfer,Delivered,Middle East,67.21,20.5,4
+ECOM-1686,2024-09-18 18:12:09.912390,1081,Electronics,Bank Transfer,Delivered,Latin America,155.76,7.96,2
+ECOM-1687,2024-09-19 16:07:48.585732,1118,Electronics,Bank Transfer,Delivered,Europe,141.84,15.92,1
+ECOM-1688,2024-09-20 14:03:27.259073,1089,Electronics,Bank Transfer,Cancelled,North America,178.8,11.43,1
+ECOM-1689,2024-09-21 11:59:05.932415,1156,Beauty,PayPal,Delivered,Middle East,200.19,9.28,5
+ECOM-1690,2024-09-22 09:54:44.605757,1199,Apparel,PayPal,Delivered,North America,253.5,23.07,2
+ECOM-1691,2024-09-23 07:50:23.279098,1159,Home & Kitchen,PayPal,Shipped,North America,172.73,9.9,1
+ECOM-1692,2024-09-24 05:46:01.952440,1186,Electronics,Credit Card,Delivered,Latin America,139.08,7.44,4
+ECOM-1693,2024-09-25 03:41:40.625782,1189,Apparel,Cash on Delivery,Delivered,Latin America,179.27,22.91,3
+ECOM-1694,2024-09-26 01:37:19.299123,1018,Home & Kitchen,Cash on Delivery,Delivered,Middle East,94.51,19.16,3
+ECOM-1695,2024-09-26 23:32:57.972465,1050,Home & Kitchen,Bank Transfer,Delivered,Latin America,90.11,17.68,5
+ECOM-1696,2024-09-27 21:28:36.645807,1144,Beauty,Credit Card,Delivered,North America,273.03,3.14,2
+ECOM-1697,2024-09-28 19:24:15.319148,1118,Sports,PayPal,Delivered,North America,88.42,5.02,3
+ECOM-1698,2024-09-29 17:19:53.992490,1010,Home & Kitchen,Credit Card,Delivered,Europe,72.49,16.68,4
+ECOM-1699,2024-09-30 15:15:32.665832,1019,Toys,Bank Transfer,Delivered,North America,172.67,6.82,4
+ECOM-1700,2024-10-01 13:11:11.339173,1104,Beauty,PayPal,Delivered,Latin America,95.02,7.19,2
+ECOM-1701,2024-10-02 11:06:50.012515,1123,Apparel,Credit Card,Delivered,North America,199.03,19.92,4
+ECOM-1702,2024-10-03 09:02:28.685857,1033,Apparel,Cash on Delivery,Shipped,Asia Pacific,243.05,8.58,4
+ECOM-1703,2024-10-04 06:58:07.359199,1034,Apparel,Bank Transfer,Delivered,Latin America,79.3,3.65,1
+ECOM-1704,2024-10-05 04:53:46.032540,1025,Beauty,Bank Transfer,Delivered,Middle East,184.74,2.84,1
+ECOM-1705,2024-10-06 02:49:24.705882,1112,Apparel,Credit Card,Delivered,Europe,87.07,12.19,4
+ECOM-1706,2024-10-07 00:45:03.379224,1001,Toys,PayPal,Delivered,Asia Pacific,109.67,16.19,1
+ECOM-1707,2024-10-07 22:40:42.052565,1114,Home & Kitchen,Credit Card,Delivered,Asia Pacific,151.6,21.98,5
+ECOM-1708,2024-10-08 20:36:20.725907,1095,Toys,PayPal,Shipped,Middle East,90.23,4.55,1
+ECOM-1709,2024-10-09 18:31:59.399249,1093,Sports,Cash on Delivery,Cancelled,Asia Pacific,143.68,6.52,5
+ECOM-1710,2024-10-10 16:27:38.072590,1135,Home & Kitchen,PayPal,Delivered,Europe,115.28,14.19,4
+ECOM-1711,2024-10-11 14:23:16.745932,1104,Apparel,Credit Card,Delivered,Middle East,201.58,10.37,3
+ECOM-1712,2024-10-12 12:18:55.419274,1145,Sports,Cash on Delivery,Cancelled,Latin America,201.88,13.1,2
+ECOM-1713,2024-10-13 10:14:34.092615,1152,Apparel,Credit Card,Delivered,Asia Pacific,90.52,23.25,2
+ECOM-1714,2024-10-14 08:10:12.765957,1184,Apparel,Credit Card,Delivered,North America,153.62,14.53,4
+ECOM-1715,2024-10-15 06:05:51.439299,1159,Toys,Credit Card,Delivered,Asia Pacific,219.29,11.55,4
+ECOM-1716,2024-10-16 04:01:30.112640,1103,Home & Kitchen,Credit Card,Delivered,Latin America,64.96,24.76,2
+ECOM-1717,2024-10-17 01:57:08.785982,1098,Electronics,PayPal,Shipped,Latin America,114.85,3.5,3
+ECOM-1718,2024-10-17 23:52:47.459324,1047,Home & Kitchen,Bank Transfer,Delivered,Asia Pacific,149.73,23.44,5
+ECOM-1719,2024-10-18 21:48:26.132665,1119,Home & Kitchen,Bank Transfer,Returned,North America,63.08,13.54,2
+ECOM-1720,2024-10-19 19:44:04.806007,1027,Toys,Credit Card,Delivered,Asia Pacific,97.39,13.59,4
+ECOM-1721,2024-10-20 17:39:43.479349,1186,Sports,Credit Card,Delivered,Latin America,304.25,23.21,1
+ECOM-1722,2024-10-21 15:35:22.152690,1169,Apparel,PayPal,Delivered,Latin America,88.26,13.67,5
+ECOM-1723,2024-10-22 13:31:00.826032,1023,Electronics,Cash on Delivery,Delivered,North America,94.51,12.08,1
+ECOM-1724,2024-10-23 11:26:39.499374,1157,Beauty,Cash on Delivery,Delivered,Europe,40.89,8.27,2
+ECOM-1725,2024-10-24 09:22:18.172715,1023,Electronics,Bank Transfer,Delivered,Asia Pacific,171.58,17.15,3
+ECOM-1726,2024-10-25 07:17:56.846057,1144,Apparel,PayPal,Delivered,North America,57.95,15.1,2
+ECOM-1727,2024-10-26 05:13:35.519399,1017,Electronics,Credit Card,Shipped,Latin America,116.37,6.93,1
+ECOM-1728,2024-10-27 03:09:14.192740,1097,Electronics,Credit Card,Delivered,North America,72.96,18.32,4
+ECOM-1729,2024-10-28 01:04:52.866082,1131,Toys,Credit Card,Delivered,Middle East,143.52,16.81,1
+ECOM-1730,2024-10-28 23:00:31.539424,1145,Electronics,Credit Card,Delivered,Latin America,12.0,11.14,5
+ECOM-1731,2024-10-29 20:56:10.212765,1083,Electronics,Bank Transfer,Delivered,Middle East,132.07,2.1,1
+ECOM-1732,2024-10-30 18:51:48.886107,1184,Toys,PayPal,Shipped,Middle East,152.15,12.27,2
+ECOM-1733,2024-10-31 16:47:27.559449,1154,Apparel,Bank Transfer,Shipped,Europe,98.96,2.14,5
+ECOM-1734,2024-11-01 14:43:06.232790,1041,Sports,Cash on Delivery,Shipped,Latin America,102.85,3.72,1
+ECOM-1735,2024-11-02 12:38:44.906132,1134,Electronics,Cash on Delivery,Delivered,Asia Pacific,91.47,11.9,1
+ECOM-1736,2024-11-03 10:34:23.579474,1146,Electronics,PayPal,Delivered,North America,115.44,3.88,4
+ECOM-1737,2024-11-04 08:30:02.252816,1066,Electronics,Bank Transfer,Delivered,Europe,275.06,8.34,1
+ECOM-1738,2024-11-05 06:25:40.926157,1147,Sports,Credit Card,Delivered,Europe,205.15,17.08,5
+ECOM-1739,2024-11-06 04:21:19.599499,1179,Beauty,Credit Card,Delivered,Asia Pacific,115.38,9.1,3
+ECOM-1740,2024-11-07 02:16:58.272841,1163,Home & Kitchen,PayPal,Delivered,Europe,97.41,24.95,5
+ECOM-1741,2024-11-08 00:12:36.946182,1152,Apparel,PayPal,Delivered,Asia Pacific,194.36,23.07,2
+ECOM-1742,2024-11-08 22:08:15.619524,1126,Electronics,Cash on Delivery,Delivered,Asia Pacific,138.13,15.46,1
+ECOM-1743,2024-11-09 20:03:54.292866,1054,Beauty,Cash on Delivery,Delivered,Europe,62.02,24.24,5
+ECOM-1744,2024-11-10 17:59:32.966207,1159,Apparel,Cash on Delivery,Shipped,Middle East,107.4,21.96,4
+ECOM-1745,2024-11-11 15:55:11.639549,1072,Beauty,PayPal,Cancelled,Europe,258.88,9.33,5
+ECOM-1746,2024-11-12 13:50:50.312891,1106,Sports,PayPal,Delivered,Middle East,167.7,19.24,2
+ECOM-1747,2024-11-13 11:46:28.986232,1062,Toys,Bank Transfer,Cancelled,Europe,98.07,5.15,3
+ECOM-1748,2024-11-14 09:42:07.659574,1062,Home & Kitchen,Credit Card,Delivered,Latin America,44.37,17.74,3
+ECOM-1749,2024-11-15 07:37:46.332916,1031,Electronics,Cash on Delivery,Cancelled,Europe,143.09,13.29,3
+ECOM-1750,2024-11-16 05:33:25.006257,1192,Apparel,Cash on Delivery,Returned,North America,126.43,2.39,2
+ECOM-1751,2024-11-17 03:29:03.679599,1029,Toys,Bank Transfer,Delivered,North America,113.23,8.31,2
+ECOM-1752,2024-11-18 01:24:42.352941,1017,Beauty,Cash on Delivery,Shipped,Latin America,195.59,23.97,4
+ECOM-1753,2024-11-18 23:20:21.026282,1187,Beauty,PayPal,Returned,Latin America,168.89,9.26,1
+ECOM-1754,2024-11-19 21:15:59.699624,1111,Home & Kitchen,PayPal,Cancelled,Europe,45.48,6.17,2
+ECOM-1755,2024-11-20 19:11:38.372966,1087,Electronics,PayPal,Returned,Middle East,126.85,6.31,2
+ECOM-1756,2024-11-21 17:07:17.046307,1147,Toys,PayPal,Delivered,Asia Pacific,53.81,13.02,1
+ECOM-1757,2024-11-22 15:02:55.719649,1076,Sports,Credit Card,Delivered,North America,92.44,21.38,1
+ECOM-1758,2024-11-23 12:58:34.392991,1025,Toys,Cash on Delivery,Shipped,Asia Pacific,51.04,19.43,3
+ECOM-1759,2024-11-24 10:54:13.066332,1145,Toys,Credit Card,Delivered,Middle East,52.34,12.05,1
+ECOM-1760,2024-11-25 08:49:51.739674,1035,Apparel,Cash on Delivery,Delivered,Latin America,153.36,6.8,2
+ECOM-1761,2024-11-26 06:45:30.413016,1110,Apparel,Bank Transfer,Delivered,Latin America,144.67,3.06,3
+ECOM-1762,2024-11-27 04:41:09.086357,1189,Apparel,Bank Transfer,Delivered,North America,121.29,12.64,5
+ECOM-1763,2024-11-28 02:36:47.759699,1187,Toys,Credit Card,Delivered,Europe,87.47,20.74,1
+ECOM-1764,2024-11-29 00:32:26.433041,1072,Beauty,Bank Transfer,Shipped,Asia Pacific,48.43,18.78,3
+ECOM-1765,2024-11-29 22:28:05.106382,1156,Home & Kitchen,Credit Card,Delivered,North America,92.71,11.4,1
+ECOM-1766,2024-11-30 20:23:43.779724,1122,Toys,PayPal,Shipped,Asia Pacific,145.05,15.68,3
+ECOM-1767,2024-12-01 18:19:22.453066,1095,Beauty,Credit Card,Shipped,North America,143.12,12.03,3
+ECOM-1768,2024-12-02 16:15:01.126408,1027,Toys,Credit Card,Delivered,North America,255.88,15.32,4
+ECOM-1769,2024-12-03 14:10:39.799749,1075,Toys,Credit Card,Delivered,North America,235.64,13.9,3
+ECOM-1770,2024-12-04 12:06:18.473091,1130,Electronics,Credit Card,Delivered,Europe,124.17,17.66,5
+ECOM-1771,2024-12-05 10:01:57.146433,1197,Home & Kitchen,Bank Transfer,Returned,Middle East,92.1,13.68,1
+ECOM-1772,2024-12-06 07:57:35.819774,1000,Sports,Credit Card,Shipped,North America,74.17,23.63,1
+ECOM-1773,2024-12-07 05:53:14.493116,1143,Sports,PayPal,Delivered,Latin America,43.22,11.84,1
+ECOM-1774,2024-12-08 03:48:53.166458,1169,Electronics,Cash on Delivery,Delivered,Europe,57.91,2.37,2
+ECOM-1775,2024-12-09 01:44:31.839799,1190,Apparel,Bank Transfer,Delivered,North America,145.17,7.44,1
+ECOM-1776,2024-12-09 23:40:10.513141,1084,Beauty,Bank Transfer,Delivered,Europe,175.57,13.51,1
+ECOM-1777,2024-12-10 21:35:49.186483,1023,Sports,Credit Card,Returned,Middle East,103.81,14.43,2
+ECOM-1778,2024-12-11 19:31:27.859824,1054,Electronics,Bank Transfer,Shipped,North America,404.48,14.7,5
+ECOM-1779,2024-12-12 17:27:06.533166,1170,Beauty,Cash on Delivery,Delivered,North America,58.3,18.43,5
+ECOM-1780,2024-12-13 15:22:45.206508,1175,Apparel,Credit Card,Cancelled,Latin America,40.2,8.32,1
+ECOM-1781,2024-12-14 13:18:23.879849,1127,Apparel,PayPal,Delivered,Asia Pacific,400.55,17.29,5
+ECOM-1782,2024-12-15 11:14:02.553191,1024,Beauty,Bank Transfer,Cancelled,Europe,46.77,18.19,2
+ECOM-1783,2024-12-16 09:09:41.226533,1024,Home & Kitchen,PayPal,Delivered,Middle East,102.94,11.46,3
+ECOM-1784,2024-12-17 07:05:19.899874,1095,Beauty,Credit Card,Delivered,Latin America,78.22,11.25,2
+ECOM-1785,2024-12-18 05:00:58.573216,1117,Apparel,Bank Transfer,Cancelled,Europe,151.44,6.12,3
+ECOM-1786,2024-12-19 02:56:37.246558,1006,Sports,Bank Transfer,Delivered,Asia Pacific,98.24,11.52,4
+ECOM-1787,2024-12-20 00:52:15.919899,1137,Electronics,Bank Transfer,Delivered,North America,175.88,20.1,4
+ECOM-1788,2024-12-20 22:47:54.593241,1108,Toys,Bank Transfer,Returned,Europe,197.83,22.91,3
+ECOM-1789,2024-12-21 20:43:33.266583,1002,Electronics,Bank Transfer,Delivered,Asia Pacific,42.91,15.65,4
+ECOM-1790,2024-12-22 18:39:11.939924,1019,Sports,PayPal,Delivered,North America,72.6,8.89,4
+ECOM-1791,2024-12-23 16:34:50.613266,1090,Home & Kitchen,Credit Card,Delivered,Latin America,184.5,17.69,1
+ECOM-1792,2024-12-24 14:30:29.286608,1144,Home & Kitchen,Cash on Delivery,Delivered,Latin America,220.25,19.02,2
+ECOM-1793,2024-12-25 12:26:07.959949,1165,Electronics,Credit Card,Delivered,Europe,135.99,9.64,1
+ECOM-1794,2024-12-26 10:21:46.633291,1086,Sports,PayPal,Delivered,Europe,157.93,21.01,4
+ECOM-1795,2024-12-27 08:17:25.306633,1059,Electronics,Cash on Delivery,Shipped,North America,264.98,3.7,3
+ECOM-1796,2024-12-28 06:13:03.979974,1193,Beauty,Bank Transfer,Delivered,Asia Pacific,99.0,2.25,4
+ECOM-1797,2024-12-29 04:08:42.653316,1091,Sports,PayPal,Delivered,North America,135.12,4.83,3
+ECOM-1798,2024-12-30 02:04:21.326658,1063,Toys,PayPal,Shipped,Europe,235.79,5.59,2
+ECOM-1799,2024-12-31 00:00:00.000000,1088,Sports,Cash on Delivery,Delivered,Asia Pacific,244.05,22.22,1

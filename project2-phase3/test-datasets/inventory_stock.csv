@@ -1,0 +1,501 @@
+SKU,Product_Name,Warehouse,Category,Supplier,Stock_Level,Reorder_Point,Unit_Cost,Last_Restock_Date
+SKU-2000,Product 0,Warehouse D,Spare Part,Supplier X,964,55,166.53,2023-06-01 00:00:00.000000
+SKU-2001,Product 1,Warehouse B,Packaging,Supplier Y,1375,94,212.44,2023-06-02 02:24:17.314629
+SKU-2002,Product 2,Warehouse A,Spare Part,Supplier Z,1365,156,40.96,2023-06-03 04:48:34.629258
+SKU-2003,Product 3,Warehouse B,Raw Material,Supplier Z,1926,59,212.12,2023-06-04 07:12:51.943887
+SKU-2004,Product 4,Warehouse D,Spare Part,Supplier X,932,91,4.05,2023-06-05 09:37:09.258517
+SKU-2005,Product 5,Warehouse B,Finished Good,Supplier Z,1815,247,111.05,2023-06-06 12:01:26.573146
+SKU-2006,Product 6,Warehouse D,Finished Good,Supplier Y,1957,85,118.54,2023-06-07 14:25:43.887775
+SKU-2007,Product 7,Warehouse B,Spare Part,Supplier Z,1143,91,94.15,2023-06-08 16:50:01.202404
+SKU-2008,Product 8,Warehouse D,Finished Good,Supplier Y,182,176,147.01,2023-06-09 19:14:18.517034
+SKU-2009,Product 9,Warehouse C,Finished Good,Supplier X,752,72,228.8,2023-06-10 21:38:35.831663
+SKU-2010,Product 10,Warehouse A,Spare Part,Supplier X,1529,113,82.42,2023-06-12 00:02:53.146292
+SKU-2011,Product 11,Warehouse C,Spare Part,Supplier X,1161,284,145.24,2023-06-13 02:27:10.460921
+SKU-2012,Product 12,Warehouse B,Finished Good,Supplier Z,1872,207,219.49,2023-06-14 04:51:27.775551
+SKU-2013,Product 13,Warehouse A,Finished Good,Supplier Z,1631,290,193.48,2023-06-15 07:15:45.090180
+SKU-2014,Product 14,Warehouse C,Raw Material,Supplier Y,126,138,11.14,2023-06-16 09:40:02.404809
+SKU-2015,Product 15,Warehouse A,Raw Material,Supplier Z,1722,204,235.75,2023-06-17 12:04:19.719438
+SKU-2016,Product 16,Warehouse C,Packaging,Supplier X,714,109,12.62,2023-06-18 14:28:37.034068
+SKU-2017,Product 17,Warehouse D,Finished Good,Supplier Z,1637,144,147.6,2023-06-19 16:52:54.348697
+SKU-2018,Product 18,Warehouse A,Spare Part,Supplier X,1015,93,144.26,2023-06-20 19:17:11.663326
+SKU-2019,Product 19,Warehouse B,Raw Material,Supplier X,910,258,196.81,2023-06-21 21:41:28.977955
+SKU-2020,Product 20,Warehouse C,Packaging,Supplier Z,144,96,37.96,2023-06-23 00:05:46.292585
+SKU-2021,Product 21,Warehouse A,Packaging,Supplier Y,237,101,45.66,2023-06-24 02:30:03.607214
+SKU-2022,Product 22,Warehouse B,Packaging,Supplier X,1190,165,188.27,2023-06-25 04:54:20.921843
+SKU-2023,Product 23,Warehouse B,Raw Material,Supplier Z,1138,157,38.23,2023-06-26 07:18:38.236472
+SKU-2024,Product 24,Warehouse A,Finished Good,Supplier X,1109,128,117.89,2023-06-27 09:42:55.551102
+SKU-2025,Product 25,Warehouse D,Packaging,Supplier Z,312,139,183.18,2023-06-28 12:07:12.865731
+SKU-2026,Product 26,Warehouse B,Finished Good,Supplier X,1019,123,163.16,2023-06-29 14:31:30.180360
+SKU-2027,Product 27,Warehouse D,Spare Part,Supplier X,121,278,53.44,2023-06-30 16:55:47.494989
+SKU-2028,Product 28,Warehouse C,Packaging,Supplier X,288,195,76.69,2023-07-01 19:20:04.809619
+SKU-2029,Product 29,Warehouse D,Finished Good,Supplier Y,997,279,242.27,2023-07-02 21:44:22.124248
+SKU-2030,Product 30,Warehouse D,Raw Material,Supplier X,1233,296,112.72,2023-07-04 00:08:39.438877
+SKU-2031,Product 31,Warehouse C,Raw Material,Supplier X,1310,212,12.07,2023-07-05 02:32:56.753507
+SKU-2032,Product 32,Warehouse B,Finished Good,Supplier Z,1963,256,55.68,2023-07-06 04:57:14.068136
+SKU-2033,Product 33,Warehouse B,Finished Good,Supplier Y,1708,77,86.27,2023-07-07 07:21:31.382765
+SKU-2034,Product 34,Warehouse D,Spare Part,Supplier Y,759,287,249.87,2023-07-08 09:45:48.697394
+SKU-2035,Product 35,Warehouse B,Spare Part,Supplier X,1565,170,76.37,2023-07-09 12:10:06.012024
+SKU-2036,Product 36,Warehouse C,Raw Material,Supplier X,191,228,7.57,2023-07-10 14:34:23.326653
+SKU-2037,Product 37,Warehouse A,Packaging,Supplier X,1714,111,128.72,2023-07-11 16:58:40.641282
+SKU-2038,Product 38,Warehouse D,Finished Good,Supplier Z,773,73,21.82,2023-07-12 19:22:57.955911
+SKU-2039,Product 39,Warehouse C,Raw Material,Supplier X,1520,271,69.24,2023-07-13 21:47:15.270541
+SKU-2040,Product 40,Warehouse B,Packaging,Supplier X,1941,162,248.1,2023-07-15 00:11:32.585170
+SKU-2041,Product 41,Warehouse C,Packaging,Supplier Z,1406,84,176.45,2023-07-16 02:35:49.899799
+SKU-2042,Product 42,Warehouse B,Raw Material,Supplier Y,1840,214,13.62,2023-07-17 05:00:07.214428
+SKU-2043,Product 43,Warehouse A,Finished Good,Supplier Z,20,63,112.72,2023-07-18 07:24:24.529058
+SKU-2044,Product 44,Warehouse D,Packaging,Supplier Y,341,162,43.74,2023-07-19 09:48:41.843687
+SKU-2045,Product 45,Warehouse D,Finished Good,Supplier Z,1252,226,31.61,2023-07-20 12:12:59.158316
+SKU-2046,Product 46,Warehouse D,Finished Good,Supplier Z,1081,230,147.18,2023-07-21 14:37:16.472945
+SKU-2047,Product 47,Warehouse B,Raw Material,Supplier Y,240,163,126.91,2023-07-22 17:01:33.787575
+SKU-2048,Product 48,Warehouse B,Raw Material,Supplier Z,1436,142,185.97,2023-07-23 19:25:51.102204
+SKU-2049,Product 49,Warehouse A,Spare Part,Supplier Y,117,259,223.18,2023-07-24 21:50:08.416833
+SKU-2050,Product 50,Warehouse C,Packaging,Supplier Z,1981,96,62.42,2023-07-26 00:14:25.731462
+SKU-2051,Product 51,Warehouse B,Raw Material,Supplier Y,312,68,230.83,2023-07-27 02:38:43.046092
+SKU-2052,Product 52,Warehouse D,Finished Good,Supplier Z,890,89,129.98,2023-07-28 05:03:00.360721
+SKU-2053,Product 53,Warehouse D,Raw Material,Supplier Y,1646,250,65.45,2023-07-29 07:27:17.675350
+SKU-2054,Product 54,Warehouse A,Finished Good,Supplier Y,1028,167,211.6,2023-07-30 09:51:34.989979
+SKU-2055,Product 55,Warehouse D,Raw Material,Supplier Y,1487,59,9.85,2023-07-31 12:15:52.304609
+SKU-2056,Product 56,Warehouse A,Packaging,Supplier Z,1407,92,140.32,2023-08-01 14:40:09.619238
+SKU-2057,Product 57,Warehouse B,Packaging,Supplier Z,1897,57,180.68,2023-08-02 17:04:26.933867
+SKU-2058,Product 58,Warehouse B,Packaging,Supplier Z,927,253,70.71,2023-08-03 19:28:44.248496
+SKU-2059,Product 59,Warehouse D,Finished Good,Supplier Z,1957,165,216.01,2023-08-04 21:53:01.563126
+SKU-2060,Product 60,Warehouse C,Finished Good,Supplier X,1033,67,60.83,2023-08-06 00:17:18.877755
+SKU-2061,Product 61,Warehouse D,Raw Material,Supplier Z,1786,105,210.13,2023-08-07 02:41:36.192384
+SKU-2062,Product 62,Warehouse C,Raw Material,Supplier Z,1465,204,20.56,2023-08-08 05:05:53.507014
+SKU-2063,Product 63,Warehouse D,Finished Good,Supplier X,265,198,40.82,2023-08-09 07:30:10.821643
+SKU-2064,Product 64,Warehouse D,Finished Good,Supplier Z,1287,254,95.87,2023-08-10 09:54:28.136272
+SKU-2065,Product 65,Warehouse D,Packaging,Supplier Y,1756,56,213.66,2023-08-11 12:18:45.450901
+SKU-2066,Product 66,Warehouse B,Raw Material,Supplier X,256,67,37.0,2023-08-12 14:43:02.765531
+SKU-2067,Product 67,Warehouse B,Finished Good,Supplier X,1677,58,218.98,2023-08-13 17:07:20.080160
+SKU-2068,Product 68,Warehouse D,Spare Part,Supplier Y,210,148,58.2,2023-08-14 19:31:37.394789
+SKU-2069,Product 69,Warehouse D,Spare Part,Supplier X,1742,231,113.67,2023-08-15 21:55:54.709418
+SKU-2070,Product 70,Warehouse D,Spare Part,Supplier Z,1577,215,88.83,2023-08-17 00:20:12.024048
+SKU-2071,Product 71,Warehouse C,Finished Good,Supplier Z,303,102,30.41,2023-08-18 02:44:29.338677
+SKU-2072,Product 72,Warehouse D,Raw Material,Supplier Z,1452,214,236.13,2023-08-19 05:08:46.653306
+SKU-2073,Product 73,Warehouse C,Raw Material,Supplier Y,233,214,110.11,2023-08-20 07:33:03.967935
+SKU-2074,Product 74,Warehouse C,Raw Material,Supplier Y,1136,97,172.89,2023-08-21 09:57:21.282565
+SKU-2075,Product 75,Warehouse A,Spare Part,Supplier Z,1847,237,144.24,2023-08-22 12:21:38.597194
+SKU-2076,Product 76,Warehouse C,Spare Part,Supplier Z,411,155,125.93,2023-08-23 14:45:55.911823
+SKU-2077,Product 77,Warehouse C,Spare Part,Supplier X,347,64,154.53,2023-08-24 17:10:13.226452
+SKU-2078,Product 78,Warehouse D,Packaging,Supplier Y,845,147,224.69,2023-08-25 19:34:30.541082
+SKU-2079,Product 79,Warehouse D,Finished Good,Supplier Z,737,242,175.13,2023-08-26 21:58:47.855711
+SKU-2080,Product 80,Warehouse B,Finished Good,Supplier Z,96,224,133.59,2023-08-28 00:23:05.170340
+SKU-2081,Product 81,Warehouse B,Spare Part,Supplier Z,911,117,161.65,2023-08-29 02:47:22.484969
+SKU-2082,Product 82,Warehouse D,Spare Part,Supplier X,519,239,151.99,2023-08-30 05:11:39.799599
+SKU-2083,Product 83,Warehouse D,Packaging,Supplier Y,248,147,108.85,2023-08-31 07:35:57.114228
+SKU-2084,Product 84,Warehouse A,Spare Part,Supplier X,552,165,156.57,2023-09-01 10:00:14.428857
+SKU-2085,Product 85,Warehouse B,Finished Good,Supplier Z,41,71,111.45,2023-09-02 12:24:31.743486
+SKU-2086,Product 86,Warehouse D,Finished Good,Supplier Y,1830,299,189.65,2023-09-03 14:48:49.058116
+SKU-2087,Product 87,Warehouse A,Spare Part,Supplier X,1988,259,242.26,2023-09-04 17:13:06.372745
+SKU-2088,Product 88,Warehouse D,Finished Good,Supplier X,735,98,240.01,2023-09-05 19:37:23.687374
+SKU-2089,Product 89,Warehouse A,Spare Part,Supplier Z,1753,190,205.36,2023-09-06 22:01:41.002004
+SKU-2090,Product 90,Warehouse A,Finished Good,Supplier Z,922,245,150.84,2023-09-08 00:25:58.316633
+SKU-2091,Product 91,Warehouse D,Finished Good,Supplier Z,1824,176,187.58,2023-09-09 02:50:15.631262
+SKU-2092,Product 92,Warehouse C,Raw Material,Supplier Z,346,102,45.33,2023-09-10 05:14:32.945891
+SKU-2093,Product 93,Warehouse C,Packaging,Supplier Z,569,292,120.28,2023-09-11 07:38:50.260521
+SKU-2094,Product 94,Warehouse D,Finished Good,Supplier Z,1479,117,65.07,2023-09-12 10:03:07.575150
+SKU-2095,Product 95,Warehouse B,Finished Good,Supplier Z,440,133,1.87,2023-09-13 12:27:24.889779
+SKU-2096,Product 96,Warehouse C,Packaging,Supplier Z,1647,142,241.72,2023-09-14 14:51:42.204408
+SKU-2097,Product 97,Warehouse C,Raw Material,Supplier Y,851,272,216.1,2023-09-15 17:15:59.519038
+SKU-2098,Product 98,Warehouse C,Raw Material,Supplier Z,807,175,128.91,2023-09-16 19:40:16.833667
+SKU-2099,Product 99,Warehouse B,Spare Part,Supplier Z,906,229,64.28,2023-09-17 22:04:34.148296
+SKU-2100,Product 100,Warehouse C,Packaging,Supplier X,1595,275,173.55,2023-09-19 00:28:51.462925
+SKU-2101,Product 101,Warehouse B,Packaging,Supplier Z,11,282,109.27,2023-09-20 02:53:08.777555
+SKU-2102,Product 102,Warehouse C,Raw Material,Supplier Y,1501,264,201.03,2023-09-21 05:17:26.092184
+SKU-2103,Product 103,Warehouse D,Packaging,Supplier X,1558,276,249.88,2023-09-22 07:41:43.406813
+SKU-2104,Product 104,Warehouse B,Finished Good,Supplier X,1642,287,87.92,2023-09-23 10:06:00.721442
+SKU-2105,Product 105,Warehouse C,Packaging,Supplier X,1993,297,61.86,2023-09-24 12:30:18.036072
+SKU-2106,Product 106,Warehouse D,Raw Material,Supplier Z,1564,210,67.58,2023-09-25 14:54:35.350701
+SKU-2107,Product 107,Warehouse D,Packaging,Supplier Z,1057,82,24.24,2023-09-26 17:18:52.665330
+SKU-2108,Product 108,Warehouse D,Packaging,Supplier X,932,78,99.12,2023-09-27 19:43:09.979959
+SKU-2109,Product 109,Warehouse C,Finished Good,Supplier Y,776,249,5.34,2023-09-28 22:07:27.294589
+SKU-2110,Product 110,Warehouse B,Raw Material,Supplier Y,1654,129,29.48,2023-09-30 00:31:44.609218
+SKU-2111,Product 111,Warehouse D,Spare Part,Supplier Y,785,251,68.65,2023-10-01 02:56:01.923847
+SKU-2112,Product 112,Warehouse C,Packaging,Supplier Y,1145,283,40.81,2023-10-02 05:20:19.238476
+SKU-2113,Product 113,Warehouse A,Packaging,Supplier Z,192,211,183.31,2023-10-03 07:44:36.553106
+SKU-2114,Product 114,Warehouse B,Spare Part,Supplier Y,634,241,27.3,2023-10-04 10:08:53.867735
+SKU-2115,Product 115,Warehouse B,Packaging,Supplier Y,532,119,216.63,2023-10-05 12:33:11.182364
+SKU-2116,Product 116,Warehouse D,Raw Material,Supplier Y,870,158,56.06,2023-10-06 14:57:28.496993
+SKU-2117,Product 117,Warehouse A,Finished Good,Supplier Y,1004,291,28.04,2023-10-07 17:21:45.811623
+SKU-2118,Product 118,Warehouse C,Spare Part,Supplier Z,1432,254,3.52,2023-10-08 19:46:03.126252
+SKU-2119,Product 119,Warehouse C,Finished Good,Supplier Y,863,101,179.09,2023-10-09 22:10:20.440881
+SKU-2120,Product 120,Warehouse A,Spare Part,Supplier Z,300,284,64.9,2023-10-11 00:34:37.755511
+SKU-2121,Product 121,Warehouse C,Raw Material,Supplier Y,1090,174,127.87,2023-10-12 02:58:55.070140
+SKU-2122,Product 122,Warehouse D,Finished Good,Supplier Z,109,260,28.79,2023-10-13 05:23:12.384769
+SKU-2123,Product 123,Warehouse C,Finished Good,Supplier Z,1698,180,246.34,2023-10-14 07:47:29.699398
+SKU-2124,Product 124,Warehouse C,Packaging,Supplier Z,1541,200,32.22,2023-10-15 10:11:47.014028
+SKU-2125,Product 125,Warehouse B,Raw Material,Supplier Y,450,90,103.57,2023-10-16 12:36:04.328657
+SKU-2126,Product 126,Warehouse A,Raw Material,Supplier Y,526,134,213.06,2023-10-17 15:00:21.643286
+SKU-2127,Product 127,Warehouse A,Packaging,Supplier Y,55,230,61.98,2023-10-18 17:24:38.957915
+SKU-2128,Product 128,Warehouse B,Finished Good,Supplier Y,728,260,67.48,2023-10-19 19:48:56.272545
+SKU-2129,Product 129,Warehouse C,Spare Part,Supplier Z,76,72,202.32,2023-10-20 22:13:13.587174
+SKU-2130,Product 130,Warehouse A,Spare Part,Supplier Z,1872,69,69.06,2023-10-22 00:37:30.901803
+SKU-2131,Product 131,Warehouse D,Finished Good,Supplier Z,268,223,1.71,2023-10-23 03:01:48.216432
+SKU-2132,Product 132,Warehouse C,Packaging,Supplier Z,1318,161,107.55,2023-10-24 05:26:05.531062
+SKU-2133,Product 133,Warehouse B,Finished Good,Supplier Z,1140,262,4.12,2023-10-25 07:50:22.845691
+SKU-2134,Product 134,Warehouse D,Finished Good,Supplier Y,473,67,227.54,2023-10-26 10:14:40.160320
+SKU-2135,Product 135,Warehouse A,Packaging,Supplier X,1616,137,160.81,2023-10-27 12:38:57.474949
+SKU-2136,Product 136,Warehouse D,Finished Good,Supplier Y,217,58,146.17,2023-10-28 15:03:14.789579
+SKU-2137,Product 137,Warehouse B,Raw Material,Supplier Z,1773,227,51.2,2023-10-29 17:27:32.104208
+SKU-2138,Product 138,Warehouse B,Finished Good,Supplier Z,1480,264,175.29,2023-10-30 19:51:49.418837
+SKU-2139,Product 139,Warehouse B,Spare Part,Supplier Y,1270,89,169.64,2023-10-31 22:16:06.733466
+SKU-2140,Product 140,Warehouse D,Finished Good,Supplier Z,1759,130,16.06,2023-11-02 00:40:24.048096
+SKU-2141,Product 141,Warehouse B,Finished Good,Supplier X,806,261,220.33,2023-11-03 03:04:41.362725
+SKU-2142,Product 142,Warehouse D,Packaging,Supplier Y,563,60,145.27,2023-11-04 05:28:58.677354
+SKU-2143,Product 143,Warehouse B,Raw Material,Supplier Z,309,288,198.32,2023-11-05 07:53:15.991983
+SKU-2144,Product 144,Warehouse B,Finished Good,Supplier Y,1848,271,66.47,2023-11-06 10:17:33.306613
+SKU-2145,Product 145,Warehouse C,Raw Material,Supplier Z,802,88,31.39,2023-11-07 12:41:50.621242
+SKU-2146,Product 146,Warehouse C,Spare Part,Supplier Y,1658,84,175.91,2023-11-08 15:06:07.935871
+SKU-2147,Product 147,Warehouse B,Spare Part,Supplier Y,664,222,198.68,2023-11-09 17:30:25.250501
+SKU-2148,Product 148,Warehouse A,Spare Part,Supplier Y,1909,52,97.12,2023-11-10 19:54:42.565130
+SKU-2149,Product 149,Warehouse B,Raw Material,Supplier Z,1740,176,6.9,2023-11-11 22:18:59.879759
+SKU-2150,Product 150,Warehouse C,Packaging,Supplier X,616,66,204.75,2023-11-13 00:43:17.194388
+SKU-2151,Product 151,Warehouse A,Packaging,Supplier X,973,182,52.32,2023-11-14 03:07:34.509018
+SKU-2152,Product 152,Warehouse A,Spare Part,Supplier Y,1587,137,85.42,2023-11-15 05:31:51.823647
+SKU-2153,Product 153,Warehouse D,Raw Material,Supplier X,452,226,157.43,2023-11-16 07:56:09.138276
+SKU-2154,Product 154,Warehouse A,Packaging,Supplier Y,47,270,25.89,2023-11-17 10:20:26.452905
+SKU-2155,Product 155,Warehouse B,Raw Material,Supplier Y,577,172,18.93,2023-11-18 12:44:43.767535
+SKU-2156,Product 156,Warehouse D,Packaging,Supplier X,1181,210,7.4,2023-11-19 15:09:01.082164
+SKU-2157,Product 157,Warehouse B,Spare Part,Supplier Y,272,200,229.24,2023-11-20 17:33:18.396793
+SKU-2158,Product 158,Warehouse B,Raw Material,Supplier Y,666,296,78.53,2023-11-21 19:57:35.711422
+SKU-2159,Product 159,Warehouse A,Raw Material,Supplier Z,1837,107,165.5,2023-11-22 22:21:53.026052
+SKU-2160,Product 160,Warehouse D,Spare Part,Supplier X,150,109,247.32,2023-11-24 00:46:10.340681
+SKU-2161,Product 161,Warehouse C,Raw Material,Supplier Z,100,144,167.69,2023-11-25 03:10:27.655310
+SKU-2162,Product 162,Warehouse D,Packaging,Supplier Y,847,234,131.75,2023-11-26 05:34:44.969939
+SKU-2163,Product 163,Warehouse D,Packaging,Supplier Z,25,266,130.71,2023-11-27 07:59:02.284569
+SKU-2164,Product 164,Warehouse B,Finished Good,Supplier X,55,119,94.85,2023-11-28 10:23:19.599198
+SKU-2165,Product 165,Warehouse A,Spare Part,Supplier X,365,77,150.35,2023-11-29 12:47:36.913827
+SKU-2166,Product 166,Warehouse B,Spare Part,Supplier Y,204,202,239.74,2023-11-30 15:11:54.228456
+SKU-2167,Product 167,Warehouse A,Finished Good,Supplier Y,1621,199,197.22,2023-12-01 17:36:11.543086
+SKU-2168,Product 168,Warehouse C,Raw Material,Supplier Y,245,143,106.63,2023-12-02 20:00:28.857715
+SKU-2169,Product 169,Warehouse A,Raw Material,Supplier X,1046,96,83.78,2023-12-03 22:24:46.172344
+SKU-2170,Product 170,Warehouse D,Raw Material,Supplier Y,1410,262,221.0,2023-12-05 00:49:03.486973
+SKU-2171,Product 171,Warehouse C,Spare Part,Supplier Z,1251,261,34.81,2023-12-06 03:13:20.801603
+SKU-2172,Product 172,Warehouse B,Packaging,Supplier Z,1307,236,212.55,2023-12-07 05:37:38.116232
+SKU-2173,Product 173,Warehouse D,Packaging,Supplier X,715,194,64.51,2023-12-08 08:01:55.430861
+SKU-2174,Product 174,Warehouse D,Raw Material,Supplier Y,1777,115,179.19,2023-12-09 10:26:12.745490
+SKU-2175,Product 175,Warehouse B,Spare Part,Supplier Y,137,150,201.75,2023-12-10 12:50:30.060120
+SKU-2176,Product 176,Warehouse A,Packaging,Supplier Y,214,67,119.77,2023-12-11 15:14:47.374749
+SKU-2177,Product 177,Warehouse B,Spare Part,Supplier Z,1712,112,48.88,2023-12-12 17:39:04.689378
+SKU-2178,Product 178,Warehouse C,Finished Good,Supplier Y,136,162,211.35,2023-12-13 20:03:22.004008
+SKU-2179,Product 179,Warehouse D,Packaging,Supplier Z,383,159,92.51,2023-12-14 22:27:39.318637
+SKU-2180,Product 180,Warehouse B,Packaging,Supplier Z,346,70,80.85,2023-12-16 00:51:56.633266
+SKU-2181,Product 181,Warehouse C,Finished Good,Supplier X,66,289,127.99,2023-12-17 03:16:13.947895
+SKU-2182,Product 182,Warehouse B,Packaging,Supplier Z,234,117,109.34,2023-12-18 05:40:31.262525
+SKU-2183,Product 183,Warehouse A,Finished Good,Supplier X,1145,177,171.08,2023-12-19 08:04:48.577154
+SKU-2184,Product 184,Warehouse B,Spare Part,Supplier Y,1322,166,35.16,2023-12-20 10:29:05.891783
+SKU-2185,Product 185,Warehouse A,Packaging,Supplier Y,166,167,109.49,2023-12-21 12:53:23.206412
+SKU-2186,Product 186,Warehouse B,Packaging,Supplier Y,1884,261,223.03,2023-12-22 15:17:40.521042
+SKU-2187,Product 187,Warehouse B,Packaging,Supplier Y,191,236,9.98,2023-12-23 17:41:57.835671
+SKU-2188,Product 188,Warehouse B,Finished Good,Supplier X,1374,266,114.88,2023-12-24 20:06:15.150300
+SKU-2189,Product 189,Warehouse D,Spare Part,Supplier X,1600,144,165.47,2023-12-25 22:30:32.464929
+SKU-2190,Product 190,Warehouse B,Raw Material,Supplier Z,1041,116,222.04,2023-12-27 00:54:49.779559
+SKU-2191,Product 191,Warehouse C,Packaging,Supplier Z,983,156,148.85,2023-12-28 03:19:07.094188
+SKU-2192,Product 192,Warehouse C,Raw Material,Supplier Z,218,190,206.3,2023-12-29 05:43:24.408817
+SKU-2193,Product 193,Warehouse C,Finished Good,Supplier Y,483,134,56.45,2023-12-30 08:07:41.723446
+SKU-2194,Product 194,Warehouse B,Packaging,Supplier Z,1701,165,88.85,2023-12-31 10:31:59.038076
+SKU-2195,Product 195,Warehouse D,Finished Good,Supplier Y,697,87,235.59,2024-01-01 12:56:16.352705
+SKU-2196,Product 196,Warehouse A,Spare Part,Supplier X,68,195,221.61,2024-01-02 15:20:33.667334
+SKU-2197,Product 197,Warehouse B,Packaging,Supplier X,1458,228,139.93,2024-01-03 17:44:50.981963
+SKU-2198,Product 198,Warehouse D,Finished Good,Supplier X,1367,181,119.4,2024-01-04 20:09:08.296593
+SKU-2199,Product 199,Warehouse B,Finished Good,Supplier Y,132,268,113.32,2024-01-05 22:33:25.611222
+SKU-2200,Product 200,Warehouse C,Packaging,Supplier Z,102,298,15.64,2024-01-07 00:57:42.925851
+SKU-2201,Product 201,Warehouse A,Spare Part,Supplier X,232,276,223.2,2024-01-08 03:22:00.240480
+SKU-2202,Product 202,Warehouse C,Finished Good,Supplier Y,101,73,204.72,2024-01-09 05:46:17.555110
+SKU-2203,Product 203,Warehouse D,Packaging,Supplier X,1232,270,114.61,2024-01-10 08:10:34.869739
+SKU-2204,Product 204,Warehouse C,Packaging,Supplier Y,265,133,70.58,2024-01-11 10:34:52.184368
+SKU-2205,Product 205,Warehouse C,Raw Material,Supplier Y,1213,162,86.39,2024-01-12 12:59:09.498997
+SKU-2206,Product 206,Warehouse D,Spare Part,Supplier X,352,152,31.67,2024-01-13 15:23:26.813627
+SKU-2207,Product 207,Warehouse B,Packaging,Supplier Y,1944,121,180.73,2024-01-14 17:47:44.128256
+SKU-2208,Product 208,Warehouse B,Raw Material,Supplier X,1451,269,139.61,2024-01-15 20:12:01.442885
+SKU-2209,Product 209,Warehouse A,Packaging,Supplier Z,749,209,59.29,2024-01-16 22:36:18.757515
+SKU-2210,Product 210,Warehouse C,Packaging,Supplier Z,857,291,156.13,2024-01-18 01:00:36.072144
+SKU-2211,Product 211,Warehouse C,Spare Part,Supplier Z,130,288,244.83,2024-01-19 03:24:53.386773
+SKU-2212,Product 212,Warehouse D,Raw Material,Supplier Z,109,154,31.48,2024-01-20 05:49:10.701402
+SKU-2213,Product 213,Warehouse C,Finished Good,Supplier X,1075,231,115.16,2024-01-21 08:13:28.016032
+SKU-2214,Product 214,Warehouse A,Raw Material,Supplier Z,45,175,124.05,2024-01-22 10:37:45.330661
+SKU-2215,Product 215,Warehouse C,Packaging,Supplier X,1276,173,42.53,2024-01-23 13:02:02.645290
+SKU-2216,Product 216,Warehouse D,Packaging,Supplier Z,764,234,133.36,2024-01-24 15:26:19.959919
+SKU-2217,Product 217,Warehouse A,Finished Good,Supplier Z,279,222,151.89,2024-01-25 17:50:37.274549
+SKU-2218,Product 218,Warehouse B,Spare Part,Supplier Z,1071,277,40.18,2024-01-26 20:14:54.589178
+SKU-2219,Product 219,Warehouse D,Packaging,Supplier Z,1105,243,39.53,2024-01-27 22:39:11.903807
+SKU-2220,Product 220,Warehouse B,Finished Good,Supplier Z,1492,205,214.23,2024-01-29 01:03:29.218436
+SKU-2221,Product 221,Warehouse D,Raw Material,Supplier Z,395,279,78.54,2024-01-30 03:27:46.533066
+SKU-2222,Product 222,Warehouse C,Finished Good,Supplier X,1094,75,157.95,2024-01-31 05:52:03.847695
+SKU-2223,Product 223,Warehouse C,Spare Part,Supplier X,1689,240,157.07,2024-02-01 08:16:21.162324
+SKU-2224,Product 224,Warehouse C,Finished Good,Supplier Z,539,148,209.95,2024-02-02 10:40:38.476953
+SKU-2225,Product 225,Warehouse C,Spare Part,Supplier X,1670,158,185.23,2024-02-03 13:04:55.791583
+SKU-2226,Product 226,Warehouse D,Packaging,Supplier Y,1446,245,210.3,2024-02-04 15:29:13.106212
+SKU-2227,Product 227,Warehouse D,Packaging,Supplier X,859,118,156.68,2024-02-05 17:53:30.420841
+SKU-2228,Product 228,Warehouse B,Finished Good,Supplier Y,1766,270,112.91,2024-02-06 20:17:47.735470
+SKU-2229,Product 229,Warehouse D,Packaging,Supplier Z,1933,174,99.0,2024-02-07 22:42:05.050100
+SKU-2230,Product 230,Warehouse C,Raw Material,Supplier Z,473,137,95.38,2024-02-09 01:06:22.364729
+SKU-2231,Product 231,Warehouse C,Raw Material,Supplier Y,1959,132,105.18,2024-02-10 03:30:39.679358
+SKU-2232,Product 232,Warehouse B,Finished Good,Supplier Y,4,155,33.2,2024-02-11 05:54:56.993987
+SKU-2233,Product 233,Warehouse B,Packaging,Supplier Y,258,285,106.57,2024-02-12 08:19:14.308617
+SKU-2234,Product 234,Warehouse C,Packaging,Supplier Y,86,75,97.97,2024-02-13 10:43:31.623246
+SKU-2235,Product 235,Warehouse B,Finished Good,Supplier Y,735,176,9.61,2024-02-14 13:07:48.937875
+SKU-2236,Product 236,Warehouse B,Finished Good,Supplier Z,1873,258,69.51,2024-02-15 15:32:06.252505
+SKU-2237,Product 237,Warehouse D,Packaging,Supplier X,1200,168,188.22,2024-02-16 17:56:23.567134
+SKU-2238,Product 238,Warehouse B,Packaging,Supplier Y,1233,191,144.91,2024-02-17 20:20:40.881763
+SKU-2239,Product 239,Warehouse C,Raw Material,Supplier Y,169,137,201.74,2024-02-18 22:44:58.196392
+SKU-2240,Product 240,Warehouse A,Finished Good,Supplier Y,1032,84,136.13,2024-02-20 01:09:15.511022
+SKU-2241,Product 241,Warehouse A,Packaging,Supplier X,765,209,213.67,2024-02-21 03:33:32.825651
+SKU-2242,Product 242,Warehouse D,Spare Part,Supplier X,958,279,199.22,2024-02-22 05:57:50.140280
+SKU-2243,Product 243,Warehouse A,Finished Good,Supplier Y,522,180,25.47,2024-02-23 08:22:07.454909
+SKU-2244,Product 244,Warehouse D,Spare Part,Supplier Z,403,158,244.27,2024-02-24 10:46:24.769539
+SKU-2245,Product 245,Warehouse D,Packaging,Supplier Z,1904,82,4.67,2024-02-25 13:10:42.084168
+SKU-2246,Product 246,Warehouse B,Finished Good,Supplier Z,1116,286,149.61,2024-02-26 15:34:59.398797
+SKU-2247,Product 247,Warehouse D,Packaging,Supplier Z,823,267,198.34,2024-02-27 17:59:16.713426
+SKU-2248,Product 248,Warehouse B,Spare Part,Supplier Y,147,275,83.64,2024-02-28 20:23:34.028056
+SKU-2249,Product 249,Warehouse D,Raw Material,Supplier X,1525,139,150.04,2024-02-29 22:47:51.342685
+SKU-2250,Product 250,Warehouse A,Raw Material,Supplier Y,945,206,91.17,2024-03-02 01:12:08.657314
+SKU-2251,Product 251,Warehouse B,Finished Good,Supplier Z,773,158,16.09,2024-03-03 03:36:25.971943
+SKU-2252,Product 252,Warehouse B,Raw Material,Supplier Y,1333,108,3.11,2024-03-04 06:00:43.286573
+SKU-2253,Product 253,Warehouse D,Spare Part,Supplier Z,263,101,24.62,2024-03-05 08:25:00.601202
+SKU-2254,Product 254,Warehouse A,Spare Part,Supplier X,1066,145,25.5,2024-03-06 10:49:17.915831
+SKU-2255,Product 255,Warehouse D,Packaging,Supplier X,1726,188,153.11,2024-03-07 13:13:35.230460
+SKU-2256,Product 256,Warehouse A,Spare Part,Supplier X,927,80,131.94,2024-03-08 15:37:52.545090
+SKU-2257,Product 257,Warehouse B,Raw Material,Supplier X,0,225,114.41,2024-03-09 18:02:09.859719
+SKU-2258,Product 258,Warehouse C,Packaging,Supplier Y,459,164,173.29,2024-03-10 20:26:27.174348
+SKU-2259,Product 259,Warehouse A,Finished Good,Supplier Y,111,270,5.19,2024-03-11 22:50:44.488977
+SKU-2260,Product 260,Warehouse B,Finished Good,Supplier Y,1000,119,68.47,2024-03-13 01:15:01.803607
+SKU-2261,Product 261,Warehouse D,Finished Good,Supplier X,728,62,194.57,2024-03-14 03:39:19.118236
+SKU-2262,Product 262,Warehouse D,Packaging,Supplier Y,264,128,227.58,2024-03-15 06:03:36.432865
+SKU-2263,Product 263,Warehouse A,Packaging,Supplier X,1373,293,110.15,2024-03-16 08:27:53.747494
+SKU-2264,Product 264,Warehouse C,Raw Material,Supplier Y,353,130,21.29,2024-03-17 10:52:11.062124
+SKU-2265,Product 265,Warehouse C,Packaging,Supplier X,683,225,199.88,2024-03-18 13:16:28.376753
+SKU-2266,Product 266,Warehouse A,Spare Part,Supplier X,1975,260,221.41,2024-03-19 15:40:45.691382
+SKU-2267,Product 267,Warehouse C,Raw Material,Supplier X,132,121,104.0,2024-03-20 18:05:03.006012
+SKU-2268,Product 268,Warehouse C,Spare Part,Supplier X,495,210,61.6,2024-03-21 20:29:20.320641
+SKU-2269,Product 269,Warehouse C,Packaging,Supplier Y,635,101,11.95,2024-03-22 22:53:37.635270
+SKU-2270,Product 270,Warehouse B,Finished Good,Supplier Y,1017,140,148.18,2024-03-24 01:17:54.949899
+SKU-2271,Product 271,Warehouse B,Packaging,Supplier Y,489,124,227.56,2024-03-25 03:42:12.264529
+SKU-2272,Product 272,Warehouse C,Packaging,Supplier Y,1940,218,169.79,2024-03-26 06:06:29.579158
+SKU-2273,Product 273,Warehouse C,Spare Part,Supplier X,10,268,79.99,2024-03-27 08:30:46.893787
+SKU-2274,Product 274,Warehouse A,Raw Material,Supplier X,1896,113,161.08,2024-03-28 10:55:04.208416
+SKU-2275,Product 275,Warehouse A,Raw Material,Supplier Z,1069,122,208.19,2024-03-29 13:19:21.523046
+SKU-2276,Product 276,Warehouse C,Packaging,Supplier Z,76,255,119.48,2024-03-30 15:43:38.837675
+SKU-2277,Product 277,Warehouse D,Finished Good,Supplier X,233,165,205.12,2024-03-31 18:07:56.152304
+SKU-2278,Product 278,Warehouse A,Raw Material,Supplier X,206,178,98.59,2024-04-01 20:32:13.466933
+SKU-2279,Product 279,Warehouse A,Finished Good,Supplier X,574,226,87.78,2024-04-02 22:56:30.781563
+SKU-2280,Product 280,Warehouse D,Packaging,Supplier X,666,84,146.16,2024-04-04 01:20:48.096192
+SKU-2281,Product 281,Warehouse C,Raw Material,Supplier X,1282,267,116.71,2024-04-05 03:45:05.410821
+SKU-2282,Product 282,Warehouse D,Spare Part,Supplier Y,622,141,244.3,2024-04-06 06:09:22.725450
+SKU-2283,Product 283,Warehouse D,Finished Good,Supplier Z,1450,214,129.58,2024-04-07 08:33:40.040080
+SKU-2284,Product 284,Warehouse D,Raw Material,Supplier Z,587,158,96.91,2024-04-08 10:57:57.354709
+SKU-2285,Product 285,Warehouse A,Raw Material,Supplier Z,526,238,99.34,2024-04-09 13:22:14.669338
+SKU-2286,Product 286,Warehouse B,Spare Part,Supplier Y,550,202,137.44,2024-04-10 15:46:31.983967
+SKU-2287,Product 287,Warehouse A,Raw Material,Supplier Y,658,93,89.37,2024-04-11 18:10:49.298597
+SKU-2288,Product 288,Warehouse A,Finished Good,Supplier Y,1675,96,181.0,2024-04-12 20:35:06.613226
+SKU-2289,Product 289,Warehouse D,Packaging,Supplier X,493,269,95.79,2024-04-13 22:59:23.927855
+SKU-2290,Product 290,Warehouse C,Packaging,Supplier Y,546,179,96.65,2024-04-15 01:23:41.242484
+SKU-2291,Product 291,Warehouse A,Finished Good,Supplier X,1913,118,154.63,2024-04-16 03:47:58.557114
+SKU-2292,Product 292,Warehouse A,Raw Material,Supplier Y,1307,85,16.15,2024-04-17 06:12:15.871743
+SKU-2293,Product 293,Warehouse A,Packaging,Supplier X,381,82,164.18,2024-04-18 08:36:33.186372
+SKU-2294,Product 294,Warehouse B,Finished Good,Supplier Z,1736,279,126.74,2024-04-19 11:00:50.501002
+SKU-2295,Product 295,Warehouse B,Raw Material,Supplier Z,366,294,113.8,2024-04-20 13:25:07.815631
+SKU-2296,Product 296,Warehouse B,Raw Material,Supplier Z,324,148,180.09,2024-04-21 15:49:25.130260
+SKU-2297,Product 297,Warehouse D,Packaging,Supplier X,890,100,189.81,2024-04-22 18:13:42.444889
+SKU-2298,Product 298,Warehouse A,Raw Material,Supplier X,1382,154,211.72,2024-04-23 20:37:59.759519
+SKU-2299,Product 299,Warehouse C,Finished Good,Supplier Z,378,84,94.33,2024-04-24 23:02:17.074148
+SKU-2300,Product 300,Warehouse B,Raw Material,Supplier Z,1506,187,82.43,2024-04-26 01:26:34.388777
+SKU-2301,Product 301,Warehouse B,Spare Part,Supplier Y,313,206,178.87,2024-04-27 03:50:51.703406
+SKU-2302,Product 302,Warehouse D,Packaging,Supplier X,1563,296,145.87,2024-04-28 06:15:09.018036
+SKU-2303,Product 303,Warehouse D,Spare Part,Supplier Y,191,129,158.32,2024-04-29 08:39:26.332665
+SKU-2304,Product 304,Warehouse A,Raw Material,Supplier Y,928,99,139.33,2024-04-30 11:03:43.647294
+SKU-2305,Product 305,Warehouse B,Finished Good,Supplier Z,1280,83,193.4,2024-05-01 13:28:00.961923
+SKU-2306,Product 306,Warehouse A,Finished Good,Supplier Y,531,144,48.32,2024-05-02 15:52:18.276553
+SKU-2307,Product 307,Warehouse B,Packaging,Supplier X,1224,200,139.37,2024-05-03 18:16:35.591182
+SKU-2308,Product 308,Warehouse C,Spare Part,Supplier Z,1377,66,40.37,2024-05-04 20:40:52.905811
+SKU-2309,Product 309,Warehouse B,Raw Material,Supplier Z,1300,239,102.41,2024-05-05 23:05:10.220440
+SKU-2310,Product 310,Warehouse B,Spare Part,Supplier X,793,165,166.33,2024-05-07 01:29:27.535070
+SKU-2311,Product 311,Warehouse B,Packaging,Supplier X,1546,248,123.77,2024-05-08 03:53:44.849699
+SKU-2312,Product 312,Warehouse B,Spare Part,Supplier X,1463,165,95.52,2024-05-09 06:18:02.164328
+SKU-2313,Product 313,Warehouse B,Raw Material,Supplier Z,652,88,221.36,2024-05-10 08:42:19.478957
+SKU-2314,Product 314,Warehouse B,Spare Part,Supplier Y,1466,55,193.43,2024-05-11 11:06:36.793587
+SKU-2315,Product 315,Warehouse C,Finished Good,Supplier Y,1836,189,132.05,2024-05-12 13:30:54.108216
+SKU-2316,Product 316,Warehouse A,Finished Good,Supplier Z,1633,184,237.56,2024-05-13 15:55:11.422845
+SKU-2317,Product 317,Warehouse A,Raw Material,Supplier X,1466,253,106.67,2024-05-14 18:19:28.737474
+SKU-2318,Product 318,Warehouse C,Spare Part,Supplier X,1533,269,197.23,2024-05-15 20:43:46.052104
+SKU-2319,Product 319,Warehouse C,Spare Part,Supplier Z,1609,90,42.82,2024-05-16 23:08:03.366733
+SKU-2320,Product 320,Warehouse B,Raw Material,Supplier Y,578,128,72.16,2024-05-18 01:32:20.681362
+SKU-2321,Product 321,Warehouse A,Finished Good,Supplier X,1441,101,85.18,2024-05-19 03:56:37.995991
+SKU-2322,Product 322,Warehouse C,Packaging,Supplier Z,398,76,27.35,2024-05-20 06:20:55.310621
+SKU-2323,Product 323,Warehouse B,Packaging,Supplier X,716,50,125.95,2024-05-21 08:45:12.625250
+SKU-2324,Product 324,Warehouse C,Raw Material,Supplier Z,1869,70,48.87,2024-05-22 11:09:29.939879
+SKU-2325,Product 325,Warehouse A,Finished Good,Supplier Z,566,181,158.91,2024-05-23 13:33:47.254509
+SKU-2326,Product 326,Warehouse A,Finished Good,Supplier Z,1687,87,48.33,2024-05-24 15:58:04.569138
+SKU-2327,Product 327,Warehouse C,Finished Good,Supplier Y,845,98,31.75,2024-05-25 18:22:21.883767
+SKU-2328,Product 328,Warehouse B,Spare Part,Supplier X,419,79,242.3,2024-05-26 20:46:39.198396
+SKU-2329,Product 329,Warehouse C,Raw Material,Supplier Z,194,231,164.9,2024-05-27 23:10:56.513026
+SKU-2330,Product 330,Warehouse C,Packaging,Supplier Y,1096,208,234.18,2024-05-29 01:35:13.827655
+SKU-2331,Product 331,Warehouse B,Spare Part,Supplier Y,902,290,122.98,2024-05-30 03:59:31.142284
+SKU-2332,Product 332,Warehouse A,Spare Part,Supplier X,1022,77,9.32,2024-05-31 06:23:48.456913
+SKU-2333,Product 333,Warehouse A,Spare Part,Supplier Y,86,102,144.02,2024-06-01 08:48:05.771543
+SKU-2334,Product 334,Warehouse D,Raw Material,Supplier Y,536,163,140.02,2024-06-02 11:12:23.086172
+SKU-2335,Product 335,Warehouse A,Raw Material,Supplier X,7,212,4.73,2024-06-03 13:36:40.400801
+SKU-2336,Product 336,Warehouse C,Spare Part,Supplier Z,604,82,215.45,2024-06-04 16:00:57.715430
+SKU-2337,Product 337,Warehouse D,Packaging,Supplier X,1862,102,155.37,2024-06-05 18:25:15.030060
+SKU-2338,Product 338,Warehouse D,Packaging,Supplier Z,304,155,186.43,2024-06-06 20:49:32.344689
+SKU-2339,Product 339,Warehouse B,Finished Good,Supplier Z,1378,54,123.99,2024-06-07 23:13:49.659318
+SKU-2340,Product 340,Warehouse A,Packaging,Supplier Y,11,148,154.98,2024-06-09 01:38:06.973947
+SKU-2341,Product 341,Warehouse D,Raw Material,Supplier X,1123,239,65.11,2024-06-10 04:02:24.288577
+SKU-2342,Product 342,Warehouse C,Finished Good,Supplier Y,1841,181,243.47,2024-06-11 06:26:41.603206
+SKU-2343,Product 343,Warehouse B,Packaging,Supplier Y,682,158,100.78,2024-06-12 08:50:58.917835
+SKU-2344,Product 344,Warehouse C,Raw Material,Supplier Y,394,171,41.42,2024-06-13 11:15:16.232464
+SKU-2345,Product 345,Warehouse A,Raw Material,Supplier X,1141,286,14.92,2024-06-14 13:39:33.547094
+SKU-2346,Product 346,Warehouse C,Raw Material,Supplier Y,557,180,159.41,2024-06-15 16:03:50.861723
+SKU-2347,Product 347,Warehouse C,Raw Material,Supplier X,1783,183,245.86,2024-06-16 18:28:08.176352
+SKU-2348,Product 348,Warehouse B,Spare Part,Supplier Y,1697,282,224.05,2024-06-17 20:52:25.490981
+SKU-2349,Product 349,Warehouse B,Packaging,Supplier Y,1304,89,175.82,2024-06-18 23:16:42.805611
+SKU-2350,Product 350,Warehouse B,Spare Part,Supplier Y,1278,73,247.66,2024-06-20 01:41:00.120240
+SKU-2351,Product 351,Warehouse A,Finished Good,Supplier Z,1204,162,180.98,2024-06-21 04:05:17.434869
+SKU-2352,Product 352,Warehouse A,Packaging,Supplier Z,1470,129,85.47,2024-06-22 06:29:34.749498
+SKU-2353,Product 353,Warehouse D,Spare Part,Supplier Z,920,100,150.7,2024-06-23 08:53:52.064128
+SKU-2354,Product 354,Warehouse B,Finished Good,Supplier Z,1939,79,20.86,2024-06-24 11:18:09.378757
+SKU-2355,Product 355,Warehouse A,Packaging,Supplier Z,691,269,56.2,2024-06-25 13:42:26.693386
+SKU-2356,Product 356,Warehouse A,Packaging,Supplier X,17,203,104.97,2024-06-26 16:06:44.008016
+SKU-2357,Product 357,Warehouse B,Spare Part,Supplier X,1397,222,51.25,2024-06-27 18:31:01.322645
+SKU-2358,Product 358,Warehouse D,Spare Part,Supplier Y,1324,79,238.42,2024-06-28 20:55:18.637274
+SKU-2359,Product 359,Warehouse B,Packaging,Supplier Y,1961,135,248.9,2024-06-29 23:19:35.951903
+SKU-2360,Product 360,Warehouse D,Packaging,Supplier Z,790,205,93.36,2024-07-01 01:43:53.266533
+SKU-2361,Product 361,Warehouse B,Spare Part,Supplier X,849,181,177.6,2024-07-02 04:08:10.581162
+SKU-2362,Product 362,Warehouse D,Packaging,Supplier X,1124,223,102.53,2024-07-03 06:32:27.895791
+SKU-2363,Product 363,Warehouse D,Finished Good,Supplier Z,784,217,35.74,2024-07-04 08:56:45.210420
+SKU-2364,Product 364,Warehouse A,Packaging,Supplier Z,1569,153,84.89,2024-07-05 11:21:02.525050
+SKU-2365,Product 365,Warehouse A,Packaging,Supplier X,856,245,59.11,2024-07-06 13:45:19.839679
+SKU-2366,Product 366,Warehouse D,Raw Material,Supplier X,1567,114,82.69,2024-07-07 16:09:37.154308
+SKU-2367,Product 367,Warehouse D,Packaging,Supplier Y,851,70,54.54,2024-07-08 18:33:54.468937
+SKU-2368,Product 368,Warehouse A,Packaging,Supplier Y,450,278,28.97,2024-07-09 20:58:11.783567
+SKU-2369,Product 369,Warehouse C,Spare Part,Supplier X,1981,55,55.14,2024-07-10 23:22:29.098196
+SKU-2370,Product 370,Warehouse D,Packaging,Supplier Y,1052,120,226.53,2024-07-12 01:46:46.412825
+SKU-2371,Product 371,Warehouse D,Raw Material,Supplier Z,1413,78,22.22,2024-07-13 04:11:03.727454
+SKU-2372,Product 372,Warehouse B,Spare Part,Supplier Z,1182,107,81.86,2024-07-14 06:35:21.042084
+SKU-2373,Product 373,Warehouse D,Packaging,Supplier Z,718,148,132.58,2024-07-15 08:59:38.356713
+SKU-2374,Product 374,Warehouse C,Finished Good,Supplier Y,1944,82,89.27,2024-07-16 11:23:55.671342
+SKU-2375,Product 375,Warehouse D,Spare Part,Supplier Z,743,166,129.88,2024-07-17 13:48:12.985971
+SKU-2376,Product 376,Warehouse A,Finished Good,Supplier X,1986,281,11.81,2024-07-18 16:12:30.300601
+SKU-2377,Product 377,Warehouse C,Finished Good,Supplier X,861,84,162.49,2024-07-19 18:36:47.615230
+SKU-2378,Product 378,Warehouse A,Spare Part,Supplier X,45,281,141.31,2024-07-20 21:01:04.929859
+SKU-2379,Product 379,Warehouse B,Spare Part,Supplier Z,73,152,170.56,2024-07-21 23:25:22.244488
+SKU-2380,Product 380,Warehouse A,Packaging,Supplier Y,1947,198,142.25,2024-07-23 01:49:39.559118
+SKU-2381,Product 381,Warehouse B,Finished Good,Supplier X,1055,160,110.04,2024-07-24 04:13:56.873747
+SKU-2382,Product 382,Warehouse D,Spare Part,Supplier Z,775,129,88.19,2024-07-25 06:38:14.188376
+SKU-2383,Product 383,Warehouse C,Raw Material,Supplier X,1622,77,57.38,2024-07-26 09:02:31.503006
+SKU-2384,Product 384,Warehouse B,Packaging,Supplier Y,1234,198,125.52,2024-07-27 11:26:48.817635
+SKU-2385,Product 385,Warehouse B,Packaging,Supplier X,1321,279,7.49,2024-07-28 13:51:06.132264
+SKU-2386,Product 386,Warehouse B,Spare Part,Supplier X,1370,180,82.73,2024-07-29 16:15:23.446893
+SKU-2387,Product 387,Warehouse C,Finished Good,Supplier X,396,199,169.79,2024-07-30 18:39:40.761523
+SKU-2388,Product 388,Warehouse B,Spare Part,Supplier X,176,210,28.07,2024-07-31 21:03:58.076152
+SKU-2389,Product 389,Warehouse A,Raw Material,Supplier Y,1456,147,16.66,2024-08-01 23:28:15.390781
+SKU-2390,Product 390,Warehouse C,Spare Part,Supplier X,43,80,163.39,2024-08-03 01:52:32.705410
+SKU-2391,Product 391,Warehouse D,Raw Material,Supplier X,1438,176,100.05,2024-08-04 04:16:50.020040
+SKU-2392,Product 392,Warehouse B,Packaging,Supplier Y,259,267,200.65,2024-08-05 06:41:07.334669
+SKU-2393,Product 393,Warehouse A,Raw Material,Supplier Y,525,128,234.39,2024-08-06 09:05:24.649298
+SKU-2394,Product 394,Warehouse A,Spare Part,Supplier Y,1415,267,239.3,2024-08-07 11:29:41.963927
+SKU-2395,Product 395,Warehouse D,Spare Part,Supplier Y,1245,263,106.97,2024-08-08 13:53:59.278557
+SKU-2396,Product 396,Warehouse D,Raw Material,Supplier Z,1563,111,66.82,2024-08-09 16:18:16.593186
+SKU-2397,Product 397,Warehouse A,Spare Part,Supplier Z,1221,193,152.54,2024-08-10 18:42:33.907815
+SKU-2398,Product 398,Warehouse A,Finished Good,Supplier X,95,236,157.42,2024-08-11 21:06:51.222444
+SKU-2399,Product 399,Warehouse A,Packaging,Supplier Z,1679,173,155.96,2024-08-12 23:31:08.537074
+SKU-2400,Product 400,Warehouse B,Raw Material,Supplier Y,431,224,81.12,2024-08-14 01:55:25.851703
+SKU-2401,Product 401,Warehouse D,Raw Material,Supplier Y,272,277,16.87,2024-08-15 04:19:43.166332
+SKU-2402,Product 402,Warehouse A,Raw Material,Supplier Z,1757,206,53.29,2024-08-16 06:44:00.480961
+SKU-2403,Product 403,Warehouse D,Packaging,Supplier X,389,259,39.45,2024-08-17 09:08:17.795591
+SKU-2404,Product 404,Warehouse A,Packaging,Supplier Y,1072,250,31.85,2024-08-18 11:32:35.110220
+SKU-2405,Product 405,Warehouse C,Spare Part,Supplier Z,971,253,231.64,2024-08-19 13:56:52.424849
+SKU-2406,Product 406,Warehouse B,Raw Material,Supplier Z,1539,263,4.45,2024-08-20 16:21:09.739478
+SKU-2407,Product 407,Warehouse D,Packaging,Supplier X,88,106,150.86,2024-08-21 18:45:27.054108
+SKU-2408,Product 408,Warehouse B,Raw Material,Supplier Y,213,54,236.92,2024-08-22 21:09:44.368737
+SKU-2409,Product 409,Warehouse B,Finished Good,Supplier X,831,88,90.65,2024-08-23 23:34:01.683366
+SKU-2410,Product 410,Warehouse A,Raw Material,Supplier X,946,112,132.25,2024-08-25 01:58:18.997995
+SKU-2411,Product 411,Warehouse D,Raw Material,Supplier X,1576,222,174.25,2024-08-26 04:22:36.312625
+SKU-2412,Product 412,Warehouse B,Packaging,Supplier Y,1211,177,79.98,2024-08-27 06:46:53.627254
+SKU-2413,Product 413,Warehouse B,Spare Part,Supplier Z,297,167,119.94,2024-08-28 09:11:10.941883
+SKU-2414,Product 414,Warehouse C,Packaging,Supplier Y,1957,52,204.46,2024-08-29 11:35:28.256513
+SKU-2415,Product 415,Warehouse C,Spare Part,Supplier Y,919,220,186.59,2024-08-30 13:59:45.571142
+SKU-2416,Product 416,Warehouse C,Packaging,Supplier Z,1929,141,202.3,2024-08-31 16:24:02.885771
+SKU-2417,Product 417,Warehouse B,Raw Material,Supplier Y,1979,240,246.85,2024-09-01 18:48:20.200400
+SKU-2418,Product 418,Warehouse A,Finished Good,Supplier Z,103,78,93.21,2024-09-02 21:12:37.515030
+SKU-2419,Product 419,Warehouse A,Spare Part,Supplier Y,1011,123,187.03,2024-09-03 23:36:54.829659
+SKU-2420,Product 420,Warehouse A,Raw Material,Supplier X,844,63,151.09,2024-09-05 02:01:12.144288
+SKU-2421,Product 421,Warehouse C,Raw Material,Supplier Y,996,121,166.98,2024-09-06 04:25:29.458917
+SKU-2422,Product 422,Warehouse C,Spare Part,Supplier Y,619,280,185.23,2024-09-07 06:49:46.773547
+SKU-2423,Product 423,Warehouse C,Raw Material,Supplier Y,1117,172,187.68,2024-09-08 09:14:04.088176
+SKU-2424,Product 424,Warehouse D,Spare Part,Supplier Z,984,159,221.55,2024-09-09 11:38:21.402805
+SKU-2425,Product 425,Warehouse A,Spare Part,Supplier X,372,118,87.98,2024-09-10 14:02:38.717434
+SKU-2426,Product 426,Warehouse D,Packaging,Supplier Y,577,116,163.72,2024-09-11 16:26:56.032064
+SKU-2427,Product 427,Warehouse D,Packaging,Supplier Y,294,216,70.79,2024-09-12 18:51:13.346693
+SKU-2428,Product 428,Warehouse C,Raw Material,Supplier X,1687,296,149.05,2024-09-13 21:15:30.661322
+SKU-2429,Product 429,Warehouse C,Finished Good,Supplier Y,1354,236,188.04,2024-09-14 23:39:47.975951
+SKU-2430,Product 430,Warehouse A,Spare Part,Supplier Z,775,234,197.96,2024-09-16 02:04:05.290581
+SKU-2431,Product 431,Warehouse A,Spare Part,Supplier Y,791,168,105.61,2024-09-17 04:28:22.605210
+SKU-2432,Product 432,Warehouse A,Finished Good,Supplier X,158,74,127.67,2024-09-18 06:52:39.919839
+SKU-2433,Product 433,Warehouse C,Spare Part,Supplier X,579,230,84.13,2024-09-19 09:16:57.234468
+SKU-2434,Product 434,Warehouse B,Spare Part,Supplier Y,1848,252,43.09,2024-09-20 11:41:14.549098
+SKU-2435,Product 435,Warehouse A,Raw Material,Supplier Z,62,177,65.87,2024-09-21 14:05:31.863727
+SKU-2436,Product 436,Warehouse A,Packaging,Supplier X,292,72,228.12,2024-09-22 16:29:49.178356
+SKU-2437,Product 437,Warehouse A,Packaging,Supplier X,1692,228,77.93,2024-09-23 18:54:06.492985
+SKU-2438,Product 438,Warehouse C,Packaging,Supplier Z,1040,280,243.72,2024-09-24 21:18:23.807615
+SKU-2439,Product 439,Warehouse C,Spare Part,Supplier X,64,106,61.13,2024-09-25 23:42:41.122244
+SKU-2440,Product 440,Warehouse C,Spare Part,Supplier X,979,89,181.04,2024-09-27 02:06:58.436873
+SKU-2441,Product 441,Warehouse A,Packaging,Supplier X,1499,234,143.9,2024-09-28 04:31:15.751503
+SKU-2442,Product 442,Warehouse A,Finished Good,Supplier Z,690,132,174.52,2024-09-29 06:55:33.066132
+SKU-2443,Product 443,Warehouse A,Spare Part,Supplier Y,763,228,161.35,2024-09-30 09:19:50.380761
+SKU-2444,Product 444,Warehouse D,Spare Part,Supplier X,1262,225,176.98,2024-10-01 11:44:07.695390
+SKU-2445,Product 445,Warehouse C,Packaging,Supplier X,1197,116,226.48,2024-10-02 14:08:25.010020
+SKU-2446,Product 446,Warehouse B,Packaging,Supplier Z,1805,60,141.3,2024-10-03 16:32:42.324649
+SKU-2447,Product 447,Warehouse A,Raw Material,Supplier Z,495,188,17.89,2024-10-04 18:56:59.639278
+SKU-2448,Product 448,Warehouse B,Finished Good,Supplier X,552,151,68.44,2024-10-05 21:21:16.953907
+SKU-2449,Product 449,Warehouse D,Raw Material,Supplier X,310,263,177.35,2024-10-06 23:45:34.268537
+SKU-2450,Product 450,Warehouse A,Packaging,Supplier X,1329,139,124.02,2024-10-08 02:09:51.583166
+SKU-2451,Product 451,Warehouse D,Spare Part,Supplier Z,1066,112,137.59,2024-10-09 04:34:08.897795
+SKU-2452,Product 452,Warehouse B,Raw Material,Supplier X,693,265,149.55,2024-10-10 06:58:26.212424
+SKU-2453,Product 453,Warehouse A,Spare Part,Supplier X,1391,233,96.27,2024-10-11 09:22:43.527054
+SKU-2454,Product 454,Warehouse D,Raw Material,Supplier Y,753,204,193.7,2024-10-12 11:47:00.841683
+SKU-2455,Product 455,Warehouse C,Raw Material,Supplier Y,390,288,181.16,2024-10-13 14:11:18.156312
+SKU-2456,Product 456,Warehouse C,Spare Part,Supplier Y,1079,245,178.86,2024-10-14 16:35:35.470941
+SKU-2457,Product 457,Warehouse A,Raw Material,Supplier Z,872,266,179.11,2024-10-15 18:59:52.785571
+SKU-2458,Product 458,Warehouse B,Packaging,Supplier X,810,249,222.7,2024-10-16 21:24:10.100200
+SKU-2459,Product 459,Warehouse C,Spare Part,Supplier Y,889,150,149.25,2024-10-17 23:48:27.414829
+SKU-2460,Product 460,Warehouse C,Finished Good,Supplier Y,1828,65,241.8,2024-10-19 02:12:44.729458
+SKU-2461,Product 461,Warehouse A,Raw Material,Supplier X,431,201,30.68,2024-10-20 04:37:02.044088
+SKU-2462,Product 462,Warehouse C,Finished Good,Supplier Z,551,241,158.36,2024-10-21 07:01:19.358717
+SKU-2463,Product 463,Warehouse D,Raw Material,Supplier Y,1130,297,179.51,2024-10-22 09:25:36.673346
+SKU-2464,Product 464,Warehouse D,Packaging,Supplier Y,93,220,119.83,2024-10-23 11:49:53.987975
+SKU-2465,Product 465,Warehouse A,Spare Part,Supplier Z,291,192,72.76,2024-10-24 14:14:11.302605
+SKU-2466,Product 466,Warehouse D,Spare Part,Supplier X,1132,193,137.96,2024-10-25 16:38:28.617234
+SKU-2467,Product 467,Warehouse C,Spare Part,Supplier Z,1019,78,91.82,2024-10-26 19:02:45.931863
+SKU-2468,Product 468,Warehouse A,Spare Part,Supplier Z,1305,51,227.37,2024-10-27 21:27:03.246492
+SKU-2469,Product 469,Warehouse A,Spare Part,Supplier X,226,61,89.84,2024-10-28 23:51:20.561122
+SKU-2470,Product 470,Warehouse D,Spare Part,Supplier Z,1707,276,44.75,2024-10-30 02:15:37.875751
+SKU-2471,Product 471,Warehouse A,Packaging,Supplier Z,971,247,144.52,2024-10-31 04:39:55.190380
+SKU-2472,Product 472,Warehouse A,Spare Part,Supplier Y,310,115,99.6,2024-11-01 07:04:12.505010
+SKU-2473,Product 473,Warehouse B,Finished Good,Supplier Y,623,155,24.88,2024-11-02 09:28:29.819639
+SKU-2474,Product 474,Warehouse C,Finished Good,Supplier Z,454,170,141.65,2024-11-03 11:52:47.134268
+SKU-2475,Product 475,Warehouse C,Spare Part,Supplier X,904,111,134.92,2024-11-04 14:17:04.448897
+SKU-2476,Product 476,Warehouse C,Finished Good,Supplier X,938,155,44.13,2024-11-05 16:41:21.763527
+SKU-2477,Product 477,Warehouse D,Finished Good,Supplier Y,867,136,149.81,2024-11-06 19:05:39.078156
+SKU-2478,Product 478,Warehouse D,Raw Material,Supplier Z,922,223,142.27,2024-11-07 21:29:56.392785
+SKU-2479,Product 479,Warehouse A,Finished Good,Supplier Y,1815,239,193.63,2024-11-08 23:54:13.707414
+SKU-2480,Product 480,Warehouse A,Packaging,Supplier X,1918,74,91.03,2024-11-10 02:18:31.022044
+SKU-2481,Product 481,Warehouse A,Spare Part,Supplier Y,979,166,62.94,2024-11-11 04:42:48.336673
+SKU-2482,Product 482,Warehouse B,Raw Material,Supplier X,1926,297,237.85,2024-11-12 07:07:05.651302
+SKU-2483,Product 483,Warehouse B,Packaging,Supplier Z,1636,267,140.74,2024-11-13 09:31:22.965931
+SKU-2484,Product 484,Warehouse D,Spare Part,Supplier Y,1639,248,7.76,2024-11-14 11:55:40.280561
+SKU-2485,Product 485,Warehouse B,Spare Part,Supplier Y,451,233,205.36,2024-11-15 14:19:57.595190
+SKU-2486,Product 486,Warehouse A,Spare Part,Supplier Y,876,51,49.99,2024-11-16 16:44:14.909819
+SKU-2487,Product 487,Warehouse D,Raw Material,Supplier Z,704,293,196.72,2024-11-17 19:08:32.224448
+SKU-2488,Product 488,Warehouse B,Finished Good,Supplier Z,192,233,176.59,2024-11-18 21:32:49.539078
+SKU-2489,Product 489,Warehouse D,Spare Part,Supplier Y,150,272,242.23,2024-11-19 23:57:06.853707
+SKU-2490,Product 490,Warehouse D,Spare Part,Supplier Y,1244,277,241.43,2024-11-21 02:21:24.168336
+SKU-2491,Product 491,Warehouse D,Packaging,Supplier X,841,113,69.33,2024-11-22 04:45:41.482965
+SKU-2492,Product 492,Warehouse D,Spare Part,Supplier Y,1651,53,191.85,2024-11-23 07:09:58.797595
+SKU-2493,Product 493,Warehouse A,Packaging,Supplier Y,1337,214,79.9,2024-11-24 09:34:16.112224
+SKU-2494,Product 494,Warehouse C,Raw Material,Supplier Y,170,164,157.67,2024-11-25 11:58:33.426853
+SKU-2495,Product 495,Warehouse B,Spare Part,Supplier Z,1676,55,149.84,2024-11-26 14:22:50.741482
+SKU-2496,Product 496,Warehouse C,Raw Material,Supplier Z,992,117,14.58,2024-11-27 16:47:08.056112
+SKU-2497,Product 497,Warehouse C,Finished Good,Supplier Y,1131,297,2.29,2024-11-28 19:11:25.370741
+SKU-2498,Product 498,Warehouse C,Raw Material,Supplier Y,1931,140,15.38,2024-11-29 21:35:42.685370
+SKU-2499,Product 499,Warehouse B,Packaging,Supplier X,1280,115,32.86,2024-12-01 00:00:00.000000
